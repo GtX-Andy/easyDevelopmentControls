@@ -349,7 +349,7 @@ Czerwony: Bit wektorów &gt; 1"/> <!-- Translators: Space is intentional for eas
         <!-- Vehicle Frame XML -->
         <text name="easyDevControls_vehiclesHeader" text="Pojazdy"/>
 
-        <text name="easyDevControls_vehicleDirt" text="Bród"/>
+        <text name="easyDevControls_vehicleDirt" text="Zabrudzenie"/>
         <text name="easyDevControls_vehicleWear" text="Zużycie"/>
         <text name="easyDevControls_vehicleDamage" text="Uszkodzenia"/>
         <text name="easyDevControls_vehicleConditionTitle" text="Stan"/>
