@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <contributors>
+        <name>BARS-7887</name>
+    </contributors>
+
+    <!-- Translation Notes!
+        Use &amp; for & symbol
+        Use &quot; for " double quotes
+
+        Use &gt; for > (greater-than character)
+        Use &lt; for < (less-than character)
+
+        Please make sure all formatting is equal to English.  (%s or %d or %i or %%)
+        Please 'Game Test' all features to make sure formatting is correct and no errors are produced in the log file!
+
+        When 'FS22_EasyDevControls' is unzipped in your mod folder it is possible to reload the language files to check progress.
+
+        Console Command: gtxReloadEasyDevControlsTranslations
+    -->
+
+    <texts>
+        <!-- Inputs -->
+        <text name="input_EDC_SHOW_UI" text="Открыть меню"/>
+        <text name="input_EDC_PLAYER_RUN_SPEED" text="Вкл./Выкл. ускоренный бег"/>
+        <text name="input_EDC_OBJECT_DELETE" text="Удаление объектов"/>
+        <text name="input_EDC_TOGGLE_HUD" text="Вкл./Выкл. HUD"/>
+
+        <!-- Load Error -->
+        <text name="easyDevControls_loadError" text="Мод %s от %s не может быть загружен или не поддерживается!
+Во избежание ошибок этот мод следует удалить!
+
+Посетите сайт Giants modHub, чтобы получить последнюю официальную версию."/>
+
+        <!-- Misc -->
+        <text name="easyDevControls_typePlaceables" text="Производства"/>
+        <text name="easyDevControls_typePlaceable" text="Производство"/>
+        <text name="easyDevControls_typePrePlacedPlaceables" text="предварительные производства"/>
+        <text name="easyDevControls_typePrePlacedPlaceable" text="предварительное производство"/>
+        <text name="easyDevControls_typeProductionPoints" text="производственные точки"/>
+        <text name="easyDevControls_typeProductionPoint" text="производственная точка"/>
+        <text name="easyDevControls_typeProductions" text="продукция"/>
+        <text name="easyDevControls_typeProduction" text="продукция"/>
+        <text name="easyDevControls_typeVehicles" text="транспорт"/>
+        <text name="easyDevControls_typeVehicle" text="транспорт"/>
+        <text name="easyDevControls_typeTrainSystems" text="системы поездов"/>
+        <text name="easyDevControls_typeTrainSystem" text="система поезда"/>
+        <text name="easyDevControls_typePallets" text="поддона"/>
+        <text name="easyDevControls_typePallet" text="поддон"/>	
+        <text name="easyDevControls_typeBales" text="тюка"/>
+        <text name="easyDevControls_typeBale" text="тюков"/>
+        <text name="easyDevControls_typeLogs" text="бревна"/>
+        <text name="easyDevControls_typeLog" text="бревно"/>
+        <text name="easyDevControls_typeStumps" text="пня"/>
+        <text name="easyDevControls_typeStump" text="пень"/>
+        <text name="easyDevControls_typeFields" text="поля"/>
+        <text name="easyDevControls_typeField" text="поле"/>
+        <text name="easyDevControls_typeUnknownTypes" text="неизвестные типы"/>
+        <text name="easyDevControls_typeUnknownType" text="неизвестный тип"/>
+        <text name="easyDevControls_weatherTypeSunny" text="Солнечно"/>
+        <text name="easyDevControls_weatherTypeCloudy" text="Облачно"/>
+        <text name="easyDevControls_weatherTypeRaining" text="Дождь"/>
+        <text name="easyDevControls_weatherTypeSnowing" text="Идет снег"/>
+        <text name="easyDevControls_seasonSpring" text="Весна"/>
+        <text name="easyDevControls_seasonSummer" text="Лето"/>
+        <text name="easyDevControls_seasonAutumn" text="Осень"/>
+        <text name="easyDevControls_seasonWinter" text="Зима"/>
+        <text name="easyDevControls_radius" text="Радиус"/>
+        <text name="easyDevControls_random" text="Случайно"/>
+        <text name="easyDevControls_unitLitres" text="Литры"/>
+        <text name="easyDevControls_unitPercent" text="Процентов"/>
+        <text name="easyDevControls_activeProductions" text="Активные производства"/>
+        <text name="easyDevControls_owner" text="Владелец"/>
+        <text name="easyDevControls_price" text="Цена"/>
+        <text name="easyDevControls_location" text="Место нахождения"/>
+        <text name="easyDevControls_tableId" text="Идентификатор ID"/>
+        <text name="easyDevControls_transferCost" text="Transfer Cost"/>
+        <text name="easyDevControls_variation" text="Вариант"/>
+        <text name="easyDevControls_variations" text="Варианты"/>
+        <text name="easyDevControls_info" text="Информация"/>
+        <text name="easyDevControls_size" text="Размер"/>
+        <text name="easyDevControls_fillTypes" text="Тип заполнения"/>
+        <text name="easyDevControls_rolledSeedbed" text="Rolled Seedbed"/>
+        <text name="easyDevControls_directSown" text="Direct Sown"/>
+        <text name="easyDevControls_planted" text="Planted"/>
+        <text name="easyDevControls_ridge" text="Ridge"/>
+        <text name="easyDevControls_rollerLines" text="Roller Lines"/>
+        <text name="easyDevControls_harvestReadyOther" text="Ready to harvest other"/>
+        <text name="easyDevControls_grassCut" text="Стрижка травы"/>
+        <text name="easyDevControls_width" text="Ширина"/>
+        <text name="easyDevControls_height" text="Высота"/>
+        <text name="easyDevControls_length" text="Длина"/>
+        <text name="easyDevControls_diameter" text="Диаметрr"/>
+        <text name="easyDevControls_mask" text="Маска"/>
+        <text name="easyDevControls_picked" text="Выбрано"/>
+        <text name="easyDevControls_small" text="Маленький"/>
+        <text name="easyDevControls_medium" text="Середний"/>
+        <text name="easyDevControls_large" text="Большой"/>
+        <text name="easyDevControls_partial" text="Частичный"/>
+        <text name="easyDevControls_growing" text="растущий"/>
+        <text name="easyDevControls_withered" text="высохший"/>
+        <text name="easyDevControls_enabled" text="Включено"/>
+        <text name="easyDevControls_disabled" text="Отключено"/>
+        <text name="easyDevControls_infohud_stump" text="Пень"/>
+        <text name="easyDevControls_infohud_tree" text="Дерево"/>
+        <text name="easyDevControls_all" text="Все"/>
+        <text name="easyDevControls_found" text="Найдено"/>
+        <text name="easyDevControls_state" text="Состояние %d"/>
+        <text name="easyDevControls_type" text="Тип %d"/>
+        <text name="easyDevControls_fill" text="Заполнить"/>
+        <text name="easyDevControls_empty" text="Опустошить"/>
+        <text name="easyDevControls_maximum" text="Максимум"/>
+        <text name="easyDevControls_input" text="Input"/>
+        <text name="easyDevControls_output" text="Output"/>
+        <text name="easyDevControls_open" text="Открытый"/>
+        <text name="easyDevControls_opened" text="Открыть"/>
+        <text name="easyDevControls_close" text="Закрыть"/>
+        <text name="easyDevControls_closed" text="Закрыто"/>
+        <text name="easyDevControls_square" text="Квадратный"/>
+        <text name="easyDevControls_round" text="Круглый"/>
+        <text name="easyDevControls_wrapped" text="Завернутый"/>
+        <text name="easyDevControls_unwrapped" text="Развернутый"/>
+        <text name="easyDevControls_add" text="Добавить"/>
+        <text name="easyDevControls_remove" text="Удалить"/>
+        <text name="easyDevControls_set" text="Указать"/>
+        <text name="easyDevControls_default" text="По умолчанию"/>
+        <text name="easyDevControls_success" text="Success"/>
+        <text name="easyDevControls_farmProducts" text="Товары"/>
+        <text name="easyDevControls_unknown" text="Unknown"/>
+        <text name="easyDevControls_reload" text="Перезагрузить"/>
+        <text name="easyDevControls_reloadReset" text="Перезагрузить / Сбросить"/>
+        <text name="easyDevControls_deleteObject" text="Delete %s"/>
+        <text name="easyDevControls_formattedSeconds" text="%d Seconds"/>
+        <text name="easyDevControls_userSetting" text="Пользовательское"/>
+        <text name="easyDevControls_refreshing" text="Refreshing"/>
+        <text name="easyDevControls_noField" text="No Field"/>
+        <text name="easyDevControls_unsupported" text="Not Supported"/>
+        <text name="easyDevControls_overview" text="Overview"/>
+        <text name="easyDevControls_author" text="Author"/>
+        <text name="easyDevControls_translations" text="Translations"/>
+        <text name="easyDevControls_bugReporting" text="Bug Reporting"/>
+
+        <!-- Messages -->
+        <text name="easyDevControls_superStrengthOnMessage" text="Суперсила включена %s"/>
+        <text name="easyDevControls_superStrengthOffMessage" text="Суперсила отключена %s"/>
+        <text name="easyDevControls_requestCancelledMessage" text="Запрос отменен."/>
+        <text name="easyDevControls_requestFailedMessage" text="Запрос не выполнен!"/>
+        <text name="easyDevControls_updatingAllFieldsMessage" text="Обновление всех полей, пожалуйста подождите..."/>
+        <text name="easyDevControls_reloadFailedMessage" text="Следующий %s не удалось перезагрузить."/>
+        <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Fill level of '%s' set to 0, would you like to ignore delete on empty flag?"/>
+        <text name="easyDevControls_serverRequestMessage" text="Запрос обновления с сервера, пожалуйста подождите."/>
+        <text name="easyDevControls_defaultResetFailed" text="Не удалось сбросить настройки по умолчанию!"/>
+        <text name="easyDevControls_unknownFailMessage" text="Ошибка, причина неизвестна!"/>
+        <text name="easyDevControls_noInformationMessage" text="Информации нет"/>
+
+        <!-- Warnings -->
+        <text name="easyDevControls_invalidFarmWarning" text="Неверная, недействительная ферма!"/>
+        <text name="easyDevControls_invalidMoneyWarning" text="Указано неверное денежное значение '%s'!"/>
+        <text name="easyDevControls_invalidValueWarning" text="Указано неверное значение!"/>
+        <text name="easyDevControls_invalidFillTypeWarning" text="Указан неподдерживаемый тип заполнения!"/>
+        <text name="easyDevControls_invalidTreeTypeWarning" text="Указан неподдерживаемый тип!"/>
+        <text name="easyDevControls_setTimeWarning" text="Вы уверены, что хотите перевести время на %s и %s?"/>
+        <text name="easyDevControls_timeScaleWarning" text="Установка месяца, дня или времени возможна только в том случае, если шкала времени установлена на «%s» или ниже!"/>
+        <text name="easyDevControls_setFOVAngleWarning" text="Не удалось установить поле зрения, %s не является допустимым значением!"/>
+        <text name="easyDevControls_invalidTeleportWarning" text="Неверные координаты X / Z! Укажите только позиции X и Z, через пробел."/>
+        <text name="easyDevControls_emptyTeleportWarning" text="Сначала введите действительные координаты X / Z или выберите номер поля из списка!"/>
+        <text name="easyDevControls_extraTimescalesWarning" text="Использование временной шкалы более 5000x может негативно сказаться на базовой игре и пользовательских сценариях. Рекомендуется использовать сверхбыстрые шкалы времени только в целях тестирования!"/>
+        <text name="easyDevControls_resetPageWarning" text="Вы уверены, что хотите сбросить текущую страницу до настроек по умолчанию?"/>
+        <text name="easyDevControls_resetPermissionsWarning" text="Вы уверены, что хотите сбросить все по умолчанию?"/>
+        <text name="easyDevControls_noValidVehicleWarning" text="Подходящих транспортных средств не найдено!"/>
+        <text name="easyDevControls_invalidFarmVehicleWarning" text="Выбранный транспорт не принадлежит вашей ферме!"/>
+        <text name="easyDevControls_setPowerConsumerWarning" text="Навесное оборудование не выбрано или не является потребителем энергии!"/>
+        <text name="easyDevControls_vehicleAnalyseWarning" text="Попытка анализа выбранного транспорт '%s'.
+
+Для достижения наилучших результатов убедитесь, что транспорт расположен на ровной плоскости, параллельной плоскости x/z."/>
+        <text name="easyDevControls_vehicleAnalyseFailedWarning" text="Не удалось проанализировать транспорт, неверный или автомобиль не найден!"/>
+        <text name="easyDevControls_removeAllObjectsWarning" text="Вы уверены, что хотите удалить все %s с карты?"/>
+        <text name="easyDevControls_modConflictWarning" text="Функция отключена из-за конфликта с модом '%s' от %s."/>
+        <text name="easyDevControls_failedToSpawnObjectWarning" text="Не удалось создать %s! Пожалуйста, попробуйте еще раз."/>
+
+        <!-- GUI Buttons -->
+        <text name="easyDevControls_removeBlurButton" text="Удалить фон"/>
+        <text name="easyDevControls_addBlurButton" text="Добавить фон"/>
+        <text name="easyDevControls_buttonConfirmAndClose" text="Подтвердить и закрыть"/>
+        <text name="easyDevControls_buttonClear" text="Очистить"/>
+
+        <!-- General Frame XML -->
+        <text name="easyDevControls_generalHeader" text="Главная"/>
+
+        <text name="easyDevControls_cheatMoneyTitle" text="Денежный чит"/>
+        <text name="easyDevControls_addMoneyTitle" text="Добавить деньги"/>
+        <text name="easyDevControls_removeMoneyTitle" text="Удалить деньги"/>
+        <text name="easyDevControls_setMoneyTitle" text="Денежная сумма"/>
+        <text name="easyDevControls_flightModeToggleTitle" text="Режим полета"/>
+        <text name="easyDevControls_flightModeStateTitle" text="Полет"/>
+        <text name="easyDevControls_hudVisibilityTitle" text="Отображение HUD"/>
+        <text name="easyDevControls_hudInputTitle" text="Взаимодействие с HUD"/>
+        <text name="easyDevControls_teleportTitle" text="Телепорт"/>
+        <text name="easyDevControls_teleportFormatedTitle" text="Телепортация %sа"/>
+        <text name="easyDevControls_teleportMapSelect" text="Выбрать на карте"/>
+        <text name="easyDevControls_flipVehiclesTitle" text="Подбросить транспорт"/>
+        <text name="easyDevControls_deleteObjectsKeyTitle" text="Удаление объектов"/>
+        <text name="easyDevControls_setFOVAngleTitle" text="Изменить поле зрения"/>
+        <text name="easyDevControls_setQualityTitle" text="Дальность прорисовки"/>
+        <text name="easyDevControls_extraTimescalesTitle" text="Увеличенная шкала времени"/>
+        <text name="easyDevControls_stopTimeTitle" text="Остановить время"/>
+        <text name="easyDevControls_showCollectablesTitle" text="Предметы коллекционирования"/>
+        <text name="easyDevControls_clearI3DCacheTitle" text="Очистить кэш I3D"/>
+
+        <!-- General Frame Info -->
+        <text name="easyDevControls_addMoneyInfo" text="%s - Добавлено на счет."/>
+        <text name="easyDevControls_removeMoneyInfo" text="%s - Списано со счета."/>
+        <text name="easyDevControls_setMoneyInfo" text="Состояние счета %s."/>
+        <text name="easyDevControls_flightModeToggleInfo" text="Режим полета: %s"/>
+        <text name="easyDevControls_flightModeStateOffInfo" text="Полет: %s"/>
+        <text name="easyDevControls_flightModeStateOnInfo" text="Полет: %s  (Изменение высоты полета клавишами Q и E)"/>
+        <text name="easyDevControls_hudVisibilityInfo" text="Отображение HUD: %s"/>
+        <text name="easyDevControls_hudInputOffInfo" text="Взаимодействие с HUD: Выключено."/>
+        <text name="easyDevControls_hudInputOnInfo" text="Взаимодействие с HUD: Включено. (переключайте отображение HUD с помощью клавиши '%s')"/>
+        <text name="easyDevControls_teleportPlayerFieldInfo" text="Игрок успешно перемещен на поле %s."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Перемещено %d транспортных средств на поле %s."/>
+        <text name="easyDevControls_teleportPlayerInfo" text="Игрок успешно перемещен на координаты %s %s."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Перемещено %d транспортных средств на координаты %s %s."/>
+        <text name="easyDevControls_flipVehiclesInfo" text="Попытка исправить ориентацию транспортного средства и подключенного орудия."/>
+        <text name="easyDevControls_deleteObjectsKeyInfo" text="Удаление объектов с помощью назначенной клавиши (%s) %s"/>
+        <text name="easyDevControls_setFovAngleInfo" text="Поле зрения обновлено до %d°."/>
+        <text name="easyDevControls_resetFovAngleInfo" text="Поле зрения сброшено до значения по умолчанию %d°."/>
+        <text name="easyDevControls_setQualityInfo" text="Дальность прорисовки %s."/>
+        <text name="easyDevControls_extraTimescalesInfo" text="Увеличенная шкала времени: %s"/>
+        <text name="easyDevControls_stopTimeInfo" text="Время остановлено."/>
+        <text name="easyDevControls_clearI3DCacheInfo" text="Кэш I3D очищен."/>
+
+        <!-- General Frame Help -->
+        <text name="easyDevControls_addMoneyHelp" text="Добавляет указанную сумму на ваш счет."/>
+        <text name="easyDevControls_removeMoneyHelp" text="Списывает указанную сумму с вашего счета."/>
+        <text name="easyDevControls_setMoneyHelp" text="Устанавливает ваш счет на заданную сумму."/>
+        <text name="easyDevControls_flightModeToggleHelp" text="Переключает режим отладки полета игрока."/>
+        <text name="easyDevControls_flightModeStateHelp" text="Доступно только при включенном «Режиме полета», эту функцию также можно переключать с помощью клавиши «J». После активации высота может быть изменена с помощью клавиш «Q» и «E»."/>
+        <text name="easyDevControls_hudVisibilityHelp" text="Позволяет включать и выключать HUD."/>
+        <text name="easyDevControls_hudInputHelp" text="Позволяет включать и выключать HUD по нажатию на клавишу «Отображение HUD»."/>
+        <text name="easyDevControls_teleportHelp" text="Телепортировать игрока, управляемого транспорта или транспорта в радиусе действия игрока в выбранную точку на карте, на поле или в заданную позицию x / z."/>
+        <text name="easyDevControls_flipVehiclesHelp" text="Попытки исправить ориентацию транспортного средства и ориентацию любых подключенных орудий. Эта операция доступна для управляемого транспорта или при просмотре собственного транспорта."/>
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Доступ к функции «Удаление объектов». Позволяет игроку удалить: дерево, бревно, пень, тюк, поддон или транспорт, на который он смотрит. Информация о деревьях и пнях также будет отображаться, при наведении на них.
+
+Примечание: Функция доступна только для «Мастер-пользователей/администраторов»!"/>
+        <text name="easyDevControls_setFOVAngleHelp" text="Устанавливает «Поле зрения» текущей камеры. Используйте «-1» или «Кнопку сброса», чтобы вернуть камеры к значениям по умолчанию."/>
+        <text name="easyDevControls_setQualityHelp" text="Регулирует следующие параметры, чтобы обеспечить высокое качество снимков экрана или по мере необходимости."/>
+        <text name="easyDevControls_extraTimescalesHelp" text="Включает отображение следующих шкал времени: %s."/>
+        <text name="easyDevControls_stopTimeHelp" text="Устанавливает временную шкалу на ноль."/>
+        <text name="easyDevControls_showCollectablesHelp" text="Регулирует, в каком процентном соотношении предметы коллекционирования будут отображаться на карте. Примечание: В настоящее время только для одиночной игры."/>
+        <text name="easyDevControls_clearI3DCacheHelp" text="Удаляет все кэшированные файлы I3D, чтобы обеспечить загрузку последних версий с диска. Если нет доступных общих файлов I3D, эта функция будет отключена."/>
+
+        <!-- Player Frame XML -->
+        <text name="easyDevControls_playerHeader" text="Игрок"/>
+
+        <text name="easyDevControls_superStrengthTitle" text="Суперсила"/>
+        <text name="easyDevControls_jumpMultiplierTitle" text="Высота прыжка"/>
+        <text name="easyDevControls_thirdPersonViewTitle" text="Вид от третьего лица"/>
+        <text name="easyDevControls_woodCuttingMarkerTitle" text="Маркер распила"/>
+        <text name="easyDevControls_aimOverlayTitle" text="Маркер прицеливания"/>
+        <text name="easyDevControls_runSpeedTitle" text="Ускоренный бег"/>
+        <text name="easyDevControls_runSpeedKeyTitle" text="Ускоренный бег (клавишей)"/>
+        <text name="easyDevControls_setFarmTitle" text="Участник фермы"/>
+        <text name="easyDevControls_playerDebugTitle" text="Информация об отладке"/>
+        <text name="easyDevControls_playerFsmDebugTitle" text="Информация об отладке системы"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="Информация об отладке переходов"/>
+
+        <!-- Player Frame Info -->
+        <text name="easyDevControls_superStrengthOffInfo" text="Суперсила: Выкл."/>
+        <text name="easyDevControls_superStrengthOnInfo" text="Суперсила: Вкл. (Суперсила и увеличенная дальность взаимодействия)."/>
+        <text name="easyDevControls_jumpMultiplierInfo" text="Увеличение высоты прыжка: %s"/>
+        <text name="easyDevControls_thirdPersonViewInfo" text="Вид от третьего лица: %s"/>
+        <text name="easyDevControls_woodCuttingMarkerInfo" text="Маркер распила древесины: %s"/>
+        <text name="easyDevControls_aimOverlayInfo" text="Маркер прицеливания: %s"/>
+        <text name="easyDevControls_runSpeedInfo" text="Ускорение бега: %s"/>
+        <text name="easyDevControls_runSpeedStateInfo" text="Ускорение бега: %s"/>
+        <text name="easyDevControls_runSpeedKeyInfo" text="Использование ускорения бега с помощью назначенной клавиши (%s): %s"/>
+        <text name="easyDevControls_setFarmInfo" text="%s Назначен ферме %s"/>
+        <text name="easyDevControls_playerDebugInfo" text="Отображение информация об отладке: %s"/>
+        <text name="easyDevControls_playerFsmDebugInfo" text="Отображение информация об отладке системы: %s"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Информация об отладке переходов: %s"/>
+
+        <!-- Player Frame Help -->
+        <text name="easyDevControls_superStrengthHelp" text="Позволяет поднимать тяжелые объекты и увеличивает дальность взаимодействия."/>
+        <text name="easyDevControls_jumpMultiplierHelp" text="Увеличивает высоту прыжка на выбранное значение."/>
+        <text name="easyDevControls_thirdPersonViewHelp" text="Переключает виды от первого и от третьего лица.
+
+Примечание: Этот режим предназначен для скриншотов, и не все игровые функции, такие как «Взаимодействие», будут работать корректно, пока он включен."/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_woodCuttingMarkerHelp" text="Переключает отображение маркера распила древесины."/>
+        <text name="easyDevControls_aimOverlayHelp" text="Переключает отображение маркера прицеливания."/>
+        <text name="easyDevControls_runSpeedHelp" text="Устанавливает множитель, который будет использоваться, когда «Ускоренный бег» включена."/>
+        <text name="easyDevControls_runSpeedStateHelp" text="Переключает состояние скорости бега. Когда «Выкл.» игрок будет ходить и бегать со скоростью по умолчанию."/>
+        <text name="easyDevControls_runSpeedKeyHelp" text="Позволяет использовать привязку клавиши «Вкл./Выкл. ускоренный бег»."/>
+        <text name="easyDevControls_setFarmHelp" text="Добавляет игрока на ферму или меняет владельца фермы."/>
+        <text name="easyDevControls_playerDebugHelp" text="Переключает отладочную информацию игрока."/>
+        <text name="easyDevControls_playerFsmDebugHelp" text="Отображение записи в системный журнал отладочной информации."/>
+        <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="Запись в журнал информации об отладке переходов. Высота и продолжительность прыжка будут записаны в журнале."/>
+
+        <!-- Objects Frame XML -->
+        <text name="easyDevControls_objectsHeader" text="Объекты / Наполнители"/>
+
+        <text name="easyDevControls_addBaleTitle" text="Добавить тюк"/>
+        <text name="easyDevControls_availableBaleTypesTitle" text="Доступные типы тюков"/>
+        <text name="easyDevControls_fermentingBalesTitle" text="Ферментация тюков"/>
+        <text name="easyDevControls_showBaleLocationsTitle" text="Местоположения тюков"/>
+        <text name="easyDevControls_showPalletLocationsTitle" text="Местоположения поддонов"/>
+        <text name="easyDevControls_addPalletTitle" text="Добавить поддон"/>
+        <text name="easyDevControls_addLogTitle" text="Добавить бревно"/>
+        <text name="easyDevControls_tipToTriggerTitle" text="Хранилище"/>
+        <text name="easyDevControls_tipToGroundTitle" text="Добавить наполнитель"/>
+        <text name="easyDevControls_clearTipAreaTitle" text="Очистить область"/>
+        <text name="easyDevControls_showTipCollisionsTitle" text="Показать коллизию наполнителей"/>
+        <text name="easyDevControls_removeAllBalesTitle" text="Удалить тюки"/>
+        <text name="easyDevControls_removeAllPalletsTitle" text="Удалить поддоны"/>
+        <text name="easyDevControls_removeAllLogsTitle" text="Удалить бревна"/>
+        <text name="easyDevControls_removeAllStumpsTitle" text="Удалить пни"/>
+
+        <!-- Objects Frame Info -->
+        <text name="easyDevControls_spawnObjectsInfo" text="Добавлено - %s."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="Успешно удалено - %d %s с карты."/>
+        <text name="easyDevControls_tipToGroundInfo" text="Успешно добавлено - %s %s на расстояние %s."/>
+        <text name="easyDevControls_clearTipAreaRadiusInfo" text="Успешно очищен тип - %s в радиусе %s."/>
+        <text name="easyDevControls_clearTipAreaFieldInfo" text="Успешно очищено %s от типа - %s."/>
+        <text name="easyDevControls_clearTipAreaMapInfo" text="Карта успешно очищена от типа - %s."/>
+        <text name="easyDevControls_hotspotsEnabledInfo" text="Отображение %s на карте Вкл."/>
+        <text name="easyDevControls_hotspotsDisabledInfo" text="Отображение %s на карте Выкл."/>
+
+        <!-- Objects Frame Help -->
+        <text name="easyDevControls_addBaleHelp" text="Добавляет заданный тип тюка перед игроком."/>
+        <text name="easyDevControls_availableBaleTypesHelp" text="Отображает список доступных типов тюков."/>
+        <text name="easyDevControls_fermentingBalesHelp" text="Отображает список всех ферментирующих тюков, принадлежащих текущей ферме."/>
+        <text name="easyDevControls_showBaleLocationsHelp" text="Отображает все тюки, принадлежащие ферме, в виде точек на карте."/>
+        <text name="easyDevControls_showPalletLocationsHelp" text="Отображает все поддоны, принадлежащие ферме, в виде точек на карте."/>
+        <text name="easyDevControls_addPalletHelp" text="Добавляет выбранный тип поддона перед игроком."/>
+        <text name="easyDevControls_addLogHelp" text="Добавляет выбранный тип бревна с заданной длиной перед игроком."/>
+        <text name="easyDevControls_tipToTriggerHelp" text="Tips a product to a trigger that the player is currently standing on."/>
+        <text name="easyDevControls_tipToGroundHelp" text="Насыпает заданное количество наполнителя на землю в длину 1 > 25 метров."/>
+        <text name="easyDevControls_clearTipAreaHelp" text="Очищает «все» или «выбранные» типы наполнителей с земли в заданном радиусе."/>
+        <text name="easyDevControls_showTipCollisionsHelp" text="Отображает следующие коллизии с землей.
+
+Зеленый: Bit Vectors &lt;= 0
+Синий: Bit Vectors &gt; 0 или &lt;= 1
+Красный: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy reading. See note at top of page regarding &gt; and &lt; usage -->
+        <text name="easyDevControls_removeAllBalesHelp" text="Удаляет все тюки с карты!"/>
+        <text name="easyDevControls_removeAllPalletsHelp" text="Удаляет все поддоны с карты!"/>
+        <text name="easyDevControls_removeAllLogsHelp" text="Удаляет все бревна с карты!"/>
+        <text name="easyDevControls_removeAllStumpsHelp" text="Удаляет все пни с карты!"/>
+
+        <!-- Vehicle Frame XML -->
+        <text name="easyDevControls_vehiclesHeader" text="Транспорт"/>
+
+        <text name="easyDevControls_vehicleDirt" text="Грязь"/>
+        <text name="easyDevControls_vehicleWear" text="Износ"/>
+        <text name="easyDevControls_vehicleDamage" text="Повреждение"/>
+        <text name="easyDevControls_vehicleConditionTitle" text="Состояние"/>
+        <text name="easyDevControls_vehicleFuelTitle" text="Уровень топлива"/>
+        <text name="easyDevControls_vehicleMotorTempTitle" text="Температура двигателя"/>
+        <text name="easyDevControls_vehicleOperatingTimeTitle" text="Рабочее время"/>
+        <text name="easyDevControls_globalWiperStateTitle" text="Глобальное состояние очистки"/>
+        <text name="easyDevControls_wiperStateRainSensor" text="Датчик дождя"/>
+        <text name="easyDevControls_reloadVehicleTitle" text="Перезагрузить транспорт"/>
+        <text name="easyDevControls_analyseVehicleTitle" text="Анализ транспорта"/>
+        <text name="easyDevControls_vehicleDebugTitle" text="Отладки состояние транспорта"/>
+        <text name="easyDevControls_tensionBeltsDebugTitle" text="Отладка натяжных ремней"/>
+        <text name="easyDevControls_vehicleDistanceTitle" text="Расстояние до автомобиля"/>
+        <text name="easyDevControls_removeAllVehiclesTitle" text="Удалить весь транспорт"/>
+        <text name="easyDevControls_setPowerConsumerTitle" text="Установить потребление энергии"/>
+        <text name="easyDevControls_neededMinPtoPowerTitle" text="Минимальная мощность ВОМ"/>
+        <text name="easyDevControls_neededMaxPtoPowerTitle" text="Максимальная мощность ВОМ"/>
+        <text name="easyDevControls_forceFactorTitle" text="Force Factor"/>
+        <text name="easyDevControls_maxForceTitle" text="Maximum Force"/>
+        <text name="easyDevControls_forceDir" text="Force Direction"/>
+        <text name="easyDevControls_ptoRpm" text="ВОМ об/мин"/>
+        <text name="easyDevControls_syncVehicles" text="Синхронизация транспортных средств"/>
+        <text name="easyDevControls_resetToDefault" text="Восстановление значений по умолчанию"/>
+        <text name="easyDevControls_toggleCoverTitle" text="Переключить крышку"/>
+        <text name="easyDevControls_fillUnitFillLevelTitle" text="Уровень заполнения"/>
+        <text name="easyDevControls_fillUnitIndex" text="Fill Unit %d"/>
+
+        <!-- Vehicle Frame Info -->
+        <text name="easyDevControls_vehicleConditionInfo" text="Состояние %s было обновлено."/>
+        <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="Состояние %s и всех подключенных агрегатов обновлено."/>
+        <text name="easyDevControls_vehicleFuelInfo" text="%s - заполнение %s на %s %s."/>
+        <text name="easyDevControls_vehicleMotorTempInfo" text="Температура двигателя %s изменилась на %sc."/>
+        <text name="easyDevControls_vehicleOperatingTimeInfo" text="Время работы %s изменено на %s ч."/>
+        <text name="easyDevControls_reloadVehicleInfo" text="Успешно перезагружен XML и I3D для %s."/>
+        <text name="easyDevControls_vehicleAnalyseInfo" text="%s успешно проанализировано, подробности смотрите в журнале игры."/>
+        <text name="easyDevControls_debugStateInfo" text="Текущее состояние отладки: %s"/>
+        <text name="easyDevControls_tensionBeltsDebugInfo" text="Отладка натяжных ремней теперь %s"/>
+        <text name="easyDevControls_vehicleDistanceInfo" text="Отладка расстояния до транспорт теперь %s"/>
+        <text name="easyDevControls_setPowerConsumerInfo" text="Обновлены данные о потребителе энергии %s (синхронизированы со всеми транспортными средствами: %s)."/>
+        <text name="easyDevControls_toggleCoverInfo" text="Крышка %s теперь %s, идентификатор состояния %d."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Успешное заполнение %d, %s - %s %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Успешно опорожнено %d емкость %s."/>
+
+        <!-- Vehicles Frame Help -->
+        <text name="easyDevControls_vehicleConditionHelp" text="Добавляет, удаляет или устанавливает выбранный процент состояния транспортного средства и всех орудий, или одного транспортного средства в радиусе действия игрока."/>
+        <text name="easyDevControls_vehicleFuelHelp" text="Устанавливает уровень топлива управляемого транспортного средства, или транспортного средства в радиусе действия игрока."/>
+        <text name="easyDevControls_vehicleMotorTempHelp" text="Устанавливает температуру двигателя управляемого транспорта, или транспорта в радиусе действия игрока."/>
+        <text name="easyDevControls_vehicleOperatingTimeHelp" text="Устанавливает время работы управляемого транспортного средства, или транспортного средства в радиусе действия игрока."/>
+        <text name="easyDevControls_globalWiperStateHelp" text="Установите глобальное состояние очистки.
+
+Датчик дождя: Автоматический режим (стандарт).
+Off: отключено при любых погодных условиях.
+Состояния от 1 до 10: конкретное состояния автомобиля для тестирования."/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_reloadVehicleHelp" text="Перезагружает I3D и XML текущего транспортного средства и всех прикрепленных орудий или одного транспортного средства в радиусе действия игрока."/>
+        <text name="easyDevControls_analyseVehicleHelp" text="Проанализируйте управляемое транспортное средство или транспортное средство в радиусе действия игрока. Результаты будут напечатаны в файл журнала."/>
+        <text name="easyDevControls_vehicleDebugHelp" text="Переключает следующие значения отладки автомобиля."/>
+        <text name="easyDevControls_tensionBeltsDebugHelp" text="Переключает визуализацию отладки натяжения ремней для всех транспортных средств."/>
+        <text name="easyDevControls_vehicleDistanceHelp" text="Показывает расстояние между всеми транспортными средствами и текущей камерой."/>
+        <text name="easyDevControls_removeAllVehiclesHelp" text="Удаляет все транспортные средства и орудия с карты."/>
+        <text name="easyDevControls_setPowerConsumerHelp" text="Задает следующие свойства специализации «Потребления энергии»."/>
+        <text name="easyDevControls_toggleCoverHelp" text="Переключает крышку управляемого транспортного средства или транспортного средства в радиусе действия игрока."/>
+        <text name="easyDevControls_fillUnitFillLevelHelp" text="Изменяет уровень заполнения указанным типом наполнителя."/>
+
+        <!-- Placeable Frame XML -->
+        <text name="easyDevControls_placeablesHeader" text="Производства"/>
+
+        <text name="easyDevControls_productionPointTitle" text="Производственная точка"/>
+        <text name="easyDevControls_npcOwned" text="В собственности NPC"/>
+        <text name="easyDevControls_farmOwned" text="В собственности фермы"/>
+        <text name="easyDevControls_currentTrigger" text="Текущая точка"/>
+        <text name="easyDevControls_setOwnerTitle" text="Установить владельца"/>
+        <text name="easyDevControls_setStateTitle" text="Установить состояние"/>
+        <text name="easyDevControls_outputModeTitle" text="Режим вывода"/>
+        <text name="easyDevControls_fillLevelTitle" text="Уровень заполнения"/>
+        <text name="easyDevControls_productionPointListTitle" text="Список производственных точек"/>
+        <text name="easyDevControls_deliveryMappingTitle" text="Путь доставки"/>
+        <text name="easyDevControls_productionPointDebugTitle" text="Отладка производственных точек"/>
+        <text name="easyDevControls_showTestAreasTitle" text="Области взаимодействия"/>
+        <text name="easyDevControls_showPlacementCollisionsTitle" text="КоллизиЯ мест размещения"/>
+        <text name="easyDevControls_removeAllPlaceablesTitle" text="Удалить производство"/>
+        <text name="easyDevControls_removeAllMapPlaceablesTitle" text="Удалить все производства с карты"/>
+        <text name="easyDevControls_reloadPlaceableTitle" text="Перезагрузить %s"/>
+        <text name="easyDevControls_reloadClosestPlaceableTitle" text="Перезагрузить ближайшее производство"/>
+        <text name="easyDevControls_reloadAllPlaceablesTitle" text="Перезагрузить все производства"/>
+
+        <!-- Placeable Frame Info -->
+        <text name="easyDevControls_productionPointOwnerInfo" text="Changed %d %s to farm %s (%d) successfully."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Changed %d %s to '%s' state successfully."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Changed %d %s to distribution mode '%s' successfully."/>
+        <text name="easyDevControls_productionPointFillLevelInfo" text="Changed %s fill levels of '%s' on production point %s successfully."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Changed all %s fill levels on %d %s successfully."/>
+        <text name="easyDevControls_productionPointDistributingInfo" text="Distributing '%s' to the following production points:"/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Successfully reloaded XML and I3D of %d %s."/>
+
+        <!-- Placeables Frame Help -->
+        <text name="easyDevControls_productionPointHelp" text="Позволяет вносить следующие изменения в производственные точки.
+
+Категории:
+  1. Все принадлежит NPC
+  2. Все принадлежит ферме
+  3. Триггер игрока текущего производства
+  4. Индивидуальные идентификаторы
+
+Установить владельца:
+  - Устанавливает текущего владельца.
+
+Установить состояние:
+  - Устанавливает индивидуальные или глобальные рабочие состояния каждой производственной линии.
+
+Режим вывода:
+  - Устанавливает индивидуальный или глобальный режим вывода на «Распределение» | «Хранение» | «Продажи».
+
+Уровень заполнения:
+  - Позволяет изменять уровень наполнения для отдельных или всех входных/выходных продуктов в зависимости от используемого типа. В зависимости от выбора можно ввести значения в литрах или процентах."/>
+        <text name="easyDevControls_productionPointListHelp" text="Отображает список производственных точек на карте вместе со следующей информацией."/>
+        <text name="easyDevControls_deliveryMappingHelp" text="Отображает текущую информацию о сопоставлении доставки для всех распространяемых продуктов."/>
+        <text name="easyDevControls_productionPointDebugHelp" text="Отображает отладочную информацию о точке производства при каждом триггере игрока."/>
+        <text name="easyDevControls_showTestAreasHelp" text="Отображает области всех размещаемых предметов."/>
+        <text name="easyDevControls_showPlacementCollisionsHelp" text="Отображает коллизии для размещения и выравнивания земли."/>
+        <text name="easyDevControls_removeAllPlaceablesHelp" text="Удаляет все стандартные производства с карты."/>
+        <text name="easyDevControls_removeAllMapPlaceablesHelp" text="Удаляет все привязанные к карте производства, включая точки продажи и покупки."/>
+        <text name="easyDevControls_reloadPlaceableHelp" text="Перезагружает I3D и XML ближайшего производства в пределах 30 метров от игрока."/>
+        <text name="easyDevControls_reloadAllPlaceablesHelp" text="Перезагружает I3D и XML всех производств на карте."/>
+
+        <!-- Fields Frame XML -->
+        <text name="easyDevControls_fieldsHeader" text="Fields / Farmland"/>
+
+        <text name="easyDevControls_fieldSetFruitTitle" text="Настройка полевых культур"/>
+        <text name="easyDevControls_fieldSetGroundTitle" text="Настройка полевых земель"/>
+        <text name="easyDevControls_fieldIndexTitle" text="Поле"/>
+        <text name="easyDevControls_fruitTypeTitle" text="Культура"/>
+        <text name="easyDevControls_growthStateTitle" text="Рост"/>
+        <text name="easyDevControls_groundLayerTitle" text="Слой земли"/>
+        <text name="easyDevControls_fertilizerStateTitle" text="Удобрение"/>
+        <text name="easyDevControls_plowingStateTitle" text="Вспашка"/>
+        <text name="easyDevControls_weedStateTitle" text="Сорняки"/>
+        <text name="easyDevControls_herbicideStateTitle" text="Гербициды"/>
+        <text name="easyDevControls_limeStateTitle" text="Известь"/>
+        <text name="easyDevControls_stonesStateTitle" text="Камни"/>
+        <text name="easyDevControls_rollerStateTitle" text="Needs Rolling"/>
+        <text name="easyDevControls_stubbleStateTitle" text="Stubble Shredded"/>
+        <text name="easyDevControls_buyFarmlandTitle" text="Buy Farmland"/>
+        <text name="easyDevControls_groundTypeTitle" text="Тип земли"/>
+        <text name="easyDevControls_angleTitle" text="Angle"/>
+        <text name="easyDevControls_removeFoliageTitle" text="Удалить листву"/>
+        <text name="easyDevControls_vineSetStateTitle" text="Установить состояние лозы"/>
+        <text name="easyDevControls_vineUpdateVisualsTitle" text="Обновить эффекты Vine"/>
+        <text name="easyDevControls_advanceGrowthTitle" text="Следующий этап роста"/>
+        <text name="easyDevControls_setGrowthPeriodTitle" text="Установить период роста"/>
+        <text name="easyDevControls_farmlandTitle" text="Farmland"/>
+        <text name="easyDevControls_setFarmlandOwnerTitle" text="Установить владельца полей"/>
+        <text name="easyDevControls_refreshFieldOverlayTitle" text="Наложение поля PDA"/>
+        <text name="easyDevControls_addRemoveWeedsStonesTitle" text="Камни и усилитель; Сорняки"/> <!-- &amp;   This is equal to using the & symbol in XML-->
+        <text name="easyDevControls_debugFieldStatusTitle" text="Статус отладки поля"/>
+        <text name="easyDevControls_vineSystemDebugTitle" text="Debug Vine System"/>
+        <text name="easyDevControls_stoneSystemDebugTitle" text="Debug Fieldstones"/>
+
+        <!-- Fields Frame Info -->
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="%d поля успешно обновлены"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Поле %d успешно обновлено"/>
+        <text name="easyDevControls_setFieldFailedInfo" text="Не удалось обновить поля."/>
+
+        <text name="easyDevControls_advanceGrowthInfo" text="Рост по всем месторождениям переведен на следующий этап."/>
+        <text name="easyDevControls_advanceGrowthWarning" text="Advancing growth stage is only available when the game setting '%s' is set to 'No'.
+
+Would you like to change your current setting from '%s' to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Период роста во всех полях обновлен до %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodWarning" text="Setting growth period is not available when the game setting '%s' is set to '%s'.
+
+Would you like to change your setting to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Increased %s delta by %d."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Decreased %s delta by %d."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Updated %d %s vines to growth state %d"/>
+        <text name="easyDevControls_vineUpdateVisualsInfo" text="Updated all vine visuals"/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Updated ownership of %d available farmlands to %s farm."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Updated ownership of farmland %d to farm %s."/>
+        <text name="easyDevControls_refreshFieldOverlayInfo" text="Refreshing PDA field overlay and setting timer to 60 seconds."/>
+        <text name="easyDevControls_debugFieldStatusInfo" text="Field status debugging %s."/>
+        <text name="easyDevControls_vineSystemDebugInfo" text="Vine system debugging %s."/>
+        <text name="easyDevControls_stoneSystemDebugInfo" text="Stone system debugging %s."/>
+
+        <!-- Fields Frame Help -->
+        <text name="easyDevControls_fieldSetFruitHelp" text="Позволяет вносить следующие изменения для выбранного поля или всех полей."/>
+        <text name="easyDevControls_fieldSetGroundHelp" text="Позволяет вносить следующие изменения в основание выбранного поля или всех полей."/>
+        <text name="easyDevControls_fieldSetWarningHelp" text="Важно: поля обновляются с использованием базовых границ. Расширенные или объединенные поля могут быть проигнорированы или не заполнены."/>
+        <text name="easyDevControls_vineSetStateHelp" text="Позволяет регулировать стадию роста выбранного типа лозы по всей карте."/>
+        <text name="easyDevControls_vineUpdateVisualsHelp" text="Принудительно обновляет все визуальные элементы Vine."/>
+        <text name="easyDevControls_addRemoveWeedsHelp" text="Регулирует прополку текущих полей."/>
+        <text name="easyDevControls_addRemoveStonesHelp" text="Регулирует количетво камней на текущих полях."/>
+        <text name="easyDevControls_advanceGrowthHelp" text="Ускоряет рост всех культур на один этап."/>
+        <text name="easyDevControls_setGrowthPeriodHelp" text="Поддерживает рост всех культур в течение заданного периода."/>
+        <text name="easyDevControls_setFarmlandOwnerHelp" text="Позволяет изменять владельца ферм или полей."/>
+        <text name="easyDevControls_refreshFieldOverlayHelp" text="Принудительное обновление данных наложения полей, отображаемых на карте."/>
+        <text name="easyDevControls_debugFieldStatusHelp" text="Отображает все данные о состоянии поля в заданном радиусе."/>
+        <text name="easyDevControls_vineSystemDebugHelp" text="Toggles the vine system debug view."/>
+        <text name="easyDevControls_stoneSystemDebugHelp" text="Toggles the stone system debug view."/>
+
+        <!-- Environment Frame XML -->
+        <text name="easyDevControls_environmentHeader" text="Окружающая среда"/>
+
+        <text name="easyDevControls_setTimeTitle" text="Установить дату и время"/>
+        <text name="easyDevControls_reloadedEnvironmentDataTitle" text="Сбросить дату и время"/>
+        <text name="easyDevControls_reloadedWeatherDataTitle" text="Перезагрузить погоду"/>
+        <text name="easyDevControls_setAddWeatherTitle" text="%s Погода"/>
+        <text name="easyDevControls_setAddWeatherHelpTitle" text="Установить / изменить погоду"/>
+        <text name="easyDevControls_removeTireTracksTitle" text="Удалить следы шин"/>
+        <text name="easyDevControls_weatherDebugTitle" text="Отладка погоды"/>
+        <text name="easyDevControls_seasonalShaderDebugTitle" text="Отладка сезонного шейдера"/>
+        <text name="easyDevControls_environmentMaskDebugTitle" text="Отладка маски среды"/>
+        <text name="easyDevControls_randomWindWavingTitle" text="Случайное движение ветра"/>
+        <text name="easyDevControls_updateSnowTitle" text="Снег"/>
+        <text name="easyDevControls_addSnowTitle" text="Добавить снег"/>
+        <text name="easyDevControls_setSnowTitle" text="Изменить слой снега"/>
+        <text name="easyDevControls_removeSnowTitle" text="Удалить снег"/>
+        <text name="easyDevControls_addSaltTitle" text="Добавить соль"/>
+
+        <!-- Environment Frame Info -->
+        <text name="easyDevControls_setTimeInfo" text="Время продвинулось до: %s | %s"/>
+        <text name="easyDevControls_reloadedEnvironmentDataInfo" text="Перезагружены данные среды из XML '%s'"/>
+        <text name="easyDevControls_reloadedWeatherDataInfo" text="Данные о погоде перезагружены из XML '%s'"/>
+        <text name="easyDevControls_removeTireTracksInfo" text="Убраны все следы шин в радиусе %s вокруг игрока."/>
+        <text name="easyDevControls_removeAllTireTracksInfo" text="Убраны все следы шин с карты."/>
+        <text name="easyDevControls_weatherDebugInfo" text="Отладка погоды теперь %s"/>
+        <text name="easyDevControls_seasonalShaderDebugInfo" text="Сезонная отладка шейдеров теперь %s"/>
+        <text name="easyDevControls_environmentMaskDebugInfo" text="Отладка системы маски среды теперь %s"/>
+        <text name="easyDevControls_randomWindWavingInfo" text="Случайное направление ветра теперь %s"/>
+        <text name="easyDevControls_addSnowInfo" text="Высота снега установлена на максимальный уровень"/>
+        <text name="easyDevControls_setSnowInfo" text="Высота снега изменена на %s"/>
+        <text name="easyDevControls_removeSnowInfo" text="Удаление всего снега с карты"/>
+        <text name="easyDevControls_addSaltInfo" text="Добавление соли в радиусе %d м"/>
+
+        <!-- Environment Frame Help -->
+        <text name="easyDevControls_setTimeHelp" text="Позволяет переводить время вперед по месяцам, дням и часам.
+
+ПРИМЕЧАНИЕ: Во время этого процесса не вызываются изменения обновлений, и некоторые сезонные изменения будут происходить только при смене дня."/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_reloadedEnvironmentDataHelp" text="Перезагружает полную среду из файла XML. Это позволяет вносить изменения и просматривать их без перезапуска игры при тестировании карты."/>
+
+        <text name="easyDevControls_reloadedWeatherDataHelp" text="Перезагружает погоду из файла XML. Это позволяет вносить изменения и просматривать их без перезапуска игры при тестировании карты."/>
+        <text name="easyDevControls_setAddWeatherHelp" text="Позволяет добавить или сразу установить определенный тип погоды. Типы и вариации погоды будут меняться в зависимости от текущего сезона."/>
+        <text name="easyDevControls_removeTireTracksHelp" text="Удаляет следы шин в заданном радиусе."/>
+        <text name="easyDevControls_weatherDebugHelp" text="Отображает диаграмму с текущими данными о погоде."/>
+        <text name="easyDevControls_seasonalShaderDebugHelp" text="Показывает текущее значение параметра сезонного шейдера (cshared3)."/>
+        <text name="easyDevControls_environmentMaskDebugHelp" text="Отображает отладочные значения и состояние маски среды."/>
+        <text name="easyDevControls_randomWindWavingHelp" text="Переключает функцию случайной скорости ветра."/>
+        <text name="easyDevControls_addSnowHelp" text="Добавляет на карту слой снега."/>
+        <text name="easyDevControls_setSnowHelp" text="Устанавливает заданный уровень снега. Диапазон: -4 > 0,5"/>
+        <text name="easyDevControls_removeSnowHelp" text="Удаляет весь снег с карты."/>
+        <text name="easyDevControls_addSaltHelp" text="Добавляет соль в заданном радиусе вокруг игрока."/>
+
+        <!-- Permissions Frame XML -->
+        <text name="easyDevControls_permissionsHeader" text="Права"/>
+        <text name="easyDevControls_permissionsToolTip" text="Минимальный уровень прав игрока, необходимый для доступа к функции %s."/>
+        <text name="easyDevControls_savingFailed" text="Сохранить не удалось!"/>
+
+        <!-- Permissions Frame Help -->
+        <text name="easyDevControls_permissionsHelp" text="На этой странице администратор может определить уровень прав, необходимых игрокам для доступа к следующим командам."/>
+
+        <!-- Extra Headers -->
+        <text name="easyDevControls_helpHeader" text="Справка"/>
+        <text name="easyDevControls_aboutHeader" text="О моде"/>
+
+        <text name="easyDevControls_aboutInfo" text="Easy Development Controls разработан как инструмент тестирования для моддеров, картографов и создателей контента. Он также может помочь с настройками игрового процесса или с тем, как вы хотите играть в игру.
+
+Он включает в себя некоторые функции, уже доступные через команды игровой консоли, но теперь более легко доступные, а также добавлено множество новых функций.
+
+Большинство функций поддерживают использование в многопользовательской игре, а также можно настроить уровни прав для некоторых команд. Теперь это также включает в себя существующие консольные команды, которые раньше работали только для хоста.
+
+Некоторые функции также были добавлены следующим образом.
+
+ - Телепорт: быстро перемещайте себя или транспортные средства по карте, выбирая место на карте, номер поля или координаты x/z.
+
+ - Перевернуть транспорт: позволяет пользователю легко корректировать вертикальное положение транспортного средства.
+
+ - Суперсила: увеличивает грузоподъемность игроком и дальность захвата.
+
+ - Видимость HUD: показывает и скрывает весь HUD, вы также можете активировать привязку клавиш для более быстрого доступа.
+
+ - Показать расположение тюков: на карте будут отображаться все тюки, принадлежащие ферме.
+
+ - Показать расположение поддонов: на карте будут все отображаться поддоны, принадлежащие ферме.
+
+ - Ускоренный рост: переводит все культуры на следующую стадию роста.
+
+Благодаря расширенному набору функций и множеству запланированных новых функций в Easy Development Controls каждый найдет что-то для себя."/>
+    </texts>
+</l10n>
