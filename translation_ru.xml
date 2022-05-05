@@ -235,12 +235,12 @@
         <text name="easyDevControls_removeMoneyHelp" text="Списывает указанную сумму с вашего счета."/>
         <text name="easyDevControls_setMoneyHelp" text="Устанавливает ваш счет на заданную сумму."/>
         <text name="easyDevControls_flightModeToggleHelp" text="Переключает режим отладки полета игрока."/>
-        <text name="easyDevControls_flightModeStateHelp" text="Доступно только при включенном «Режиме полета», эту функцию также можно переключать с помощью клавиши J. После активации высота может быть изменена с помощью клавиш Q и E."/>
+        <text name="easyDevControls_flightModeStateHelp" text="Доступно только при включенном «Режиме полета», эту функцию также можно переключать с помощью клавиши «J». После активации высота может быть изменена с помощью клавиш «Q» и «E»."/>
         <text name="easyDevControls_hudVisibilityHelp" text="Позволяет включать и выключать HUD."/>
         <text name="easyDevControls_hudInputHelp" text="Позволяет включать и выключать HUD по нажатию на клавишу «Отображение HUD»."/>
         <text name="easyDevControls_teleportHelp" text="Телепортировать игрока, управляемого транспорта или транспорта в радиусе действия игрока в выбранную точку на карте, на поле или в заданную позицию x / z."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Попытки исправить ориентацию транспортного средства и ориентацию любых подключенных орудий. Эта операция доступна для управляемого транспорта или при просмотре собственного транспорта."/>
-        <text name="easyDevControls_deleteObjectsKeyHelp" text="Доступ к функции «Удаление объектов». Позволяет игроку удалять: деревья, бревна, пени, тюки, поддоны или транспорт, на которые он смотрит. Информация о деревьях и пнях также будет отображаться, когда они активны.
+        <text name="easyDevControls_deleteObjectsKeyHelp" text="Доступ к функции «Удаление объектов». Позволяет игроку удалить: дерево, бревно, пень, тюк, поддон или транспорт, на который он смотрит. Информация о деревьях и пнях также будет отображаться, при наведении на них.
 
 Примечание: Функция доступна только для «Мастер-пользователей/администраторов»!"/>
         <text name="easyDevControls_setFOVAngleHelp" text="Устанавливает «Поле зрения» текущей камеры. Используйте «-1» или «Кнопку сброса», чтобы вернуть камеры к значениям по умолчанию."/>
@@ -254,47 +254,47 @@
         <text name="easyDevControls_playerHeader" text="Игрок"/>
 
         <text name="easyDevControls_superStrengthTitle" text="Суперсила"/>
-        <text name="easyDevControls_jumpMultiplierTitle" text="Множитель прыжка"/>
+        <text name="easyDevControls_jumpMultiplierTitle" text="Высота прыжка"/>
         <text name="easyDevControls_thirdPersonViewTitle" text="Вид от третьего лица"/>
-        <text name="easyDevControls_woodCuttingMarkerTitle" text="Маркер резки дерева"/>
+        <text name="easyDevControls_woodCuttingMarkerTitle" text="Маркер распила"/>
         <text name="easyDevControls_aimOverlayTitle" text="Маркер прицеливания"/>
-        <text name="easyDevControls_runSpeedTitle" text="Ускорение бега"/>
-        <text name="easyDevControls_runSpeedKeyTitle" text="Ускорение бега (клавишей)"/>
-        <text name="easyDevControls_setFarmTitle" text="Set Farm"/>
+        <text name="easyDevControls_runSpeedTitle" text="Ускоренный бег"/>
+        <text name="easyDevControls_runSpeedKeyTitle" text="Ускоренный бег (клавишей)"/>
+        <text name="easyDevControls_setFarmTitle" text="Участник фермы"/>
         <text name="easyDevControls_playerDebugTitle" text="Информация об отладке"/>
-        <text name="easyDevControls_playerFsmDebugTitle" text="State Machine Debug"/>
-        <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="Jump Debug"/>
+        <text name="easyDevControls_playerFsmDebugTitle" text="Информация об отладке системы"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="Информация об отладке переходов"/>
 
         <!-- Player Frame Info -->
-        <text name="easyDevControls_superStrengthOffInfo" text="Игрок теперь имеет нормальную силу."/>
-        <text name="easyDevControls_superStrengthOnInfo" text="У игрока теперь есть суперсила и увеличенная дальность захвата."/>
-        <text name="easyDevControls_jumpMultiplierInfo" text="Состояние множителя прыжка: %s"/>
-        <text name="easyDevControls_thirdPersonViewInfo" text="Вид игрока от третьего лица %s"/>
-        <text name="easyDevControls_woodCuttingMarkerInfo" text="Маркер резки дерева %s"/>
-        <text name="easyDevControls_aimOverlayInfo" text="Маркер прицеливания %s"/>
-        <text name="easyDevControls_runSpeedInfo" text="Ускорение бега установлен на %s"/>
-        <text name="easyDevControls_runSpeedStateInfo" text="Ускорение бега %s"/>
-        <text name="easyDevControls_runSpeedKeyInfo" text="Используйте ускорение бега с помощью назначенной клавиши (%s) %s"/>
-        <text name="easyDevControls_setFarmInfo" text="Changed %s to farm %s"/>
-        <text name="easyDevControls_playerDebugInfo" text="Информация об отладке игрока %s"/>
-        <text name="easyDevControls_playerFsmDebugInfo" text="Player state machine debug %s"/>
-        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Player jump state machine debug %s"/>
+        <text name="easyDevControls_superStrengthOffInfo" text="Суперсила: Выкл."/>
+        <text name="easyDevControls_superStrengthOnInfo" text="Суперсила: Вкл. (Суперсила и увеличенная дальность взаимодействия)."/>
+        <text name="easyDevControls_jumpMultiplierInfo" text="Увеличение высоты прыжка: %s"/>
+        <text name="easyDevControls_thirdPersonViewInfo" text="Вид от третьего лица: %s"/>
+        <text name="easyDevControls_woodCuttingMarkerInfo" text="Маркер распила древесины: %s"/>
+        <text name="easyDevControls_aimOverlayInfo" text="Маркер прицеливания: %s"/>
+        <text name="easyDevControls_runSpeedInfo" text="Ускорение бега: %s"/>
+        <text name="easyDevControls_runSpeedStateInfo" text="Ускорение бега: %s"/>
+        <text name="easyDevControls_runSpeedKeyInfo" text="Использование ускорения бега с помощью назначенной клавиши (%s): %s"/>
+        <text name="easyDevControls_setFarmInfo" text="%s Назначен ферме %s"/>
+        <text name="easyDevControls_playerDebugInfo" text="Отображение информация об отладке: %s"/>
+        <text name="easyDevControls_playerFsmDebugInfo" text="Отображение информация об отладке системы: %s"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Информация об отладке переходов: %s"/>
 
         <!-- Player Frame Help -->
-        <text name="easyDevControls_superStrengthHelp" text="Переключает функцию суперсилы и расширяет диапазон подбора."/>
-        <text name="easyDevControls_jumpMultiplierHelp" text="Увеличивает высоту прыжка, добавляя выбранный множитель."/>
-        <text name="easyDevControls_thirdPersonViewHelp" text="Переключает вид игрока от третьего лица.
+        <text name="easyDevControls_superStrengthHelp" text="Позволяет поднимать тяжелые объекты и увеличивает дальность взаимодействия."/>
+        <text name="easyDevControls_jumpMultiplierHelp" text="Увеличивает высоту прыжка на выбранное значение."/>
+        <text name="easyDevControls_thirdPersonViewHelp" text="Переключает виды от первого и от третьего лица.
 
-Примечание: Этот режим предназначен для скриншотов, и не все игровые функции, такие как «Ручные инструменты», будут работать корректно, пока он включен."/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_woodCuttingMarkerHelp" text="Переключает видимость маркера бензопилы."/>
-        <text name="easyDevControls_aimOverlayHelp" text="Переключает видимость маркера прицеливания."/>
-        <text name="easyDevControls_runSpeedHelp" text="Устанавливает множитель, который будет использоваться, когда «Увеличенная скорость бега» включена."/>
-        <text name="easyDevControls_runSpeedStateHelp" text="Переключает состояние скорости бега. Когда «Выкл.», игрок будет ходить и бегать со скоростью по умолчанию."/>
-        <text name="easyDevControls_runSpeedKeyHelp" text="Позволяет использовать клавишу привязки «Увеличенная скорость бега»."/>
-        <text name="easyDevControls_setFarmHelp" text="Sets the players current farm or changes a vehicles farm owner."/>
+Примечание: Этот режим предназначен для скриншотов, и не все игровые функции, такие как «Взаимодействие», будут работать корректно, пока он включен."/> <!-- Translators: Space is intentional for easy reading -->
+        <text name="easyDevControls_woodCuttingMarkerHelp" text="Переключает отображение маркера распила древесины."/>
+        <text name="easyDevControls_aimOverlayHelp" text="Переключает отображение маркера прицеливания."/>
+        <text name="easyDevControls_runSpeedHelp" text="Устанавливает множитель, который будет использоваться, когда «Ускоренный бег» включена."/>
+        <text name="easyDevControls_runSpeedStateHelp" text="Переключает состояние скорости бега. Когда «Выкл.» игрок будет ходить и бегать со скоростью по умолчанию."/>
+        <text name="easyDevControls_runSpeedKeyHelp" text="Позволяет использовать привязку клавиши «Вкл./Выкл. ускоренный бег»."/>
+        <text name="easyDevControls_setFarmHelp" text="Добавляет игрока на ферму или меняет владельца фермы."/>
         <text name="easyDevControls_playerDebugHelp" text="Переключает отладочную информацию игрока."/>
-        <text name="easyDevControls_playerFsmDebugHelp" text="Toggles player state machine debug information."/>
-        <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="Toggles player jump state machine debug information. Jump height / duration will be printed to the log file."/>
+        <text name="easyDevControls_playerFsmDebugHelp" text="Отображение записи в системный журнал отладочной информации."/>
+        <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="Запись в журнал информации об отладке переходов. Высота и продолжительность прыжка будут записаны в журнале."/>
 
         <!-- Objects Frame XML -->
         <text name="easyDevControls_objectsHeader" text="Объекты / Наполнители"/>
