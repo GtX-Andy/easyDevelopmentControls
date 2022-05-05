@@ -150,7 +150,7 @@ Odwiedź oficjalnego ModHuba poprzez poniższy link, aby pobrać najnowszą ofic
         <text name="easyDevControls_reloadFailedMessage" text="Niepowodzenie przeładowania %s."/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Poziom napełnienia '%s' ustawiono na 0, chciałbyś zignorować usunięcie pustej flagi?"/>
         <text name="easyDevControls_serverRequestMessage" text="Prośba aktualizacji z serwera, proszę czekać."/>
-        <text name="easyDevControls_defaultResetFailed" text="Reset do ustawień domyślnych zakończony niepowodzeniem!"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="Reset do ustawień domyślnych zakończony niepowodzeniem!"/>
         <text name="easyDevControls_unknownFailMessage" text="Niepowodzenie, nieznany powód!"/>
         <text name="easyDevControls_noInformationMessage" text="Brak dostępnych informacji"/>
 

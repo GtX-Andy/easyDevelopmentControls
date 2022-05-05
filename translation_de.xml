@@ -149,7 +149,7 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_reloadFailedMessage" text="%s konnten nicht geladen werden"/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Füll Level '%s' auf 0 eingestellt, wollen sie dies ignorieren oder entfernen?"/>
         <text name="easyDevControls_serverRequestMessage" text="Bitte warten, Serverabfrage- Update"/>
-        <text name="easyDevControls_defaultResetFailed" text="Fehler konnte nicht auf Standard zuruecksetzen"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="Fehler konnte nicht auf Standard zuruecksetzen"/>
         <text name="easyDevControls_unknownFailMessage" text="Unbekannter Fehler!"/>
         <text name="easyDevControls_noInformationMessage" text="Keine Information vorhanden"/>
 
@@ -218,7 +218,7 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Spieler erfolgreich zum Feld %s teleportiert."/>
         <text name="easyDevControls_teleportVehiclesFieldInfo" text="%d Fahrzeuge erfolgreich nach Feld %s verschoben."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Spieler erfolgreich zu den Koordinaten %s, %s teleportiert."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Fahrzeug '%s' erfolgreich zu den Koordinaten %s, %s teleportiert."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Fahrzeug '%d' erfolgreich zu den Koordinaten %s, %s teleportiert."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Versuche Fahrzeugausrichtung und angeschlossenes Geraete richtig auszurichten."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Entferne Objekt key (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Kamera FOV updated to %d°."/>

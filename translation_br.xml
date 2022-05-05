@@ -149,7 +149,6 @@ Visite o link de download do Giants modHub abaixo para obter a versão oficial m
         <text name="easyDevControls_reloadFailedMessage" text="O seguinte %s falhou ao recarregar."/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Nível de preenchimento de '%s' definido como 0, você gostaria de ignorar a exclusão em um sinalizador vazio?"/>
         <text name="easyDevControls_serverRequestMessage" text="Solicitando atualização do servidor, aguarde."/>
-        <text name="easyDevControls_defaultResetFailed" text="Falha ao redefinir para o padrão!"/>
         <text name="easyDevControls_defaultResetFailedMessage" text="Falha ao redefinir para o padrão!"/>
         <text name="easyDevControls_unknownFailMessage" text="Falha, motivo desconhecido!"/>
         <text name="easyDevControls_noInformationMessage" text="Nenhuma informação disponível"/>

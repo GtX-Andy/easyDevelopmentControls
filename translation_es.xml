@@ -149,7 +149,7 @@ Visite el siguiente enlace de descarga de Giants modHub para ver el último lanz
         <text name="easyDevControls_reloadFailedMessage" text="El sigueinte %s no se ha podido cargar."/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="El nivel de llenado de '%s' se fijo a 0, ¿Le gustaría ignorar el aviso de estado vacío?"/>
         <text name="easyDevControls_serverRequestMessage" text="Solicitando actualización desde el servidor, por favor espere."/>
-        <text name="easyDevControls_defaultResetFailed" text="¡No se pudo restablecer a los valores predeterminados!"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="¡No se pudo restablecer a los valores predeterminados!"/>
         <text name="easyDevControls_unknownFailMessage" text="¡Error, motivo desconocido!"/>
         <text name="easyDevControls_noInformationMessage" text="No hay información disponible"/>
 

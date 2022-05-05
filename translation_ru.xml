@@ -46,7 +46,7 @@
         <text name="easyDevControls_typeTrainSystems" text="системы поездов"/>
         <text name="easyDevControls_typeTrainSystem" text="система поезда"/>
         <text name="easyDevControls_typePallets" text="поддона"/>
-        <text name="easyDevControls_typePallet" text="поддон"/>	
+        <text name="easyDevControls_typePallet" text="поддон"/>
         <text name="easyDevControls_typeBales" text="тюка"/>
         <text name="easyDevControls_typeBale" text="тюков"/>
         <text name="easyDevControls_typeLogs" text="бревна"/>
@@ -149,7 +149,7 @@
         <text name="easyDevControls_reloadFailedMessage" text="Следующий %s не удалось перезагрузить."/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Fill level of '%s' set to 0, would you like to ignore delete on empty flag?"/>
         <text name="easyDevControls_serverRequestMessage" text="Запрос обновления с сервера, пожалуйста подождите."/>
-        <text name="easyDevControls_defaultResetFailed" text="Не удалось сбросить настройки по умолчанию!"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="Не удалось сбросить настройки по умолчанию!"/>
         <text name="easyDevControls_unknownFailMessage" text="Ошибка, причина неизвестна!"/>
         <text name="easyDevControls_noInformationMessage" text="Информации нет"/>
 

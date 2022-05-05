@@ -149,7 +149,7 @@ Visit the Giants modHub download link below for the latest official release."/>
         <text name="easyDevControls_reloadFailedMessage" text="The following %s failed to reload."/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Fill level of '%s' set to 0, would you like to ignore delete on empty flag?"/>
         <text name="easyDevControls_serverRequestMessage" text="Requesting update from server, please wait."/>
-        <text name="easyDevControls_defaultResetFailed" text="Failed to reset to default!"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="Failed to reset to default!"/>
         <text name="easyDevControls_unknownFailMessage" text="Failed, unknown reason!"/>
         <text name="easyDevControls_noInformationMessage" text="No information available"/>
 

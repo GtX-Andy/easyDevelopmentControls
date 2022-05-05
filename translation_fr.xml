@@ -149,7 +149,7 @@ Rendez-vous sur le modhub Giants pour télécharger la dernière version officie
         <text name="easyDevControls_reloadFailedMessage" text="Les éléments suivants %s n'ont pas pu se recharger."/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Le niveau de remplissage de '%s' est à 0, souhaitez-vous ignorer la suppression de contenant vide ?"/>
         <text name="easyDevControls_serverRequestMessage" text="Synchronisation avec le serveur, veuillez patienter..."/>
-        <text name="easyDevControls_defaultResetFailed" text="Le rétablissement par défaut a échoué !"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="Le rétablissement par défaut a échoué !"/>
         <text name="easyDevControls_unknownFailMessage" text="Echec de l'opération pour une raison inconnue !"/>
         <text name="easyDevControls_noInformationMessage" text="Aucune information disponible"/>
 
