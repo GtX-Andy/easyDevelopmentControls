@@ -211,7 +211,7 @@ Upewnij się, że pojazd jest ustawiony na płaskiej płaszczyźnie, która jest
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Dodano %s do konta gospodarstwa."/>
         <text name="easyDevControls_removeMoneyInfo" text="Usunięto %s z konta gospodarstwa."/>
-        <text name="easyDevControls_setMoneyInfo" text="Ustaw saldo konta gospodarstwa na %s."/>
+        <text name="easyDevControls_setMoneyInfo" text="Ustawiono saldo konta gospodarstwa na %s."/>
         <text name="easyDevControls_flightModeToggleInfo" text="Tryb latania: %s"/>
         <text name="easyDevControls_flightModeStateOffInfo" text="Stan trybu latania: %s"/>
         <text name="easyDevControls_flightModeStateOnInfo" text="Stan trybu latania: %s  (Zmiana wysokości za pomocą klawiszy Q i E)"/>
