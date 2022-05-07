@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="easyDevControlsPlaceables">
+    <GuiElement type="empty" profile="devControlsFrame">
+        <GuiElement type="empty" profile="devControlsHeaderPanel">
+            <GuiElement type="text" profile="devControlsHeaderText" text="$l10n_easyDevControls_placeablesHeader"/>
+			<GuiElement type="button" profile="devControlsInfo" id="buttonShowInfo" onClick="onClickShowInfo"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="devControlsContainer" id="container">
+            <GuiElement type="boxLayout" profile="devControlsLayout" id="boxLayout">
+                <!-- Column 1 -->
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiSetProductionPoint" onClick="onClickSetProductionPoint" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_productionPointTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="button" profile="devControlsConfirmNoIconClose" name="productionPointOwner" text="$l10n_easyDevControls_setOwnerTitle" id="buttonSetProductionPointOwner" onClick="onClickSetProductionPointData"/>
+                <GuiElement type="button" profile="devControlsConfirmNoIconClose" name="productionPointState" text="$l10n_easyDevControls_setStateTitle" id="buttonSetProductionPointState" onClick="onClickSetProductionPointData"/>
+                <GuiElement type="button" profile="devControlsConfirmNoIconClose" name="productionPointOutputMode" text="$l10n_easyDevControls_outputModeTitle" id="buttonSetProductionPointOutput" onClick="onClickSetProductionPointData"/>
+                <GuiElement type="button" profile="devControlsConfirmNoIconClose" name="productionPointFillLevel" text="$l10n_easyDevControls_fillLevelTitle"  id="buttonSetProductionPointFillLevel" onClick="onClickSetProductionPointData"/>
+
+                <GuiElement type="button" profile="devControlsConfirm" text="" id="buttonProductionPointsList" onClick="onClickProductionPointsList">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_productionPointListTitle"/>
+                </GuiElement>
+
+                <GuiElement type="button" profile="devControlsConfirm" text="" id="buttonAutoDeliverMapping" onClick="onClickAutoDeliverMapping">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_deliveryMappingTitle"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" margin="44px 24px 44px 100px" debugMargin="true" id="checkedProductionPointsDebug" onClick="onClickProductionPointsDebug" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_productionPointDebugTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <!-- Column 2 -->
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedShowPlaceableTestAreas" onClick="onClickShowPlaceableTestAreas" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_showTestAreasTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" margin="44px 24px 44px 500px" debugMargin="true" id="checkedShowPlacementCollisions" onClick="onClickShowPlacementCollisions" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_showPlacementCollisionsTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <!-- Column 3 -->
+                <GuiElement type="button" profile="devControlsConfirm" name="reloadPlaceable" id="buttonConfirmReloadPlaceable" onClick="onClickReloadPlaceables">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="" id="buttonConfirmReloadPlaceableText"/>
+                </GuiElement>
+
+                <GuiElement type="button" profile="devControlsConfirm" margin="44px 24px 44px 500px" debugMargin="true" name="reloadAllPlaceables" id="buttonConfirmReloadAllPlaceables" onClick="onClickReloadPlaceables">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_reloadAllPlaceablesTitle"/>
+                </GuiElement>
+
+                <!-- Column 4 -->
+                <GuiElement type="button" profile="devControlsConfirm" text="" name="PLACEABLES" id="buttonConfirmRemoveAllPlaceables" onClick="onClickConfirmRemoveAllPlaceables">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_removeAllPlaceablesTitle" />
+                </GuiElement>
+
+                <GuiElement type="button" profile="devControlsConfirm" text="" name="MAP_PLACEABLES" id="buttonConfirmRemoveAllMapPlaceables" onClick="onClickConfirmRemoveAllPlaceables">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_removeAllMapPlaceablesTitle" />
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="bitmap" profile="devControlsInfoRowBg">
+            <GuiElement type="bitmap" profile="devControlsInfoRowIcon" id="infoBoxIcon"/>
+            <GuiElement type="text" profile="devControlsInfoRowText" id="infoBoxText" text=""/>
+        </GuiElement>
+    </GuiElement>
+</GUI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="ingameMap" id="ingameMap" profile="ingameMapOverview" cursorId="mapCursor" onClickMap="onClickMap" onDrawPostIngameMapHotspots="onDrawPostIngameMapHotspots"/>
+    <GuiElement type="bitmap" profile="ingameMapCursor" id="mapCursor" visible="false" />
+
+    <GuiElement type="text" profile="ingameMenuAIActionText" id="actionMessage" />
+    <GuiElement type="bitmap" profile="ingameMenuMapButtonsBackground" />
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreen">
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" text="$l10n_button_back" id="buttonBack" />
+
+        <GuiElement type="inputGlyph" profile="shopConfigInputGlyph" id="mapMoveGlyph" />
+        <GuiElement type="text" profile="shopConfigInputGlyphText" textAutoWidth="true" id="mapMoveGlyphText" />
+
+        <GuiElement type="inputGlyph" profile="shopConfigInputGlyph" id="mapZoomGlyph" />
+        <GuiElement type="text" profile="shopConfigInputGlyphText" textAutoWidth="true" id="mapZoomGlyphText" />
+
+		<!-- Controller Support -->
+		<GuiElement type="button" profile="buttonSelectMap" text="$l10n_button_select" id="buttonSelect" />
+    </GuiElement>
+</GUI>

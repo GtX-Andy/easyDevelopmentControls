@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="easyDevControlsHelp">
+    <GuiElement type="empty" profile="devControlsFrame">
+        <GuiElement type="empty" profile="devControlsHeaderPanel">
+            <GuiElement type="text" profile="devControlsHeaderText" text="$l10n_easyDevControls_helpHeader"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="emptyPanel" position="48px 0px" size="1528px 776px" id="helpContainer">
+            <GuiElement type="empty" profile="devControlsHelpCommandNavigationBox">
+                <GuiElement type="smoothList" profile="devControlsHelpCommandList" id="listDataElement" listDelegate="self" listDataSource="self"  focusInit="onOpen">
+                    <GuiElement type="listItem" profile="devControlsHelpCommandCategory">
+                        <GuiElement type="bitmap" profile="devControlsHelpCommandCategoryIcon" name="icon"/>
+                        <GuiElement type="text" profile="devControlsHelpCommandCategoryTitle" name="title" text="Category Title"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="listDataElement" handleFocus="false" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="devControlsHelpCommandContentBox">
+                <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper"/>
+                <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+                <GuiElement type="scrollingLayout" profile="devControlsHelpItemContentBox" id="contentBoxElement" topClipperElementName="topClipper" bottomClipperElementName="bottomClipper">
+                    <GuiElement type="flowLayout" profile="devControlsHelpCommandItem" id="contentItemTemplate">
+                        <GuiElement type="text"   profile="devControlsHelpCommandTitle" name="title" />
+                        <GuiElement type="text"   profile="devControlsHelpCommandText"  name="text" />
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" anchors="1 1 0.5 0.5" position="28px 0px">
+                    <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="contentBoxElement" handleFocus="false" />
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+    </GuiElement>
+</GUI>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="65">
+   <author>GtX</author>
+
+   <version>1.0.1.0</version>
+
+    <title>
+        <en>Easy Development Controls</en>
+    </title>
+
+    <description>
+        <en>
+            <![CDATA[Easy Development Controls is designed as a testing tool for modders, mappers and content creators. It can also assist with gameplay setups or however you wish to play the game.
+
+It includes some features available already through the game console commands but now easily accessible and also the addition of many new features.
+
+Most features support use in Multiplayer and permission levels of some commands can also be adjusted. This now also includes existing console commands that previously only worked for the host.
+
+Some quality of life features have also been added as follows.
+
+ - Teleport: Quickly move yourself or vehicles around the map by selecting a location on the map, by field number or x/z coordinates.
+ - Flip Vehicles: Allows a user to easily correct upright rotation of a vehicle.
+ - Super Strength: Increases a players carrying capacity and pickup range.
+ - Hud Visibility: Shows and hides the whole hud, you can also activate a key binding for faster access.
+ - Show Bale Locations: This will display all farm owned bales on the map.
+ - Show Pallet Locations: This will display all farm owned pallets on the map.
+ - Advance Growth: Advances all crops to the next growth stage.
+
+With the extended number of features plus many new features planned, Easy Development Controls has something for everyone.
+
+For further information please read the <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> on the Github repository.
+
+Version 1.0.1.0 (GITHUB BETA RELEASE)
+Fixed a bug where loading a save game with 'Easy Development Controls' active was not possible if time was stopped when saving.
+Fixed a bug that stopped 'Production States' from being changed via the 'Placeables' screen after using the 'Reload' feature.
+
+Corrected 'foot' measurement being incorrectly displayed when value was > 1 for log lengths (Fahrenheit game setting users only).
+Removed Cotton pallet from spawn list due to incompatibility.
+Small bug fixes.
+
+Added 'defaultUserSettings.xml', default user settings will be loaded from this file in multiplayer and when starting a new game.
+XML file will be created on load at: '/My Games/FarmingSimulator2022/modSettings/FS22_EasyDevControls'.
+
+French (fr) translations added.
+Russian (ru) translations added.
+Polish / Polski (pl) translations added.
+Brazilian Portuguese (br) translations added.]]>
+        </en>
+        <de>
+            <![CDATA[Easy Development Controls ist als Testwerkzeug für Modder, Mapper und Inhaltsersteller gedacht. Es kann auch bei der Einrichtung des Spiels helfen, oder wie auch immer du das Spiel spielen möchtest.
+
+Es enthält einige Funktionen, die bereits über die Befehle der Spielkonsole zur Verfügung stehen, aber jetzt leicht zugänglich sind, sowie viele neue Funktionen.
+
+Die meisten Funktionen unterstützen die Verwendung im Mehrspielermodus und die Berechtigungsstufen einiger Befehle können ebenfalls angepasst werden. Dies schließt nun auch bestehende Konsolenbefehle ein, die zuvor nur für den Host funktionierten.
+
+Außerdem wurden folgende Funktionen zur Verbesserung der Lebensqualität hinzugefügt:
+- Teleportieren: Bewege Dich oder deine Fahrzeuge schnell auf der Karte, indem du einen Ort auf der Karte, eine Feldnummer oder X/Z-Koordinaten auswählst.
+- Fahrzeuge drehen: Ermöglicht es Dir, die aufrechte Drehung eines Fahrzeugs leicht zu korrigieren.
+- Super Stärke: Erhöht die Tragfähigkeit und die Reichweite eines Spielers.
+- Hud-Sichtbarkeit: Zeigt und verbirgt das gesamte Hud, außerdem kannst du eine Tastenbelegung für schnelleren Zugriff aktivieren.
+- Ballenstandorte anzeigen: Zeigt alle Ballen der Farm auf der Karte an.
+- Palettenstandorte anzeigen: Zeigt alle Paletten der Farm auf der Karte an.
+- Wachstum vorantreiben: Bringt alle Feldfrüchte in die nächste Wachstumsstufe.
+
+Mit der erweiterten Anzahl von Funktionen und vielen geplanten neuen Funktionen bietet Easy Development Controls für jeden etwas.
+
+Für weitere Informationen, lese dir die <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> aus dem Github durch.
+
+Version 1.0.1.0 (GITHUB BETA-VERSION)
+Es wurde ein Fehler behoben, bei dem das Laden eines gespeicherten Spiels mit aktivierter 'Easy Development Controls' nicht möglich war, wenn die Zeit beim Speichern gestoppt wurde.
+Es wurde ein Fehler behoben, der verhinderte, dass "Produktionsstatus" über den Bildschirm "Platzierbare Objekte" geändert werden konnten, nachdem die Funktion "Neu laden" verwendet wurde.
+
+Korrigierte "Fuß"-Messung, die falsch angezeigt wurde, wenn der Wert > 1 für Stammlängen war (nur Benutzer der Fahrenheit-Spieleinstellung).
+Baumwollpalette wegen Inkompatibilität aus der Spawnliste entfernt.
+Kleine Fehlerbehebungen.
+
+'defaultUserSettings.xml' hinzugefügt, Standard-Benutzereinstellungen werden aus dieser Datei im Multiplayer und beim Starten eines neuen Spiels geladen.
+Die XML-Datei wird beim Laden erstellt unter: '/My Games/FarmingSimulator2022/modSettings/FS22_EasyDevControls'.
+
+Französische (fr) Übersetzungen hinzugefügt.
+Russische (ru) Übersetzungen hinzugefügt.
+Polnisch / Polski (pl) Übersetzungen hinzugefügt.
+Übersetzungen für Brasilianisches Portugiesisch (br) hinzugefügt.]]>
+        </de>
+        <fr>
+            <![CDATA[Easy Development Controls est conçu comme un outil de test pour les moddeurs, les créateurs de cartes et de contenu. Cela peut également vous aider avec les paramètres du jeu ou la façon dont vous voulez jouer.
+
+Il comprend certaines fonctionnalités déjà disponibles via les commandes de la console du jeu lui-même, mais désormais facilement accessibles depuis un menu, en plus de l'inclusion de nombreuses nouvelles fonctionnalités.
+
+La plupart des fonctionnalités prennent en charge le multijoueur et les niveaux d'autorisation pour certaines commandes peuvent également être ajustés. Cela inclut désormais également les commandes de console existantes qui ne fonctionnaient auparavant que pour l'hôte.
+
+Certaines fonctionnalités de qualité de vie ont également été ajoutées, telles que :
+
+ - Téléportation : vous pouvez vous déplacer rapidement, vous ou vos véhicules, sur la carte en sélectionnant un emplacement sur la carte, par numéro de champ ou en saisissant des coordonnées X/Z.
+ - Retourner les véhicules : permet à l'utilisateur de corriger facilement l'orientation verticale d'un véhicule.
+ - Super Force : Augmente le poids pouvant être soulevé à la main et la distance de préhension.
+ - Visibilité du HUD : affichez ou masquez l'ensemble du HUD, vous pouvez également attribuer une/des clé(s) pour un accès plus rapide.
+ - Afficher l'emplacement des balles : affiche toutes les balles appartenant à la ferme à leur emplacement actuel sur la carte.
+ - Afficher l'emplacement des palettes : affiche toutes les palettes appartenant à la ferme à leur emplacement actuel sur la carte.
+ - Avancer la croissance : fait passer toutes les cultures au stade de croissance suivant.
+
+Avec le grand nombre de fonctionnalités et bien d'autres qui devraient être ajoutées, Easy Development Controls est sûr de satisfaire tout le monde.
+
+Pour plus d'informations sur, veuillez consulter la page <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> du dépot Github.
+
+Version 1.0.1.0 (VERSION BÊTA DE GITHUB)
+Correction d'un bug qui empêchait le chargement d'une sauvegarde de jeu avec 'Easy Development Controls' actif si le temps était arrêté lors de la sauvegarde.
+Correction d'un bug qui empêchait la modification des "États de production" via l'écran "Placeables" après l'utilisation de la fonction "Recharger".
+
+Correction de la mesure du "pied" affichée de manière incorrecte lorsque la valeur était> 1 pour les longueurs de bûches (utilisateurs de réglage de jeu Fahrenheit uniquement).
+Suppression de la palette de coton de la liste d'apparition en raison d'une incompatibilité.
+Petites corrections de bugs.
+
+Ajout de 'defaultUserSettings.xml', les paramètres utilisateur par défaut seront chargés à partir de ce fichier en multijoueur et lors du démarrage d'une nouvelle partie.
+Le fichier XML sera créé au chargement à : '/My Games/FarmingSimulator2022/modSettings/FS22_EasyDevControls'.
+
+Traductions françaises (fr) ajoutées.
+Traductions russes (ru) ajoutées.
+Traductions polonaises / polski (pl) ajoutées.
+Traductions en portugais brésilien (br) ajoutées.]]>
+        </fr>
+        <es>
+            <![CDATA[Easy Development Controls esta diseñado como una herramienta de testeo para modders, creadores de mapas y contenido. También puede ayudar con las configuraciones del juego o con la forma en que desees jugar.
+
+Incluye algunas funciones ya disponibles a través de los comandos de la consola del propio juego, pero ahora fácilmente accesibles desde un menú, además de la inclusión de muchas funciones nuevas.
+
+La mayoría de las funciones admiten el uso en multijugador y también se pueden ajustar los niveles de permiso de algunos comandos. Esto ahora también incluye comandos de consola existentes que anteriormente solo funcionaban para el host.
+
+Algunas características de calidad de vida también se han agregado como:
+
+ - Teletransporte: Podrá moverse usted mismo o sus vehículos rápidamente por el mapa seleccionando una ubicación en el mapa, por número de campo o indicando coordenadas X/Z.
+ - Voltear Vehículos: Permite al usuario corregir fácilmente la orientación vertical de un vehículo.
+ - Super Fuerza: Aumenta el peso que se puede levantar a mano y la distancia de agarre.
+ - Visilibidad HUD: Muestra u Oculta todo el HUD, también puede asginar una/s tecla/s para un acceso más rápido.
+ - Mostrar Localicación Pacas: Esto muestra todas las pacas en propiedad de la granja en su ubicación actual en el mapa.
+ - Mostrar Localización Palets: Esto muestra todas los palets en propiedad de la granja en su ubicación actual en el mapa.
+ - Avanzar Crecimiento: Avanza todos los cultivos a la siguiente etapa de crecimiento.
+
+con el gran número de funciones más las que están planeadas incorporar, Easy Development Controls seguro que podrá satisfacer a todo el mundo.
+
+Para obtener más información sobre el juego, consulte el <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> en el repositorio de Github.]]>
+        </es>
+    </description>
+
+    <multiplayer supported="true"/>
+    <iconFilename>icon.dds</iconFilename>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/main.lua" />
+    </extraSourceFiles>
+
+    <l10n filenamePrefix="translations/translation"/>
+
+    <inputBinding>
+        <actionBinding action="EDC_SHOW_UI">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_f12" /> <!--F11 Key from FS19 version not possible as it is now reflection maps and no way to disable :-( -->
+        </actionBinding>
+        <actionBinding action="EDC_PLAYER_RUN_SPEED">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_end" />
+        </actionBinding>
+        <actionBinding action="EDC_OBJECT_DELETE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_delete" />
+        </actionBinding>
+        <actionBinding action="EDC_TOGGLE_HUD">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_scrolllock" />
+        </actionBinding>
+    </inputBinding>
+
+    <actions>
+        <action name="EDC_SHOW_UI" axisType="HALF"/>
+        <action name="EDC_PLAYER_RUN_SPEED" />
+        <action name="EDC_OBJECT_DELETE" />
+        <action name="EDC_TOGGLE_HUD" />
+    </actions>
+</modDesc>

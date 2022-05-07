@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUIProfiles>
+    <Presets>
+        <Preset name="colourTransparent" value="0 0 0 0"/>
+        <Preset name="colourMainUI"    value="0.0227 0.5346 0.8519 1.0"/>
+        <Preset name="colourMainUI_10" value="0.0227 0.5346 0.8519 0.1"/>
+        <Preset name="colourMainUI_30" value="0.0227 0.5346 0.8519 0.3"/>
+        <Preset name="colourGlass" value="0.0036 0.0056 0.0065 0.5"/>
+        <Preset name="colourGlassMedium" value="0.118 0.116 0.115 0.20"/>
+        <Preset name="colourGreen" value="0.3763 0.6038 0.0782 1"/>
+        <Preset name="colourRed" value="0.8069 0.0097 0.0097 1"/>
+        <Preset name="colourBlack3" value="0.013 0.013 0.013 1"/>
+        <Preset name="colourLightGrey" value="0.0482 0.0482 0.0482 1"/>
+        <Preset name="colourGlassDark" value="0.018 0.016 0.015 0.65"/>
+        <Preset name="colourWhite" value="1 1 1 1"/>
+        <Preset name="colourWhite_50" value="1 1 1 0.5"/>
+        <Preset name="colourDisabled" value="0.4 0.4 0.4 1"/>
+        <Preset name="colourHeaderText" value="0.1714 0.2122 0.2270 1" />
+        <Preset name="colourDialogBackground" value="0 0 0 0.8" />
+        <Preset name="colourFocusBackgroundGradient" value="0.0227 0.5346 0.8519 1" />
+        <Preset name="colourListItemBackground" value="0.3140 0.8069 1.0000 0.02" />
+        <Preset name="colourListItemAlternateBackground" value="0.3140 0.8069 1.0000 0.08" />
+    </Presets>
+
+    <Traits>
+        <Trait name="devControlsAnchorTopLeft">
+            <Value name="anchors" value="0 0 1 1" />
+        </Trait>
+        <Trait name="devControlsAnchorTopRight">
+            <Value name="anchors" value="1 1 1 1" />
+        </Trait>
+        <Trait name="devControlsAnchorMiddleLeft">
+            <Value name="anchors" value="0 0 0.5 0.5" />
+        </Trait>
+        <Trait name="devControlsAnchorMiddleCenter">
+            <Value name="anchors" value="0.5 0.5 0.5 0.5" />
+        </Trait>
+        <Trait name="devControlsAnchorMiddleRight">
+            <Value name="anchors" value="1 1 0.5 0.5" />
+        </Trait>
+        <Trait name="devControlsAnchorBottomLeft">
+            <Value name="anchors" value="0 0 0 0" />
+        </Trait>
+        <Trait name="devControlsAnchorBottomCenter">
+            <Value name="anchors" value="0.5 0.5 0 0" />
+        </Trait>
+        <Trait name="devControlsAnchorBottomRight">
+            <Value name="anchors" value="1 1 0 0" />
+        </Trait>
+        <Trait name="devControlsAlternating">
+            <Value name="alternateBackgroundColor" value="$preset_colourListItemAlternateBackground" />
+        </Trait>
+    </Traits>
+
+    <Profile name="devControlsFrame" extends="emptyPanel" with="devControlsAnchorMiddleCenter">
+        <Value name="size" value="1624px 776px"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="devControlsHeaderPanel" extends="emptyPanel" with="devControlsAnchorTopLeft">
+        <Value name="size" value="1536px 64px"/>
+        <Value name="position" value="44px 64px"/>
+    </Profile>
+
+    <Profile name="devControlsHeaderText" extends="textDefault" with="devControlsAnchorMiddleLeft">
+        <Value name="size" value="1200px 64px" />
+        <Value name="position" value="0px 0" />
+        <Value name="textSize" value="31px"/>
+        <Value name="textBold" value="false"/>
+        <Value name="textUpperCase" value="true"/>
+        <Value name="textDisabledColor" value="$preset_colourDisabled"/>
+    </Profile>
+
+    <Profile name="devControlsContainer" extends="emptyPanel" with="devControlsAnchorTopLeft">
+        <Value name="size" value="1624px 776px"/>
+        <Value name="position" value="0" />
+    </Profile>
+
+    <Profile name="devControlsPermissionsLayout" extends="baseReference" with="devControlsAnchorTopLeft">
+        <Value name="imageColor" value="$preset_colourTransparent" />
+        <Value name="size" value="1528px 776px"/>
+        <Value name="fitFlowToElements" value="true"/>
+        <Value name="flowDirection" value="vertical" />
+    </Profile>
+
+    <Profile name="devControlsLayout" extends="baseReference" with="devControlsAnchorTopLeft">
+        <Value name="imageColor" value="$preset_colourTransparent" />
+        <Value name="position" value="0px -20px"/>
+        <Value name="size" value="1624px 706px"/>
+        <Value name="fitFlowToElements" value="true"/>
+        <Value name="flowDirection" value="vertical" />
+        <Value name="numFlows" value="4"/>
+        <Value name="wrapAround" value="true"/>
+    </Profile>
+
+    <Profile name="devControlsInfoRowBg" extends="emptyPanel" with="devControlsAnchorBottomLeft">
+        <Value name="position" value="44px 0px"/>
+        <Value name="size" value="1536px 48px"/>
+        <Value name="imageColor" value="$preset_colourMainUI_10"/>
+        <Value name="imageDisabledColor" value="$preset_colourGlass"/>
+    </Profile>
+
+    <Profile name="devControlsInfoRowText" extends="shopListAttributeInfo">
+        <Value name="textColor" value="$preset_colourWhite"/>
+        <Value name="position" value="55px 0px"/>
+        <Value name="textWrapWidth" value="885px"/>
+    </Profile>
+
+    <Profile name="devControlsInfoRowIcon" extends="baseReference" with="devControlsAnchorMiddleLeft">
+        <Value name="position" value="20px 0px"/>
+        <Value name="imageUVs" value="390px 294px 36px 36px"/>
+        <Value name="imageColor" value="$preset_colourMainUI"/>
+        <Value name="size" value="26px 26px"/>
+    </Profile>
+
+    <Profile name="devControlsConfirm" extends="ingameMenuSettingsNativeHelpButton">
+        <Value name="size" value="316px 48px"/>
+        <Value name="position" value="0px 0px"/>
+        <Value name="imageUVs" value="10px 1010px 4px 4px"/>
+        <Value name="iconUVs" value="154px 347px 27px 27px"/>
+        <Value name="iconSize" value="26px 26px"/>
+        <Value name="iconTextOffset" value="-10px -2px"/>
+        <Value name="iconColor" value="$preset_colourGreen"/>
+        <Value name="iconFocusedColor" value="$preset_colourBlack3"/>
+        <Value name="iconDisabledColor" value="$preset_colourLightGrey"/>
+        <Value name="iconRotation" value="0"/>
+        <Value name="imageHighlightedColor" value="$preset_colourMainUI"/>
+        <Value name="iconHighlightedColor" value="$preset_colourGlassDark"/>
+        <Value name="textHighlightedColor" value="$preset_colourWhite"/>
+        <Value name="textAlignment" value="center"/>
+        <Value name="textVerticalAlignment" value="middle"/>
+        <Value name="screenAlign" value="bottomRight"/>
+        <Value name="positionOrigin" value="bottomRight"/>
+        <Value name="margin" value="44px 24px 44px 24px"/>
+        <Value name="forceFocus" value="false"/>
+    </Profile>
+
+    <Profile name="devControlsConfirmNoIcon" extends="baseReference" with="devControlsAnchorMiddleLeft">
+        <Value name="handleFocus" value="true"/>
+        <Value name="size" value="316px 48px"/>
+        <Value name="fitToContent" value="false"/>
+        <Value name="position" value="0px 0px"/>
+
+        <Value name="screenAlign" value="bottomRight"/>
+        <Value name="positionOrigin" value="bottomRight"/>
+        <Value name="margin" value="44px 24px 44px 24px"/>
+        <Value name="forceFocus" value="false"/>
+
+        <Value name="textMaxWidth" value="300px"/>
+        <Value name="textLayoutMode" value="resize"/>
+        <Value name="textFocusedColor" value="$preset_colourGlassDark"/>
+        <Value name="textSelectedColor" value="$preset_colourBlack3"/>
+        <Value name="textHighlightedColor" value="$preset_colourGlassDark"/>
+        <Value name="textDisabledColor" value="$preset_colourLightGrey"/>
+
+        <Value name="textAlignment" value="center"/>
+        <Value name="textVerticalAlignment" value="middle"/>
+        <Value name="textSize" value="17px"/>
+        <Value name="textBold" value="true"/>
+        <Value name="textUpperCase" value="true"/>
+        <Value name="textMaxNumLines" value="1"/>
+        <Value name="textAutoWidth" value="true"/>
+
+        <Value name="imageColor" value="$preset_colourMainUI_30"/>
+        <Value name="imageDisabledColor" value="$preset_colourGlass"/>
+        <Value name="imageFocusedColor" value="$preset_colourMainUI"/>
+        <Value name="imageHighlightedColor" value="$preset_colourMainUI"/>
+    </Profile>
+
+    <Profile name="devControlsRefresh" extends="ingameMenuSettingsNativeHelpButton">
+        <Value name="size" value="316px 48px"/>
+        <Value name="position" value="0px 0px"/>
+        <Value name="imageUVs" value="10px 1010px 4px 4px"/>
+        <Value name="iconUVs" value="0px 64px 64px 64px"/>
+        <Value name="iconSize" value="34px 34px"/>
+        <!-- Icon filename needs to be set by code to 'self.ui.iconsUIFilename' -->
+    </Profile>
+
+    <Profile name="devControlsInfo" extends="wideButton" with="devControlsAnchorMiddleRight">
+        <Value name="size" value="48px 48px"/>
+        <Value name="position" value="0px 0px"/>
+        <Value name="fitToContent" value="false"/>
+        <Value name="fitExtraWidth" value="0" />
+        <Value name="handleFocus" value="false"/>
+        <Value name="iconUVs" value="74px 74px 44px 44px"/>
+        <!-- Icon filename needs to be set by code to 'self.ui.iconsUIFilename' -->
+    </Profile>
+
+    <Profile name="devControlsTextInput" extends="textInput">
+        <Value name="handleFocus" value="true"/>
+        <Value name="maxInputTextWidth" value="300px"/>
+        <Value name="textAlignment" value="center"/>
+        <Value name="maxCharacters" value="11"/>
+        <Value name="margin" value="44px 24px 44px 24px"/>
+        <Value name="imageDisabledColor" value="$preset_colourGlass"/>
+    </Profile>
+
+    <Profile name="devControlsMultiTextOption" extends="multiTextOption">
+        <Value name="margin" value="44px 24px 44px 24px"/>
+    </Profile>
+
+    <Profile name="devControlsMultiTextOptionLeft" extends="multiTextOptionLeft">
+    </Profile>
+
+    <Profile name="devControlsMultiTextOptionRight" extends="multiTextOptionRight">
+    </Profile>
+
+    <Profile name="devControlsMultiTextOptionText" extends="multiTextOptionText">
+
+    </Profile>
+    <Profile name="devControlsMultiTextOptionTitle" extends="multiTextOptionTitle">
+        <Value name="position" value="0px 8px"/>
+        <Value name="textAlignment" value="left"/>
+        <Value name="textSize" value="18px"/>
+        <Value name="textMaxWidth" value="295px"/>
+    </Profile>
+
+    <Profile name="devControlsMultiTextOptionBg" extends="multiTextOptionBg">
+    </Profile>
+
+    <Profile name="devControlsMultiTextOptionClose" extends="devControlsMultiTextOption">
+        <Value name="margin" value="44px -18px 44px 24px"/>
+    </Profile>
+
+    <Profile name="devControlsConfirmClose" extends="devControlsConfirm">
+        <Value name="margin" value="44px -18px 44px 24px"/>
+    </Profile>
+
+    <Profile name="devControlsConfirmNoIconClose" extends="devControlsConfirmNoIcon">
+        <Value name="margin" value="44px -18px 44px 24px"/>
+    </Profile>
+
+    <Profile name="devControlsTextInputClose" extends="devControlsTextInput">
+        <Value name="margin" value="44px -18px 44px 24px"/>
+    </Profile>
+
+    <Profile name="devControlsSpacer" extends="emptyPanel">
+        <Value name="size" value="316px 48px"/>
+        <Value name="position" value="0"/>
+        <Value name="margin" value="44px 24px 44px 24px"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="devControlsAddRemoveButtons" extends="devControlsMultiTextOption">
+    </Profile>
+
+    <Profile name="devControlsAddRemoveButtonsClose" extends="devControlsMultiTextOptionClose">
+    </Profile>
+
+    <Profile name="devControlsAddRemoveButtonsLeft" extends="devControlsMultiTextOptionLeft">
+        <Value name="margin" value="44px -17px 44px 0px"/>
+        <Value name="iconUVs" value="960px 391px 34px 34px"/>
+        <Value name="iconColor" value="$preset_colourRed"/>
+        <Value name="iconSize" value="26px 26px"/>
+        <Value name="iconTextOffset" value="0px 0px"/>
+        <Value name="size" value="157px 48px"/>
+        <Value name="clickSound" value="CLICK"/>
+        <Value name="name" value="REMOVE"/>
+    </Profile>
+
+    <Profile name="devControlsAddRemoveButtonsRight" extends="devControlsAddRemoveButtonsLeft" with="devControlsAnchorBottomRight">
+        <Value name="margin" value="203px -48px 44px 24px"/>
+        <Value name="iconUVs" value="245px 344px 34px 34px"/>
+        <Value name="iconColor" value="$preset_colourGreen"/>
+        <Value name="name" value="ADD"/>
+    </Profile>
+
+    <Profile name="devControlsTextDisplayBg" extends="devControlsMultiTextOptionBg">
+        <Value name="position" value="0"/>
+        <Value name="size" value="316px 48px"/>
+        <Value name="margin" value="44px 24px 44px 24px"/>
+        <Value name="textSize" value="18px"/>
+        <Value name="textBold" value="false"/>
+        <Value name="textAlignment" value="center"/>
+        <Value name="textVerticalAlignment" value="middle"/>
+        <Value name="imageUVs" value="10px 1010px 4px 4px"/>
+        <Value name="imageColor" value="$preset_colourMainUI_10"/>
+        <Value name="imageFocusedColor" value="$preset_colourMainUI"/>
+        <Value name="imageFilename" value="g_baseUIFilename"/>
+    </Profile>
+
+    <Profile name="devControlsTextDisplayText" extends="devControlsMultiTextOptionBg">
+        <Value name="position" value="0"/>
+        <Value name="size" value="316px 48px"/>
+        <Value name="textSize" value="18px"/>
+        <Value name="textBold" value="false"/>
+        <Value name="textMaxWidth" value="290px"/>
+        <Value name="textAlignment" value="center"/>
+        <Value name="textLayoutMode" value="resize"/>
+        <Value name="textMaxNumLines" value="1"/>
+        <Value name="textVerticalAlignment" value="middle"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandNavigationBox" extends="emptyPanel" with="devControlsAnchorTopLeft">
+        <Value name="position" value="0px 0"/>
+        <Value name="size" value="534px 756px"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandList" extends="ingameMenuHelpList" with="devControlsAlternating">
+        <Value name="size" value="534px 708px"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandCategory" extends="listItem">
+        <Value name="size" value="534px 56px"/>
+
+        <Value name="imageColor" value="$preset_colourListItemBackground"/>
+        <Value name="imageFocusedColor" value="$preset_colourFocusBackgroundGradient"/>
+        <Value name="imageSelectedColor" value="$preset_colourFocusBackgroundGradient"/>
+
+        <Value name="alternateBackgroundColor" value="$preset_colourListItemAlternateBackground"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandCategoryTitle" extends="ingameMenuHelpListCategoryTitle">
+        <Value name="size" value="534px 56px" />
+        <Value name="textMaxWidth" value="434px" />
+        <Value name="textVerticalAlignment" value="middle"/>
+        <Value name="textSize" value="22px"/>
+        <Value name="textBold" value="true"/>
+        <Value name="textOffset" value="74px 0px"/>
+        <Value name="textFocusedOffset" value="74px 0px"/>
+        <Value name="textColor" value="$preset_colourHeaderText"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandCategoryIcon" extends="baseReference" with="devControlsAnchorMiddleLeft">
+        <Value name="size" value="56px 56px"/>
+        <Value name="position" value="10px 0" />
+        <Value name="imageUVs" value="0 0 1 1"/>
+        <Value name="imageColor" value="$preset_colourHeaderText"/>
+        <Value name="imageSelectedColor" value="$preset_colourWhite"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandContentBox" extends="ingameMenuHelpContentBox" with="devControlsAnchorTopRight">
+        <Value name="size" value="934px 776px"/>
+        <Value name="position" value="-28px 0"/>
+    </Profile>
+
+    <Profile name="devControlsHelpItemContentBox" extends="baseReference">
+        <Value name="size" value="854px 768px"/>
+        <Value name="imageColor" value="$preset_colourTransparent"/>
+        <Value name="autoValidateLayout" value="true"/>
+        <Value name="position" value="56px 0px"/>
+
+    </Profile>
+
+    <Profile name="devControlsHelpCommandItem" extends="baseReference">
+        <Value name="size" value="854px 200px"/>
+        <Value name="margin" value="0px 0px 0px 30px"/>
+        <Value name="flowDirection" value="horizontal" />
+        <Value name="alignmentX" value="left" />
+        <Value name="alignmentY" value="top" />
+
+        <Value name="imageColor" value="$preset_colourTransparent"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandTitle" extends="textDefault">
+        <Value name="size" value="854px 30px"/>
+        <Value name="textVerticalAlignment" value="top"/>
+        <Value name="textOffset" value="0"/>
+        <Value name="textSize" value="20px"/>
+        <Value name="textBold" value="true"/>
+        <Value name="textColor" value="$preset_colourMainUI"/>
+    </Profile>
+
+    <Profile name="devControlsHelpCommandText" extends="textDefault" >
+        <Value name="size" value="854px 18px"/>
+        <Value name="textVerticalAlignment" value="top"/>
+        <Value name="textSize" value="18px"/>
+        <Value name="textBold" value="false"/>
+        <Value name="textMaxWidth" value="854px"/>
+        <Value name="textMaxNumLines" value="100"/>
+        <Value name="textColor" value="$preset_colourWhite_50"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionDialogBg" extends="yesNoDialogBg">
+        <Value name="size" value="404px 128px"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionDialogLayout" extends="devControlsLayout" >
+        <Value name="position" value="0px -20px"/>
+        <Value name="size" value="404px 128px"/>
+        <Value name="numFlows" value="8"/>
+        <Value name="flowMargin" value="22px 0px 0px 0px"/>
+        <Value name="wrapAround" value="true"/>
+        <Value name="debugEnabled" value="false"/>
+        <Value name="flowDirection" value="horizontal" />
+    </Profile>
+
+    <Profile name="dynamicSelectionDialogLayoutVertical" extends="dynamicSelectionDialogLayout" >
+        <Value name="flowDirection" value="vertical" />
+    </Profile>
+
+
+    <Profile name="dynamicSelectionMultiTextOption" extends="devControlsMultiTextOption">
+        <Value name="margin" value="22px 24px 22px 24px"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionTextInput" extends="devControlsTextInput">
+        <Value name="margin" value="22px 24px 22px 24px"/>
+        <Value name="imageDisabledColor" value="$preset_colourMainUI_10"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionConfirm" extends="devControlsConfirm">
+        <Value name="margin" value="22px 24px 22px 24px"/>
+        <Value name="imageDisabledColor" value="$preset_colourMainUI_10"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionSpacer" extends="devControlsSpacer">
+        <Value name="margin" value="22px 24px 22px 24px"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionMultiTextOptionClose" extends="dynamicSelectionMultiTextOption">
+        <Value name="margin" value="22px -18px 22px 24px"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionTextInputClose" extends="dynamicSelectionTextInput">
+        <Value name="margin" value="22px -18px 22px 24px"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionConfirmClose" extends="dynamicSelectionConfirm">
+        <Value name="margin" value="22px -18px 22px 24px"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionMultiTextOptionLeft" extends="devControlsMultiTextOptionLeft">
+        <Value name="imageDisabledColor" value="$preset_colourMainUI_30"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionMultiTextOptionRight" extends="devControlsMultiTextOptionRight">
+        <Value name="imageDisabledColor" value="$preset_colourMainUI_30"/>
+    </Profile>
+
+    <Profile name="dynamicSelectionMultiTextOptionBg" extends="devControlsMultiTextOptionBg">
+        <Value name="imageDisabledColor" value="$preset_colourMainUI_10"/>
+    </Profile>
+
+    <Profile name="dynamicListDialogBg" extends="uiElementContainerFullScreen">
+        <Value name="size" value="1100px 710px"/>
+        <Value name="imageColor" value="$preset_colourDialogBackground"/>
+        <Value name="imageFocusedColor" value="$preset_colourDialogBackground"/>
+        <Value name="imageSelectedColor" value="$preset_colourDialogBackground"/>
+
+        <Value name="hasFrame" value="true" />
+        <Value name="frameThickness" value="0 0 0 2dp" />
+        <Value name="frameBottomColor" value="$preset_colourMainUI" />
+    </Profile>
+
+    <Profile name="dynamicListDialogContentBox" extends="ingameMenuHelpNavigationBox" with="devControlsAnchorBottomCenter">
+        <Value name="size" value="1060px 680px"/>
+        <Value name="position" value="0px 20px"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="dynamicListDialogScrollingLayout" extends="baseReference">
+        <Value name="size" value="1060px 680px"/>
+        <Value name="position" value="0px 0px"/>
+        <Value name="imageColor" value="$preset_colourTransparent"/>
+        <Value name="autoValidateLayout" value="true"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="dynamicListDialogItem" extends="baseReference">
+        <Value name="size" value="1040px 50px"/>
+        <Value name="imageColor" value="$preset_colourTransparent"/>
+        <Value name="margin" value="10px 10px 20px 10px"/>
+        <Value name="flowDirection" value="horizontal" />
+        <Value name="alignmentX" value="left" />
+        <Value name="alignmentY" value="top" />
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="dynamicListDialogTitle" extends="textDefault">
+        <Value name="size" value="1100px 30px"/>
+        <Value name="textVerticalAlignment" value="top"/>
+        <Value name="textSize" value="20px"/>
+        <Value name="textOffset" value="10px -5px"/>
+        <Value name="textBold" value="true"/>
+        <Value name="textMaxWidth" value="1100px"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="dynamicListDialogText" extends="textDefault" >
+        <Value name="size" value="1040px 18px"/>
+        <Value name="textVerticalAlignment" value="top"/>
+        <Value name="textSize" value="18px"/>
+        <Value name="textOffset" value="10px -5px"/>
+        <Value name="textBold" value="false"/>
+        <Value name="textMaxWidth" value="1040px"/>
+        <Value name="textMaxNumLines" value="1000"/>
+        <Value name="textColor" value="$preset_colourWhite_50"/>
+        <Value name="debugEnabled" value="false"/>
+    </Profile>
+
+    <Profile name="dynamicListDialogEmptyBox" extends="emptyPanel" with="devControlsAnchorMiddleCenter">
+        <Value name="size" value="770px 710px" />
+    </Profile>
+
+    <Profile name="dynamicListDialogEmptyText" extends="textDefault" with="devControlsAnchorMiddleCenter">
+        <Value name="textSize" value="24px" />
+        <Value name="textAlignment" value="center" />
+        <Value name="textAutoWidth" value="true" />
+        <Value name="textMaxNumLines" value="2" />
+        <Value name="textMaxWidth" value="600px" />
+    </Profile>
+</GUIProfiles>

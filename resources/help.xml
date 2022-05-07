@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<help version="1.0.0.0" buildId="1">
+    <annotation>Copyright (C) GtX | Andy, 2022</annotation>
+
+    <page title="$l10n_easyDevControls_generalHeader" name="GENERAL">
+        <command title="$l10n_easyDevControls_addMoneyTitle" text="$l10n_easyDevControls_addMoneyHelp"/>
+        <command title="$l10n_easyDevControls_removeMoneyTitle" text="$l10n_easyDevControls_removeMoneyHelp"/>
+        <command title="$l10n_easyDevControls_setMoneyTitle" text="$l10n_easyDevControls_setMoneyHelp"/>
+        <command title="$l10n_easyDevControls_extraTimescalesTitle" text="$l10n_easyDevControls_extraTimescalesHelp" getParamsFunc="getCustomTimeScaleParams"/>
+        <command title="$l10n_easyDevControls_stopTimeTitle" text="$l10n_easyDevControls_stopTimeHelp" />
+        <command title="$l10n_easyDevControls_flightModeToggleTitle" text="$l10n_easyDevControls_flightModeToggleHelp"/>
+        <command title="$l10n_easyDevControls_flightModeStateTitle" text="$l10n_easyDevControls_flightModeStateHelp"/>
+        <command title="$l10n_easyDevControls_hudVisibilityTitle" text="$l10n_easyDevControls_hudVisibilityHelp"/>
+        <command title="$l10n_easyDevControls_hudInputTitle" text="$l10n_easyDevControls_hudInputHelp"/>
+        <command title="$l10n_easyDevControls_deleteObjectsKeyTitle" text="$l10n_easyDevControls_deleteObjectsKeyHelp"/>
+        <command title="$l10n_easyDevControls_teleportTitle" text="$l10n_easyDevControls_teleportHelp"/>
+        <command title="$l10n_easyDevControls_flipVehiclesTitle" text="$l10n_easyDevControls_flipVehiclesHelp"/>
+        <command title="$l10n_easyDevControls_setFOVAngleTitle" text="$l10n_easyDevControls_setFOVAngleHelp"/>
+        <command title="$l10n_easyDevControls_setQualityTitle" text="$l10n_easyDevControls_setQualityHelp" paramsFormatting="\n\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s"
+                 params="$l10n_setting_objectDrawDistance|$l10n_setting_LODDistance|$l10n_setting_terrainLODDistance|$l10n_setting_foliageDrawDistance|$l10n_setting_volumeMeshTessellation"/>
+        <command title="$l10n_easyDevControls_showCollectablesTitle" text="$l10n_easyDevControls_showCollectablesHelp" />
+        <command title="$l10n_easyDevControls_clearI3DCacheTitle" text="$l10n_easyDevControls_clearI3DCacheHelp" />
+    </page>
+
+    <page title="$l10n_easyDevControls_playerHeader" name="PLAYER">
+        <command name="superStrength" title="$l10n_easyDevControls_superStrengthTitle" text="$l10n_easyDevControls_superStrengthHelp"/>
+        <command title="$l10n_easyDevControls_jumpMultiplierTitle" text="$l10n_easyDevControls_jumpMultiplierHelp"/>
+        <command name="thirdPersonView" title="$l10n_easyDevControls_thirdPersonViewTitle" text="$l10n_easyDevControls_thirdPersonViewHelp"/>
+        <command title="$l10n_easyDevControls_woodCuttingMarkerTitle" text="$l10n_easyDevControls_woodCuttingMarkerHelp"/>
+        <command title="$l10n_easyDevControls_aimOverlayTitle" text="$l10n_easyDevControls_aimOverlayHelp"/>
+        <command title="$l10n_easyDevControls_runSpeedTitle" text="$l10n_easyDevControls_runSpeedHelp"/>
+        <command title="$l10n_easyDevControls_runSpeedKeyTitle" text="$l10n_easyDevControls_runSpeedKeyHelp"/>
+        <command title="$l10n_easyDevControls_setFarmTitle" text="$l10n_easyDevControls_setFarmHelp"/>
+        <command title="$l10n_easyDevControls_playerDebugTitle" text="$l10n_easyDevControls_playerDebugHelp"/>
+        <command title="$l10n_easyDevControls_playerFsmDebugTitle" text="$l10n_easyDevControls_playerFsmDebugHelp"/>
+        <command title="$l10n_easyDevControls_playerFsmStateJumpDebugTitle" text="$l10n_easyDevControls_playerFsmStateJumpDebugHelp"/>
+    </page>
+
+    <page title="$l10n_easyDevControls_objectsHeader" name="OBJECTS">
+        <command title="$l10n_easyDevControls_addBaleTitle" text="$l10n_easyDevControls_addBaleHelp"/>
+        <command title="$l10n_easyDevControls_availableBaleTypesTitle" text="$l10n_easyDevControls_availableBaleTypesHelp"/>
+        <command title="$l10n_easyDevControls_fermentingBalesTitle" text="$l10n_easyDevControls_fermentingBalesHelp"/>
+        <command title="$l10n_easyDevControls_showBaleLocationsTitle" text="$l10n_easyDevControls_showBaleLocationsHelp" paramsFormatting="\n\n-    %s:  %s\n-    %s:  %s"
+                 params="$l10n_configuration_valueDefault|$l10n_ui_colorOrange|$l10n_setting_colorBlindMode|$l10n_ui_colorPurple"/>
+        <command title="$l10n_easyDevControls_showPalletLocationsTitle" text="$l10n_easyDevControls_showPalletLocationsHelp" paramsFormatting="\n\n-    %s:  %s\n-    %s:  %s"
+                 params="$l10n_configuration_valueDefault|$l10n_ui_colorGreen|$l10n_setting_colorBlindMode|$l10n_ui_colorBlue"/>
+        <command title="$l10n_easyDevControls_addPalletTitle" text="$l10n_easyDevControls_addPalletHelp"/>
+        <command title="$l10n_easyDevControls_addLogTitle" text="$l10n_easyDevControls_addLogHelp"/>
+        <command title="$l10n_easyDevControls_tipToTriggerTitle" text="$l10n_easyDevControls_tipToTriggerHelp"/>
+        <command title="$l10n_easyDevControls_tipToGroundTitle" text="$l10n_easyDevControls_tipToGroundHelp"/>
+        <command title="$l10n_easyDevControls_clearTipAreaTitle" text="$l10n_easyDevControls_clearTipAreaHelp"/>
+        <command title="$l10n_easyDevControls_showTipCollisionsTitle" text="$l10n_easyDevControls_showTipCollisionsHelp"/>
+        <command title="$l10n_easyDevControls_removeAllBalesTitle" text="$l10n_easyDevControls_removeAllBalesHelp"/>
+        <command title="$l10n_easyDevControls_removeAllPalletsTitle" text="$l10n_easyDevControls_removeAllPalletsHelp"/>
+        <command title="$l10n_easyDevControls_removeAllLogsTitle" text="$l10n_easyDevControls_removeAllLogsHelp"/>
+        <command title="$l10n_easyDevControls_removeAllStumpsTitle" text="$l10n_easyDevControls_removeAllStumpsHelp"/>
+    </page>
+
+    <page title="$l10n_easyDevControls_vehiclesHeader" name="VEHICLES">
+        <command title="$l10n_easyDevControls_reloadVehicleTitle" text="$l10n_easyDevControls_reloadVehicleHelp"/>
+        <command title="$l10n_easyDevControls_analyseVehicleTitle" text="$l10n_easyDevControls_analyseVehicleHelp"/>
+        <command title="$l10n_easyDevControls_fillUnitFillLevelTitle" text="$l10n_easyDevControls_fillUnitFillLevelHelp"/>
+        <command title="$l10n_easyDevControls_toggleCoverTitle" text="$l10n_easyDevControls_toggleCoverHelp"/>
+        <command title="$l10n_easyDevControls_vehicleConditionTitle" text="$l10n_easyDevControls_vehicleConditionHelp"/>
+        <command title="$l10n_easyDevControls_vehicleFuelTitle" text="$l10n_easyDevControls_vehicleFuelHelp"/>
+        <command title="$l10n_easyDevControls_setPowerConsumerTitle" text="$l10n_easyDevControls_setPowerConsumerHelp" paramsFormatting="\n\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s"
+                 params="$l10n_easyDevControls_neededMinPtoPowerTitle|$l10n_easyDevControls_neededMaxPtoPowerTitle|$l10n_easyDevControls_forceFactorTitle|$l10n_easyDevControls_maxForceTitle|$l10n_easyDevControls_forceDir|$l10n_easyDevControls_ptoRpm|$l10n_easyDevControls_syncVehicles|$l10n_easyDevControls_resetToDefault"/>
+        <command title="$l10n_easyDevControls_vehicleMotorTempTitle" text="$l10n_easyDevControls_vehicleMotorTempHelp"/>
+        <command title="$l10n_easyDevControls_vehicleOperatingTimeTitle" text="$l10n_easyDevControls_vehicleOperatingTimeHelp"/>
+        <command title="$l10n_easyDevControls_removeAllVehiclesTitle" text="$l10n_easyDevControls_removeAllVehiclesHelp"/>
+        <command title="$l10n_easyDevControls_globalWiperStateTitle" text="$l10n_easyDevControls_globalWiperStateHelp"/>
+        <command title="$l10n_easyDevControls_vehicleDistanceTitle" text="$l10n_easyDevControls_vehicleDistanceHelp"/>
+        <command title="$l10n_easyDevControls_vehicleDebugTitle" text="$l10n_easyDevControls_vehicleDebugHelp" paramsFormatting="\n\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s"
+                 params="Values|Physics|Tuning|Transmission|Attributes|Attacher Joints|AI|Sounds|Animation"/>
+        <command title="$l10n_easyDevControls_tensionBeltsDebugTitle" text="$l10n_easyDevControls_tensionBeltsDebugHelp"/>
+    </page>
+
+    <page title="$l10n_easyDevControls_placeablesHeader" name="PLACEABLES">
+        <command title="$l10n_easyDevControls_productionPointTitle" text="$l10n_easyDevControls_productionPointHelp"/>
+        <command title="$l10n_easyDevControls_productionPointListTitle" text="$l10n_easyDevControls_productionPointListHelp" paramsFormatting="\n\n-    %s\n-    %s\n-    %s\n-    %s"
+                 params="$l10n_easyDevControls_activeProductions|$l10n_easyDevControls_owner|$l10n_easyDevControls_price|$l10n_easyDevControls_tableId"/>
+        <command title="$l10n_easyDevControls_deliveryMappingTitle" text="$l10n_easyDevControls_deliveryMappingHelp"/>
+        <command title="$l10n_easyDevControls_productionPointDebugTitle" text="$l10n_easyDevControls_productionPointDebugHelp"/>
+        <command title="$l10n_easyDevControls_showTestAreasTitle" text="$l10n_easyDevControls_showTestAreasHelp"/>
+        <command title="$l10n_easyDevControls_showPlacementCollisionsTitle" text="$l10n_easyDevControls_showPlacementCollisionsHelp"/>
+        <command title="$l10n_easyDevControls_reloadClosestPlaceableTitle" text="$l10n_easyDevControls_reloadPlaceableHelp"/>
+        <command title="$l10n_easyDevControls_reloadAllPlaceablesTitle" text="$l10n_easyDevControls_reloadAllPlaceablesHelp"/>
+        <command title="$l10n_easyDevControls_removeAllPlaceablesTitle" text="$l10n_easyDevControls_removeAllPlaceablesHelp"/>
+        <command title="$l10n_easyDevControls_removeAllMapPlaceablesTitle" text="$l10n_easyDevControls_removeAllMapPlaceablesHelp"/>
+    </page>
+
+    <page title="$l10n_easyDevControls_fieldsHeader" name="FIELDS">
+        <command title="$l10n_easyDevControls_fieldSetFruitTitle" text="$l10n_easyDevControls_fieldSetFruitHelp"
+                 paramsFormatting="\n\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n\n%s"
+                 params="$l10n_easyDevControls_fruitTypeTitle|$l10n_easyDevControls_growthStateTitle|$l10n_easyDevControls_groundLayerTitle|$l10n_easyDevControls_fertilizerStateTitle|$l10n_easyDevControls_plowingStateTitle|$l10n_easyDevControls_weedStateTitle|$l10n_easyDevControls_limeStateTitle|$l10n_easyDevControls_herbicideStateTitle|$l10n_easyDevControls_rollerStateTitle|$l10n_easyDevControls_stonesStateTitle|$l10n_easyDevControls_stubbleStateTitle|$l10n_easyDevControls_buyFarmlandTitle|$l10n_easyDevControls_fieldSetWarningHelp"/>
+        <command title="$l10n_easyDevControls_fieldSetGroundTitle" text="$l10n_easyDevControls_fieldSetGroundHelp"
+                 paramsFormatting="\n\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n-    %s\n\n%s"
+                 params="$l10n_easyDevControls_groundTypeTitle|$l10n_easyDevControls_angleTitle|$l10n_easyDevControls_groundLayerTitle|$l10n_easyDevControls_fertilizerStateTitle|$l10n_easyDevControls_plowingStateTitle|$l10n_easyDevControls_limeStateTitle|$l10n_easyDevControls_weedStateTitle|$l10n_easyDevControls_herbicideStateTitle|$l10n_easyDevControls_rollerStateTitle|$l10n_easyDevControls_stonesStateTitle|$l10n_easyDevControls_stubbleStateTitle|$l10n_easyDevControls_removeFoliageTitle|$l10n_easyDevControls_buyFarmlandTitle|$l10n_easyDevControls_fieldSetWarningHelp"/>
+        <command title="$l10n_easyDevControls_vineSetStateTitle" text="$l10n_easyDevControls_vineSetStateHelp"/>
+        <command title="$l10n_easyDevControls_vineUpdateVisualsTitle" text="$l10n_easyDevControls_vineUpdateVisualsHelp"/>
+        <command title="$l10n_setting_weedsEnabled" text="$l10n_easyDevControls_addRemoveWeedsHelp"/>
+        <command title="$l10n_setting_stonesEnabled" text="$l10n_easyDevControls_addRemoveStonesHelp"/>
+        <command title="$l10n_easyDevControls_advanceGrowthTitle" text="$l10n_easyDevControls_advanceGrowthHelp"/>
+        <command title="$l10n_easyDevControls_setGrowthPeriodTitle" text="$l10n_easyDevControls_setGrowthPeriodHelp"/>
+        <command title="$l10n_easyDevControls_setFarmlandOwnerTitle" text="$l10n_easyDevControls_setFarmlandOwnerHelp"/>
+        <command title="$l10n_easyDevControls_refreshFieldOverlayTitle" text="$l10n_easyDevControls_refreshFieldOverlayHelp"/>
+        <command title="$l10n_easyDevControls_debugFieldStatusTitle" text="$l10n_easyDevControls_debugFieldStatusHelp"/>
+        <command title="$l10n_easyDevControls_vineSystemDebugTitle" text="$l10n_easyDevControls_vineSystemDebugHelp"/>
+        <command title="$l10n_easyDevControls_vineSystemDebugTitle" text="$l10n_easyDevControls_vineSystemDebugHelp"/>
+        <command title="$l10n_easyDevControls_stoneSystemDebugTitle" text="$l10n_easyDevControls_stoneSystemDebugHelp"/>
+    </page>
+
+    <page title="$l10n_easyDevControls_environmentHeader" name="ENVIRONMENT">
+        <command title="$l10n_easyDevControls_setTimeTitle" text="$l10n_easyDevControls_setTimeHelp"/>
+        <command title="$l10n_easyDevControls_reloadedEnvironmentDataTitle" text="$l10n_easyDevControls_reloadedEnvironmentDataHelp"/>
+        <command title="$l10n_easyDevControls_reloadedWeatherDataTitle" text="$l10n_easyDevControls_reloadedWeatherDataHelp"/>
+        <command title="$l10n_easyDevControls_setAddWeatherHelpTitle" text="$l10n_easyDevControls_setAddWeatherHelp"/>
+        <command title="$l10n_easyDevControls_removeTireTracksTitle" text="$l10n_easyDevControls_removeTireTracksHelp"/>
+        <command title="$l10n_easyDevControls_weatherDebugTitle" text="$l10n_easyDevControls_weatherDebugHelp"/>
+        <command title="$l10n_easyDevControls_randomWindWavingTitle" text="$l10n_easyDevControls_randomWindWavingHelp"/>
+        <command title="$l10n_easyDevControls_seasonalShaderDebugTitle" text="$l10n_easyDevControls_seasonalShaderDebugHelp"/>
+        <command title="$l10n_easyDevControls_environmentMaskDebugTitle" text="$l10n_easyDevControls_environmentMaskDebugHelp"/>
+        <command title="$l10n_easyDevControls_addSnowTitle" text="$l10n_easyDevControls_addSnowHelp"/>
+        <command title="$l10n_easyDevControls_setSnowTitle" text="$l10n_easyDevControls_setSnowHelp"/>
+        <command title="$l10n_easyDevControls_removeSnowTitle" text="$l10n_easyDevControls_removeSnowHelp"/>
+        <command title="$l10n_easyDevControls_addSaltTitle" text="$l10n_easyDevControls_addSaltHelp"/>
+    </page>
+
+    <page title="$l10n_easyDevControls_permissionsHeader" name="PERMISSIONS" multiplayerOnly="true">
+        <command title="$l10n_easyDevControls_overview" text="$l10n_easyDevControls_permissionsHelp"/>
+    </page>
+
+    <page title="$l10n_easyDevControls_aboutHeader" name="ABOUT">
+        <command title="$l10n_easyDevControls_aboutHeader" text="$l10n_easyDevControls_aboutInfo"/>
+        <command title="$l10n_easyDevControls_info" text="%s" getParamsFunc="getReleaseParams"/>
+        <command title="$l10n_easyDevControls_bugReporting" text="www.github.com/GtX-Andy/easyDevelopmentControls/issues"/>
+        <command title="$l10n_easyDevControls_author" text="GtX"/>
+        <command title="$l10n_easyDevControls_translations" text="%s" getParamsFunc="getTranslationParams"/>
+    </page>
+</help>

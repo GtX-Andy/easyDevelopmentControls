@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!-- Offline / Multiplayer Host:
+      - Setting will only be applied on first load when no save game information is available.
+
+     Multiplier Client:
+      - Settings will be applied when joining any server
+      - The permissions set by the administrators will always take priority on each server!
+-->
+
+<defaultUserSettings revision="1">
+    <general>
+        <toggleHudInputEnabled>false</toggleHudInputEnabled> <!-- Options: true | false -->
+    </general>
+
+    <player>
+        <maxRunningSpeedInputActive>false</maxRunningSpeedInputActive> <!-- Options: true | false -->
+
+        <maxRunningSpeedMultiplier>4</maxRunningSpeedMultiplier> <!-- Options: 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 -->
+
+        <jumpHeight>1</jumpHeight> <!-- Options: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 -->
+    </player>
+</defaultUserSettings>

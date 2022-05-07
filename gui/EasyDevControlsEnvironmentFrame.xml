@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="easyDevControlsEnvironment">
+    <GuiElement type="empty" profile="devControlsFrame">
+        <GuiElement type="empty" profile="devControlsHeaderPanel">
+            <GuiElement type="text" profile="devControlsHeaderText" text="$l10n_easyDevControls_environmentHeader"/>
+            <GuiElement type="button" profile="devControlsInfo" id="buttonShowInfo" onClick="onClickShowInfo"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="devControlsContainer" id="container">
+            <GuiElement type="boxLayout" profile="devControlsLayout" id="boxLayout">
+                <!-- Column 1 -->
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiSetMonth"
+                    texts="$l10n_ui_month1|$l10n_ui_month2|$l10n_ui_month3|$l10n_ui_month4|$l10n_ui_month5|$l10n_ui_month6|$l10n_ui_month7|$l10n_ui_month8|$l10n_ui_month9|$l10n_ui_month10|$l10n_ui_month11|$l10n_ui_month12">
+
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_setTimeTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOptionClose" id="multiSetDay">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOptionClose" id="multiSetHour"
+                    texts="00:00|01:00|02:00|03:00|04:00|05:00|06:00|07:00|08:00|09:00|10:00|11:00|12:00|13:00|14:00|15:00|16:00|17:00|18:00|19:00|20:00|21:00|22:00|23:00">
+
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="button" profile="devControlsConfirmClose" text="" id="buttonConfirmTime" onClick="onClickConfirmTime"/>
+
+                <GuiElement type="button" profile="devControlsConfirm" name="environmentReload" id="buttonEnvironmentReloadData" onClick="onClickConfirmReloadData">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_reloadedEnvironmentDataTitle"/>
+                </GuiElement>
+
+                <GuiElement type="button" profile="devControlsConfirm" margin="44px 24px 44px 240px" debugMargin="true" name="weatherReload" id="buttonWeatherReloadData" onClick="onClickConfirmReloadData">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_reloadedWeatherDataTitle"/>
+                </GuiElement>
+
+                <!-- Column 2 -->
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiWeatherSetAdd" onClick="onClickWeatherSetAdd">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="Weather Set / Add" id="textWeatherSetAdd"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOptionClose" id="multiWeatherType" onClick="onClickWeatherType">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOptionClose" id="multiWeatherVariation">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="button" profile="devControlsConfirmNoIconClose" text="$l10n_easyDevControls_info" id="buttonVariationInfo" onClick="onClickVariationInfo"/>
+                <GuiElement type="button" profile="devControlsConfirmClose" id="buttonConfirmWeather" onClick="onClickConfirmWeather"/>
+
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiRemoveTireTracksRadius" onClick="onClickRemoveTireTracksRadius">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_removeTireTracksTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="button" profile="devControlsConfirmClose" margin="44px -18px 44px 230px" debugMargin="true" id="buttonRemoveTireTracks" onClick="onClickRemoveTireTracks"/>
+
+                <!-- Column 3 -->
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedWeatherDebug" onClick="onClickWeatherDebug" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_weatherDebugTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedRandomWindWaving" onClick="onClickRandomWindWaving" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_randomWindWavingTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedSeasonalShaderDebug" onClick="onClickSeasonalShaderDebug" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_seasonalShaderDebugTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" margin="44px 24px 44px 310px" debugMargin="true" id="checkedEnvironmentMaskDebug" onClick="onClickEnvironmentMaskDebug" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_environmentMaskDebugTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <!-- Column 4 -->
+                <GuiElement type="button" profile="devControlsConfirm" name="ADD_SNOW" id="buttonAddSnow" onClick="onClickAddRemoveSnow">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_addSnowTitle"/>
+                </GuiElement>
+
+                <GuiElement type="textInput" profile="devControlsTextInput" id="textInputSetSnow" onEnterPressed="onSetSnowEnterPressed" onEscPressed="onTextInputEscPressed" onTextChanged="onSetSnowTextChanged" enterWhenClickOutside="false">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_setSnowTitle"/>
+                </GuiElement>
+
+                <GuiElement type="button" profile="devControlsConfirm" name="REMOVE_SNOW" id="buttonRemoveSnow" onClick="onClickAddRemoveSnow">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_removeSnowTitle"/>
+                </GuiElement>
+
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiAddSaltRadius">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_addSaltTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="button" profile="devControlsConfirmClose" text="" id="buttonConfirmAddSalt" onClick="onClickConfirmAddSalt"/>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="bitmap" profile="devControlsInfoRowBg">
+            <GuiElement type="bitmap" profile="devControlsInfoRowIcon" id="infoBoxIcon"/>
+            <GuiElement type="text" profile="devControlsInfoRowText" id="infoBoxText" text=""/>
+        </GuiElement>
+    </GuiElement>
+</GUI>

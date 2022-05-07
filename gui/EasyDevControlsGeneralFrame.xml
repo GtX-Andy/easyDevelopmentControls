@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="easyDevControlsGeneral">
+    <GuiElement type="empty" profile="devControlsFrame">
+        <GuiElement type="empty" profile="devControlsHeaderPanel">
+            <GuiElement type="text" profile="devControlsHeaderText" text="$l10n_easyDevControls_generalHeader"/>
+			<GuiElement type="button" profile="devControlsInfo" id="buttonShowInfo" onClick="onClickShowInfo"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="devControlsContainer" id="container">
+            <GuiElement type="boxLayout" profile="devControlsLayout" id="boxLayout">
+                <!-- Column 1 -->
+                <GuiElement type="textInput" profile="devControlsTextInput" name="addMoney" id="textInputAddMoney" onEnterPressed="onCheatMoneyEnterPressed" onEscPressed="onTextInputEscPressed" onTextChanged="onCheatMoneyTextChanged" enterWhenClickOutside="false">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_addMoneyTitle"/>
+                </GuiElement>
+                <GuiElement type="textInput" profile="devControlsTextInput" name="removeMoney" id="textInputRemoveMoney" onEnterPressed="onCheatMoneyEnterPressed" onEscPressed="onTextInputEscPressed" onTextChanged="onCheatMoneyTextChanged"  enterWhenClickOutside="false">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_removeMoneyTitle"/>
+                </GuiElement>
+                <GuiElement type="textInput" profile="devControlsTextInput" name="setMoney" id="textInputSetMoney" onEnterPressed="onCheatMoneyEnterPressed" onEscPressed="onTextInputEscPressed" onTextChanged="onCheatMoneyTextChanged" enterWhenClickOutside="false">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_setMoneyTitle"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedTimeScale" onClick="onClickSetTimeScale">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_extraTimescalesTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="button" profile="devControlsConfirm" margin="44px 24px 44px 226px" debugMargin="true" id="buttonStopTime" onClick="onClickStopTime">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_stopTimeTitle"/>
+                </GuiElement>
+
+                <!-- Column 2 -->
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedFlightModeToggle" onClick="onClickFlightMode">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_flightModeToggleTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedFlightModeState" onClick="onClickFlightMode">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_flightModeStateTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedHudVisibility" onClick="onClickHudVisibility">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_hudVisibilityTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="devControlsMultiTextOption" id="checkedToggleHudInput" onClick="onClickHudVisibility">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_hudInputTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+				
+				<GuiElement type="checkedOption" profile="devControlsMultiTextOption" margin="44px 24px 44px 220px" debugMargin="true" id="checkedDeleteObjectsKey" onClick="onClickDeleteObjectsKey">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_deleteObjectsKeyTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <!-- Column 3 -->
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiTeleport" onClick="onClickTeleport" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" id="titleTeleport" text="$l10n_easyDevControls_teleportTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+                <GuiElement type="textInput" profile="devControlsTextInputClose" id="textInputTeleportXZ" onEnterPressed="onTeleportEnterPressed" onEscPressed="onTextInputEscPressed" onTextChanged="onTeleportTextChanged" disabled="true" enterWhenClickOutside="false"/>
+                <GuiElement type="button" profile="devControlsConfirmClose" id="buttonTeleportConfirm" onClick="onClickTeleportConfirm"/>
+
+                <GuiElement type="button" profile="devControlsConfirm" margin="44px 24px 44px 400px" debugMargin="true" id="buttonFlipVehicles" onClick="onClickFlipVehicles">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_flipVehiclesTitle"/>
+                </GuiElement>
+
+                <!-- Column 4 -->
+                <GuiElement type="textInput" profile="devControlsTextInput" id="textInputSetFOVAngle" onEnterPressed="onSetFOVAngleEnterPressed" onEscPressed="onTextInputEscPressed" onTextChanged="onSetFOVAngleTextChanged" enterWhenClickOutside="false">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_setFOVAngleTitle"/>
+                </GuiElement>
+                <GuiElement type="button" profile="devControlsRefresh" text="$l10n_button_reset" margin="44px -18px 44px 24px" id="buttonResetFOVAngle" onClick="onClickResetFOVAngle"/>
+
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiSetQuality" onClick="onClickSetQuality">
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_setQualityTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="multiTextOption" profile="devControlsMultiTextOption" id="multiShowCollectables" onClick="onClickShowCollectables" >
+                    <GuiElement type="button" profile="devControlsMultiTextOptionLeft"/>
+                    <GuiElement type="button" profile="devControlsMultiTextOptionRight"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionText"/>
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_showCollectablesTitle"/>
+                    <GuiElement type="bitmap" profile="devControlsMultiTextOptionBg"/>
+                </GuiElement>
+
+                <GuiElement type="button" profile="devControlsConfirm" id="buttonClearI3DCache" onClick="onClickClearI3DCache">
+                    <GuiElement type="text" profile="devControlsMultiTextOptionTitle" text="$l10n_easyDevControls_clearI3DCacheTitle"/>
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="bitmap" profile="devControlsInfoRowBg">
+            <GuiElement type="bitmap" profile="devControlsInfoRowIcon" id="infoBoxIcon"/>
+            <GuiElement type="text" profile="devControlsInfoRowText" id="infoBoxText" text=""/>
+        </GuiElement>
+    </GuiElement>
+</GUI>

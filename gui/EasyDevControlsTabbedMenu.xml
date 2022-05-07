@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="bitmap" profile="uiFullInGameBackground" id="backgroundElement"/>
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlow" />
+
+    <GuiElement type="bitmap" profile="uiInGameMenuHeader" id="header">
+        <GuiElement type="multiTextOption" profile="uiInGameMenuHeaderSelector" onClick="onClickPageSelection" id="pageSelector" soundDisabled="true">
+            <GuiElement type="button" profile="uiInGameMenuPagingButtonLeft" id="pagingButtonLeft" />
+            <GuiElement type="button" profile="uiInGameMenuPagingButtonRight" id="pagingButtonRight" />
+        </GuiElement>
+
+        <GuiElement type="list" profile="uiInGameMenuPagingTabList" id="pagingTabList" handleFocus="false" onSelectionChanged="onTabMenuSelectionChanged" onScroll="onTabMenuScroll">
+            <GuiElement type="listItem" id="pagingTabTemplate" profile="uiTabbedMenuPageTab" handleFocus="false">
+                <GuiElement type="button" name="tabButton" profile="uiTabbedMenuPageTabButton" handleFocus="false"/>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="button" profile="uiInGameMenuPagingTabPrevious" id="pagingTabPrevious" onClick="onTabPagingPrevious">
+            <GuiElement type="bitmap" profile="uiInGameMenuPagingTabPrevIcon" />
+        </GuiElement>
+        <GuiElement type="button" profile="uiInGameMenuPagingTabNext" id="pagingTabNext" onClick="onTabPagingNext">
+            <GuiElement type="bitmap" profile="uiInGameMenuPagingTabNextIcon" />
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="bitmap" profile="uiElementContainerFullScreenSpanning">
+        <GuiElement type="paging" profile="uiInGameMenuPaging" onPageChange="onPageChange" onPageUpdate="onPageUpdate" id="pagingElement">
+            <GuiElement type="frameReference" ref="easyDevControlsGeneral" name="easyDevControlsGeneral" id="pageGeneral"/>
+            <GuiElement type="frameReference" ref="easyDevControlsPlayer" name="easyDevControlsPlayer" id="pagePlayer"/>
+            <GuiElement type="frameReference" ref="easyDevControlsObjects" name="easyDevControlsObjects" id="pageObjects"/>
+            <GuiElement type="frameReference" ref="easyDevControlsVehicles" name="easyDevControlsVehicles" id="pageVehicles"/>
+            <GuiElement type="frameReference" ref="easyDevControlsPlaceables" name="easyDevControlsPlaceables" id="pagePlaceables"/>
+            <GuiElement type="frameReference" ref="easyDevControlsFields" name="easyDevControlsFields" id="pageFields"/>
+            <GuiElement type="frameReference" ref="easyDevControlsEnvironment" name="easyDevControlsEnvironment" id="pageEnvironment"/>
+            <GuiElement type="frameReference" ref="easyDevControlsPermissions" name="easyDevControlsPermissions" id="pagePermissions"/>
+            <GuiElement type="frameReference" ref="easyDevControlsHelp" name="easyDevControlsHelp" id="pageHelp"/>
+        </GuiElement>
+    </GuiElement>
+
+    <GuiElement type="flowLayout" profile="buttonBoxDockedOnScreenWithTabBar" id="buttonsPanel" newLayer="true">
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[1]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[2]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[3]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[4]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[5]"/>
+        <GuiElement type="button" profile="buttonBack" onClick="onClickBack" id="menuButton[6]"/>
+    </GuiElement>
+</GUI>

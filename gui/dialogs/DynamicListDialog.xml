@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI onOpen="onOpen" onClose="onClose" onCreate="onCreate">
+    <GuiElement type="empty" profile="newLayer" />
+    <GuiElement type="bitmap" profile="dialogFullscreenBg" />
+    <GuiElement type="bitmap" profile="bgVignette"/>
+    <GuiElement type="bitmap" profile="bgGlowDialog" />
+
+    <GuiElement type="bitmap" profile="dynamicListDialogBg" id="dialogElement">
+        <GuiElement type="bitmap" profile="dialogHeaderDocked">
+            <GuiElement type="text" profile="dialogHeaderText" text="" id="dialogHeaderElement" />
+        </GuiElement>
+
+        <GuiElement type="bitmap" profile="dynamicListDialogEmptyBox" id="noInfoElement">
+            <GuiElement type="text" profile="dynamicListDialogEmptyText" text="$l10n_easyDevControls_noInformationMessage" id="noInfoTextElement"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="dynamicListDialogContentBox" id="contentBoxElement">
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" visible="false" position="0px 7px" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" visible="false" position="0px -12px" />
+
+            <GuiElement type="scrollingLayout" profile="dynamicListDialogScrollingLayout" id="scrollingLayoutElement" topClipperElementName="topClipper" bottomClipperElementName="bottomClipper">
+                <GuiElement type="flowLayout"  profile="dynamicListDialogItem" id="scrollingLayoutItem">
+                    <GuiElement type="text"    profile="dynamicListDialogTitle" name="title" visible="false"/>
+                    <GuiElement type="text"    profile="dynamicListDialogText"  name="text" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" position="38px 7px" size="12px 700px">
+                <GuiElement type="slider" profile="verticalListSliderBar" size="6px 692px" dataElementId="scrollingLayoutElement" handleFocus="false" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="flowLayout" profile="buttonBoxDialog" id="buttonsPC" >
+            <GuiElement type="button" profile="buttonBack" text="$l10n_button_back" onClick="onClickBack" id="backButton" />
+            <GuiElement type="button" profile="buttonDelete" text="$l10n_easyDevControls_buttonClear" onClick="onClickClear" id="clearButton" visible="false" disabled="true"/>
+        </GuiElement>
+    </GuiElement>
+</GUI>

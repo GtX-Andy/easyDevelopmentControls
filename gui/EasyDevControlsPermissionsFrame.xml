@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="easyDevControlsPermissions">
+    <GuiElement type="empty" profile="devControlsFrame">
+        <GuiElement type="empty" profile="devControlsHeaderPanel">
+            <GuiElement type="text" profile="devControlsHeaderText" text="$l10n_easyDevControls_permissionsHeader"/>
+			<GuiElement type="button" profile="devControlsInfo" id="buttonShowInfo" onClick="onClickShowInfo"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="devControlsContainer" position="48px 0px" size="1528px 776px" id="container">
+            <GuiElement type="bitmap" profile="topScrollClipper" name="topClipper" />
+            <GuiElement type="bitmap" profile="bottomScrollClipper" name="bottomClipper" />
+
+            <GuiElement type="scrollingLayout" profile="devControlsPermissionsLayout" id="scrollingLayoutElement" topClipperElementName="topClipper" bottomClipperElementName="bottomClipper">
+                <GuiElement type="text" profile="settingsMenuSubtitle" text="Page Header" id="headerTextTemplate" textColor="0.0227 0.5346 0.8519 1.0"/>
+
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" margin="48px 12px 0px 12px" onClick="onClickChangePermission" id="multiTextOptionTemplate">
+                    <GuiElement type="button" profile="multiTextOptionSettingsLeft" />
+                    <GuiElement type="button" profile="multiTextOptionSettingsRight"/>
+                    <GuiElement type="text"   profile="multiTextOptionSettingsText" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTitle" position="-40px 0px" name="title" text="Title"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionSettingsBg" />
+                    <GuiElement type="text"   profile="multiTextOptionSettingsTooltip" name="toolTip" text="Tool tip text..." />
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="threePartBitmap" profile="verticalListSliderRightDocked" anchors="1 1 0.5 0.5" position="-48px 0px">
+            <GuiElement type="slider" profile="verticalListSliderBar" dataElementId="scrollingLayoutElement" handleFocus="false" />
+        </GuiElement>
+    </GuiElement>
+</GUI>
