@@ -128,7 +128,7 @@
         <text name="easyDevControls_farmProducts" text="Расходники"/>
         <text name="easyDevControls_unknown" text="Неизвестный"/>
         <text name="easyDevControls_reload" text="Перезагрузить"/>
-        <text name="easyDevControls_reloadReset" text="Перезагрузить / Сбросить"/>
+        <text name="easyDevControls_reloadReset" text="Перезагрузить / Опустошить"/>
         <text name="easyDevControls_deleteObject" text="Удалить %s"/>
         <text name="easyDevControls_formattedSeconds" text="%d секунд"/>
         <text name="easyDevControls_userSetting" text="Пользовательское"/>
@@ -373,21 +373,21 @@
         <text name="easyDevControls_ptoRpm" text="ВОМ об/мин"/>
         <text name="easyDevControls_syncVehicles" text="Синхронизация транспортных средств"/>
         <text name="easyDevControls_resetToDefault" text="Восстановление значений по умолчанию"/>
-        <text name="easyDevControls_toggleCoverTitle" text="Положите брезента"/>
+        <text name="easyDevControls_toggleCoverTitle" text="Положение крышки"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Уровень заполнения"/>
         <text name="easyDevControls_fillUnitIndex" text="Содержание %d"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Статус %s обновлен."/>
-        <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="Состояние %s и всех подключенных агрегатов обновлено."/>
-        <text name="easyDevControls_vehicleFuelInfo" text="%s - заполнение %s на %s %s."/>
+        <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="Состояние %s и всего подключенного оборудования обновлено."/>
+        <text name="easyDevControls_vehicleFuelInfo" text="%s уровень %s изменен на %s %s."/>
         <text name="easyDevControls_vehicleMotorTempInfo" text="Температура двигателя %s изменилась на %sc."/>
         <text name="easyDevControls_vehicleOperatingTimeInfo" text="Время работы %s изменено на %s ч."/>
         <text name="easyDevControls_reloadVehicleInfo" text="Успешно перезагружен XML и I3D для %s."/>
         <text name="easyDevControls_vehicleAnalyseInfo" text="%s успешно проанализировано, подробности смотрите в журнале игры."/>
         <text name="easyDevControls_debugStateInfo" text="Текущее состояние отладки: %s"/>
-        <text name="easyDevControls_tensionBeltsDebugInfo" text="Отладка натяжных ремней теперь %s"/>
-        <text name="easyDevControls_vehicleDistanceInfo" text="Отладка расстояния до транспорт теперь %s"/>
+        <text name="easyDevControls_tensionBeltsDebugInfo" text="Отладка натяжных ремней: %s"/>
+        <text name="easyDevControls_vehicleDistanceInfo" text="Отладка расстояния до транспорт: %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="Обновлены данные о потребителе энергии %s (синхронизированы со всеми транспортными средствами: %s)."/>
         <text name="easyDevControls_toggleCoverInfo" text="Крышка %s теперь %s, идентификатор состояния %d."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Успешное заполнение %d, %s - %s %s."/>
@@ -559,7 +559,7 @@
         <text name="easyDevControls_weatherDebugTitle" text="Отладка погоды"/>
         <text name="easyDevControls_seasonalShaderDebugTitle" text="Отладка сезонного шейдера"/>
         <text name="easyDevControls_environmentMaskDebugTitle" text="Отладка маски среды"/>
-        <text name="easyDevControls_randomWindWavingTitle" text="Случайное движение ветра"/>
+        <text name="easyDevControls_randomWindWavingTitle" text="Случайные порывы ветра"/>
         <text name="easyDevControls_updateSnowTitle" text="Снег"/>
         <text name="easyDevControls_addSnowTitle" text="Добавить снег"/>
         <text name="easyDevControls_setSnowTitle" text="Изменить слой снега"/>
@@ -570,16 +570,16 @@
         <text name="easyDevControls_setTimeInfo" text="Время продвинулось до: %s | %s"/>
         <text name="easyDevControls_reloadedEnvironmentDataInfo" text="Перезагружены данные среды из XML '%s'"/>
         <text name="easyDevControls_reloadedWeatherDataInfo" text="Данные о погоде перезагружены из XML '%s'"/>
-        <text name="easyDevControls_removeTireTracksInfo" text="Убраны все следы шин в радиусе %s вокруг игрока."/>
-        <text name="easyDevControls_removeAllTireTracksInfo" text="Убраны все следы шин с карты."/>
-        <text name="easyDevControls_weatherDebugInfo" text="Отладка погоды теперь %s"/>
-        <text name="easyDevControls_seasonalShaderDebugInfo" text="Сезонная отладка шейдеров теперь %s"/>
-        <text name="easyDevControls_environmentMaskDebugInfo" text="Отладка системы маски среды теперь %s"/>
-        <text name="easyDevControls_randomWindWavingInfo" text="Случайное направление ветра теперь %s"/>
+        <text name="easyDevControls_removeTireTracksInfo" text="Удалены следы шин в радиусе %s."/>
+        <text name="easyDevControls_removeAllTireTracksInfo" text="Удалены следы шин с карты."/>
+        <text name="easyDevControls_weatherDebugInfo" text="Отладка погоды: %s"/>
+        <text name="easyDevControls_seasonalShaderDebugInfo" text="Отладка сезонного шейдера: %s"/>
+        <text name="easyDevControls_environmentMaskDebugInfo" text="Отладка системы маски среды: %s"/>
+        <text name="easyDevControls_randomWindWavingInfo" text="Случайные порывы ветра: %s"/>
         <text name="easyDevControls_addSnowInfo" text="Высота снега установлена на максимальный уровень"/>
         <text name="easyDevControls_setSnowInfo" text="Высота снега изменена на %s"/>
         <text name="easyDevControls_removeSnowInfo" text="Удаление всего снега с карты"/>
-        <text name="easyDevControls_addSaltInfo" text="Добавление соли в радиусе %d м"/>
+        <text name="easyDevControls_addSaltInfo" text="Добавление соли в радиусе %dм"/>
 
         <!-- Environment Frame Help -->
         <text name="easyDevControls_setTimeHelp" text="Позволяет переводить время вперед по месяцам, дням и часам.
@@ -589,7 +589,7 @@
 
         <text name="easyDevControls_reloadedWeatherDataHelp" text="Перезагружает погоду из файла XML. Это позволяет вносить изменения и просматривать их без перезапуска игры при тестировании карты."/>
         <text name="easyDevControls_setAddWeatherHelp" text="Позволяет добавить или сразу установить определенный тип погоды. Типы и вариации погоды будут меняться в зависимости от текущего сезона."/>
-        <text name="easyDevControls_removeTireTracksHelp" text="Удаляет следы шин в заданном радиусе."/>
+        <text name="easyDevControls_removeTireTracksHelp" text="Удаляет следы шин со всей карты или в заданном радиусе."/>
         <text name="easyDevControls_weatherDebugHelp" text="Отображает диаграмму с текущими данными о погоде."/>
         <text name="easyDevControls_seasonalShaderDebugHelp" text="Показывает текущее значение параметра сезонного шейдера (cshared3)."/>
         <text name="easyDevControls_environmentMaskDebugHelp" text="Отображает отладочные значения и состояние маски среды."/>
