@@ -361,8 +361,8 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_wiperStateRainSensor" text="Capteur de pluie"/>
         <text name="easyDevControls_reloadVehicleTitle" text="Rechargement du véhicule"/>
         <text name="easyDevControls_analyseVehicleTitle" text="Analyse du véhicule"/>
-        <text name="easyDevControls_vehicleDebugTitle" text="Deboggage du véhicule"/>
-        <text name="easyDevControls_tensionBeltsDebugTitle" text="Deboggage des sangles"/>
+        <text name="easyDevControls_vehicleDebugTitle" text="Debogage du véhicule"/>
+        <text name="easyDevControls_tensionBeltsDebugTitle" text="Debogage des sangles"/>
         <text name="easyDevControls_vehicleDistanceTitle" text="Distance des véhicules"/>
         <text name="easyDevControls_removeAllVehiclesTitle" text="Supprimer tous les véhicules"/>
         <text name="easyDevControls_setPowerConsumerTitle" text="Gestion des puissances requises"/>
@@ -386,9 +386,9 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_vehicleOperatingTimeInfo" text="Temps d'utilisation de %s changé à %s heure(s)."/>
         <text name="easyDevControls_reloadVehicleInfo" text="Rechargement du XML et de l'I3D réussi avec succès pour %s."/>
         <text name="easyDevControls_vehicleAnalyseInfo" text="Analyse de %s réussie, consulter le fichier journal pour les détails."/>
-        <text name="easyDevControls_debugStateInfo" text="Etat du deboggage : %s"/>
-        <text name="easyDevControls_tensionBeltsDebugInfo" text="Le deboggage des sangles est actuellement %s"/>
-        <text name="easyDevControls_vehicleDistanceInfo" text="Le deboggage de la distance des véhicules est actuellement %s"/>
+        <text name="easyDevControls_debugStateInfo" text="Etat du debogage : %s"/>
+        <text name="easyDevControls_tensionBeltsDebugInfo" text="Le debogage des sangles est actuellement %s"/>
+        <text name="easyDevControls_vehicleDistanceInfo" text="Le debogage de la distance des véhicules est actuellement %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="Les besoins en puissance de %s ont été mis à jour avec succès (Synchroniser avec : %s)."/>
         <text name="easyDevControls_toggleCoverInfo" text="La bâche de %s est actuellement %s, id de l'état %d."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="Le contenant %d de %s rempli avec succès de %s dans la quantité suivante : %s."/>
@@ -406,8 +406,8 @@ Eteint: Eteint par tout temps.
 Vitesses de 1 à 10: Pour tester le comportement du véhicule actif."/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_reloadVehicleHelp" text="Recharge l'I3D et le XML du véhicule actif et de ses outils attelés ou d'un véhicule à portée du personnage."/>
         <text name="easyDevControls_analyseVehicleHelp" text="Analyse le véhicule actif ou un véhicule à portée du personnage. Les résultats sont consultables dans le fichier journal."/>
-        <text name="easyDevControls_vehicleDebugHelp" text="Active les sorties de deboggage du véhicule."/>
-        <text name="easyDevControls_tensionBeltsDebugHelp" text="Active le deboggage des sangles de tous les véhicules."/>
+        <text name="easyDevControls_vehicleDebugHelp" text="Active les sorties de debogage du véhicule."/>
+        <text name="easyDevControls_tensionBeltsDebugHelp" text="Active le debogage des sangles de tous les véhicules."/>
         <text name="easyDevControls_vehicleDistanceHelp" text="Affiche la distance entre tous les véhicules et la caméra active."/>
         <text name="easyDevControls_removeAllVehiclesHelp" text="Supprime tous les véhicules et les outils de la carte."/>
         <text name="easyDevControls_setPowerConsumerHelp" text="Défini les propriétés de la spécialisation 'powerConsumer'."/>
@@ -427,7 +427,7 @@ Vitesses de 1 à 10: Pour tester le comportement du véhicule actif."/> <!-- Tra
         <text name="easyDevControls_fillLevelTitle" text="Choix de la quantité"/>
         <text name="easyDevControls_productionPointListTitle" text="Liste des productions"/>
         <text name="easyDevControls_deliveryMappingTitle" text="Distributions des productions"/>
-        <text name="easyDevControls_productionPointDebugTitle" text="Deboggage des productions"/>
+        <text name="easyDevControls_productionPointDebugTitle" text="Debogage des productions"/>
         <text name="easyDevControls_showTestAreasTitle" text="Affichage des zones interactives"/>
         <text name="easyDevControls_showPlacementCollisionsTitle" text="Affichage des collisions"/>
         <text name="easyDevControls_removeAllPlaceablesTitle" text="Supprimer les plaçables"/>
@@ -467,7 +467,7 @@ Choix de la quantité:
   - Détermine le niveau de remplissage (individuellement ou globalement) des matériaux produits par les productions. Selon la sélection, saisir une valeur en litres ou en pourcentage."/>
         <text name="easyDevControls_productionPointListHelp" text="Affiche la liste des productions de la carte ainsi que des informations complémentaires."/>
         <text name="easyDevControls_deliveryMappingHelp" text="Affiche les chaînes de production pour tous les points de production en mode distribution."/>
-        <text name="easyDevControls_productionPointDebugHelp" text="Affiche les informations de deboggage des productions sur chaque zone interactive."/>
+        <text name="easyDevControls_productionPointDebugHelp" text="Affiche les informations de debogage des productions sur chaque zone interactive."/>
         <text name="easyDevControls_showTestAreasHelp" text="Affiche les zone interactive ou de test de tous les plaçables."/>
         <text name="easyDevControls_showPlacementCollisionsHelp" text="Affiche les collisions pour le placement et le nivellement du terrain."/>
         <text name="easyDevControls_removeAllPlaceablesHelp" text="Supprime tous les plaçables standards de la carte."/>
@@ -504,9 +504,9 @@ Choix de la quantité:
         <text name="easyDevControls_setFarmlandOwnerTitle" text="Propriétaire de la parcelle"/>
         <text name="easyDevControls_refreshFieldOverlayTitle" text="Affichage des champs dans le PDA"/>
         <text name="easyDevControls_addRemoveWeedsStonesTitle" text="Pierres &amp; Mauvaises herbes"/> <!-- &amp;   This is equal to using the & symbol in XML-->
-        <text name="easyDevControls_debugFieldStatusTitle" text="Deboggage des champs"/>
-        <text name="easyDevControls_vineSystemDebugTitle" text="Deboggage des vignes"/>
-        <text name="easyDevControls_stoneSystemDebugTitle" text="Deboggage des pierres"/>
+        <text name="easyDevControls_debugFieldStatusTitle" text="Debogage des champs"/>
+        <text name="easyDevControls_vineSystemDebugTitle" text="Debogage des vignes"/>
+        <text name="easyDevControls_stoneSystemDebugTitle" text="Debogage des pierres"/>
 
         <!-- Fields Frame Info -->
         <text name="easyDevControls_setAllFieldSuccessInfo" text="%d champs mis à jour avec succès."/>
@@ -528,9 +528,9 @@ Souhaitez-vous basculer votre réglage actuel sur 'Non' afin de pouvoir réalise
         <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Modification de propriété de %d parcelles disponibles au profit de la ferme %s."/>
         <text name="easyDevControls_setFarmlandOwnerInfo" text="Modification de propriété de la parcelle %d au profit de la ferme %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Rafraîchissement du statut des champs dans le PDA, prochain raffraichissement dans 60 secondes."/>
-        <text name="easyDevControls_debugFieldStatusInfo" text="Deboggage du statut des champs %s."/>
-        <text name="easyDevControls_vineSystemDebugInfo" text="Deboggae des vignes %s."/>
-        <text name="easyDevControls_stoneSystemDebugInfo" text="Deboggage des pierres %s."/>
+        <text name="easyDevControls_debugFieldStatusInfo" text="Debogage du statut des champs %s."/>
+        <text name="easyDevControls_vineSystemDebugInfo" text="Debogage des vignes %s."/>
+        <text name="easyDevControls_stoneSystemDebugInfo" text="Debogage des pierres %s."/>
 
         <!-- Fields Frame Help -->
         <text name="easyDevControls_fieldSetFruitHelp" text="Permet la modification du statut de la culture du champ sélectionné ou de tous les champs."/>
@@ -545,8 +545,8 @@ Souhaitez-vous basculer votre réglage actuel sur 'Non' afin de pouvoir réalise
         <text name="easyDevControls_setFarmlandOwnerHelp" text="Permet le changement de propriétaire des parcelles en se basant soit sur le numéro de parcelle ou le numéro de champ."/>
         <text name="easyDevControls_refreshFieldOverlayHelp" text="Force un rafraîchissement du statut des champs dans le PDA."/>
         <text name="easyDevControls_debugFieldStatusHelp" text="Affiche les données de statut de tous les champs dans un rayon donné."/>
-        <text name="easyDevControls_vineSystemDebugHelp" text="Affiche les informations de deboggage des vignes."/>
-        <text name="easyDevControls_stoneSystemDebugHelp" text="Affiche les informations de deboggage des pierres."/>
+        <text name="easyDevControls_vineSystemDebugHelp" text="Affiche les informations de debogage des vignes."/>
+        <text name="easyDevControls_stoneSystemDebugHelp" text="Affiche les informations de debogage des pierres."/>
 
         <!-- Environment Frame XML -->
         <text name="easyDevControls_environmentHeader" text="Environnement"/>
@@ -557,9 +557,9 @@ Souhaitez-vous basculer votre réglage actuel sur 'Non' afin de pouvoir réalise
         <text name="easyDevControls_setAddWeatherTitle" text="%s Météo"/>
         <text name="easyDevControls_setAddWeatherHelpTitle" text="Défini / Ajout météo"/>
         <text name="easyDevControls_removeTireTracksTitle" text="Supprimer les traces de pneus"/>
-        <text name="easyDevControls_weatherDebugTitle" text="Deboggage météo"/>
-        <text name="easyDevControls_seasonalShaderDebugTitle" text="Deboggage du shader de saison"/>
-        <text name="easyDevControls_environmentMaskDebugTitle" text="Deboggage du masque de l'environnement"/>
+        <text name="easyDevControls_weatherDebugTitle" text="Debogage météo"/>
+        <text name="easyDevControls_seasonalShaderDebugTitle" text="Debogage du shader de saison"/>
+        <text name="easyDevControls_environmentMaskDebugTitle" text="Debogage du masque de l'environnement"/>
         <text name="easyDevControls_randomWindWavingTitle" text="Rafales de vent aléatoires"/>
         <text name="easyDevControls_updateSnowTitle" text="Neige"/>
         <text name="easyDevControls_addSnowTitle" text="Ajouter de la neige"/>
@@ -573,9 +573,9 @@ Souhaitez-vous basculer votre réglage actuel sur 'Non' afin de pouvoir réalise
         <text name="easyDevControls_reloadedWeatherDataInfo" text="Rechargement des informations de météo depuis le XML '%s' terminé."/>
         <text name="easyDevControls_removeTireTracksInfo" text="Suppression des traces de pneus dans un rayon de %s autour du personnage terminée."/>
         <text name="easyDevControls_removeAllTireTracksInfo" text="Suppression des traces de pneus sur toute la carte terminée."/>
-        <text name="easyDevControls_weatherDebugInfo" text="Deboggage de la météo est %s."/>
-        <text name="easyDevControls_seasonalShaderDebugInfo" text="Deboggage du shader de saison est %s."/>
-        <text name="easyDevControls_environmentMaskDebugInfo" text="Deboggage du masque de l'environnement est %s."/>
+        <text name="easyDevControls_weatherDebugInfo" text="Debogage de la météo est %s."/>
+        <text name="easyDevControls_seasonalShaderDebugInfo" text="Debogage du shader de saison est %s."/>
+        <text name="easyDevControls_environmentMaskDebugInfo" text="Debogage du masque de l'environnement est %s."/>
         <text name="easyDevControls_randomWindWavingInfo" text="Rafales de vent aléatoires %s."/>
         <text name="easyDevControls_addSnowInfo" text="La hauteur de neige est fixée à son niveau maximal."/>
         <text name="easyDevControls_setSnowInfo" text="Hauteur de la neige changée à %s."/>
@@ -593,7 +593,7 @@ NOTE: Certains changements liés aux saisons ne se déclenchent qu'au changement
         <text name="easyDevControls_removeTireTracksHelp" text="Supprime les traces de pneus au sol dans un rayon spécifié autour du personnage."/>
         <text name="easyDevControls_weatherDebugHelp" text="Affiche un graphique avec les données météo de la carte."/>
         <text name="easyDevControls_seasonalShaderDebugHelp" text="Affiche les valeurs de paramètres du shader de saison (cshared3) actuel."/>
-        <text name="easyDevControls_environmentMaskDebugHelp" text="Affiche les valeurs et états de deboggage du masque de l'environnement."/>
+        <text name="easyDevControls_environmentMaskDebugHelp" text="Affiche les valeurs et états de debogage du masque de l'environnement."/>
         <text name="easyDevControls_randomWindWavingHelp" text="Active les rafales de vents aléatoires."/>
         <text name="easyDevControls_addSnowHelp" text="Ajoute une couche de neige sur la carte."/>
         <text name="easyDevControls_setSnowHelp" text="Défini l'épaisseur de la couche de neige de -4 à 0.5."/>
