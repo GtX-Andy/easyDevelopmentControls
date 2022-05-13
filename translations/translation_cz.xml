@@ -149,7 +149,7 @@ Nejnovější oficiální verzi naleznete na níže uvedeném odkazu ke stažen�
         <text name="easyDevControls_reloadFailedMessage" text="Následující %s se nepodařilo znovu načíst."/>
         <text name="easyDevControls_ignoreRemoveIfEmptyMessage" text="Úroveň naplnění '%s' nastavena na 0, chcete ignorovat smazání prázdného příznaku?"/>
         <text name="easyDevControls_serverRequestMessage" text="Požaduji aktualizaci ze serveru, čekejte prosím."/>
-        <text name="easyDevControls_defaultResetFailed" text="Obnovení výchozího nastavení se nezdařilo!"/>
+        <text name="easyDevControls_defaultResetFailedMessage" text="Obnovení výchozího nastavení se nezdařilo!"/>
         <text name="easyDevControls_unknownFailMessage" text="Nepodařilo se, neznámý důvod!"/>
         <text name="easyDevControls_noInformationMessage" text="Nejsou k dispozici žádné informace"/>
 
@@ -220,7 +220,7 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Hráč byl úspěšně přesunut na pole %s."/>
         <text name="easyDevControls_teleportVehiclesFieldInfo" text="Vozidlo %d úspěšně přesunuto na pole %s."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Přesunutí hráče na souřadnice %s, %s proběhlo úspěšně."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Přesunutí vozidla na souřadnice %s, %s proběhlo úspěšně."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Přesunutí %d vozidla na souřadnice %s, %s proběhlo úspěšně."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Pokus o správnou orientaci vozidla a orientaci jakéhokoli připojeného nářadí."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Klíč pro odstranění objektů (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="FOV kamery aktualizováno na %d°."/>
