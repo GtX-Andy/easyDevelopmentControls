@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
     <contributors>
-        <name>Lactic68</name>
+        <name>Lactic68, Papy Sarmax</name>
     </contributors>
 
     <!-- Translation Notes!
@@ -137,8 +137,8 @@ Rendez-vous sur le modhub Giants pour télécharger la dernière version officie
         <text name="easyDevControls_unsupported" text="Non supporté"/>
         <text name="easyDevControls_overview" text="Aperçu"/>
         <text name="easyDevControls_author" text="Auteur"/>
-        <text name="easyDevControls_translations" text="Translations"/>
-        <text name="easyDevControls_bugReporting" text="Bug Reporting"/>
+        <text name="easyDevControls_translations" text="Traductions"/>
+        <text name="easyDevControls_bugReporting" text="Signaler un bug"/>
 
         <!-- Messages -->
         <text name="easyDevControls_superStrengthOnMessage" text="Super force activée par %s"/>
@@ -213,10 +213,10 @@ Pour obtenir de meilleurs résultats, assurez-vous de le positionner sur un terr
         <text name="easyDevControls_setMoneyInfo" text="Compte de la ferme défini à %s."/>
         <text name="easyDevControls_flightModeToggleInfo" text="Mode survol: %s"/>
         <text name="easyDevControls_flightModeStateOffInfo" text="Etat survol: %s"/>
-        <text name="easyDevControls_flightModeStateOnInfo" text="Etat survol: %s  (Gestion de l'altitude avec les touches Q et E)"/>
+        <text name="easyDevControls_flightModeStateOnInfo" text="Etat survol: %s  (Gestion de l'altitude avec les touches A et E)"/>
         <text name="easyDevControls_hudVisibilityInfo" text="Visibilité de l'ATH: %s"/>
-        <text name="easyDevControls_hudInputOffInfo" text="Pas d'tilisation du raccourci clavier pour afficher ou masquer l'ATH"/>
-        <text name="easyDevControls_hudInputOnInfo" text="Utilisation du raccourci clavier pour afficher ou masquer l'ATH  (Voir affectation des touches pour '%s')"/>
+        <text name="easyDevControls_hudInputOffInfo" text="Désactivation du raccourci clavier pour afficher ou masquer l'ATH"/>
+        <text name="easyDevControls_hudInputOnInfo" text="Activation du raccourci clavier pour afficher ou masquer l'ATH  (Voir affectation des touches pour '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Personnage déplacé au champ %s avec succès."/>
         <text name="easyDevControls_teleportVehiclesFieldInfo" text="%d véhicule(s) déplacé(s) avec succès au champ %s."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Personnage déplacé avec succès aux coordonnées %s, %s."/>
@@ -228,17 +228,17 @@ Pour obtenir de meilleurs résultats, assurez-vous de le positionner sur un terr
         <text name="easyDevControls_setQualityInfo" text="Qualité graphique définie à %s."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Echelles supplémentaires de défilement du temps %s"/>
         <text name="easyDevControls_stopTimeInfo" text="L'écoulement du temps est interrompu."/>
-        <text name="easyDevControls_clearI3DCacheInfo" text="Tous les i3d partagées sont supprimés."/>
+        <text name="easyDevControls_clearI3DCacheInfo" text="Tous les i3d partagés sont supprimés."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Ajoute de l'argent sur le compte de la ferme."/>
         <text name="easyDevControls_removeMoneyHelp" text="Retranche de l'argent sur le compte de la ferme."/>
         <text name="easyDevControls_setMoneyHelp" text="Fixe le compte de la ferme au montant saisi."/>
         <text name="easyDevControls_flightModeToggleHelp" text="Active le mode survol."/>
-        <text name="easyDevControls_flightModeStateHelp" text="Utilisable uniquement lorsque le mode survol est actif, cette fonctionnalité peut également être déclenchée en jeu en utilisant la touche J. Une fois activée, l'altitude se gère avec les touches Q et E."/>
+        <text name="easyDevControls_flightModeStateHelp" text="Utilisable uniquement lorsque le mode survol est actif, cette fonctionnalité peut également être déclenchée en jeu en utilisant la touche J. Une fois activée, l'altitude se gère avec les touches A et E."/>
         <text name="easyDevControls_hudVisibilityHelp" text="Affiche ou masque l'interface du jeu (ATH)."/>
         <text name="easyDevControls_hudInputHelp" text="Permet d'activer le raccourci clavier d'affichage ou de masquage de l'interface ATH."/>
-        <text name="easyDevControls_teleportHelp" text="Téléporte le personnage, le véhicule actif où tous les véhicules à porté du personnage sur un point sélectionné sur la carte, le centre du champ choisi ou les coordonnées x / z."/>
+        <text name="easyDevControls_teleportHelp" text="Téléporte le personnage, le véhicule actif ou tous les véhicules à portée du personnage sur un point sélectionné sur la carte, le centre du champ choisi ou les coordonnées x / z."/>
         <text name="easyDevControls_flipVehiclesHelp" text="Essaye de redresser le véhicule ainsi que ses outils attelés en corrigeant leur orientation. Utilisable dans le véhicule actif ou un véhicule valide ciblé par le personnage."/>
         <text name="easyDevControls_deleteObjectsKeyHelp" text="Permet d'activer le raccourci clavier de suppression des objets. Cela permet de supprimer tout type d'objet visé par le personnage (arbre, grume, souche, botte, palette ou véhicule). Des informations sur l'arbre et la souche apparaitront lors de l'utilisation du raccourci.
 
@@ -261,13 +261,13 @@ Note: Fonctionnalité uniquement disponible en étant administrateur de la parti
         <text name="easyDevControls_runSpeedTitle" text="Multiplicateur de course"/>
         <text name="easyDevControls_runSpeedKeyTitle" text="Racc. clavier pour la super course"/>
         <text name="easyDevControls_setFarmTitle" text="Appartenance à la ferme"/>
-        <text name="easyDevControls_playerDebugTitle" text="Infos de déboggage joueur"/>
-        <text name="easyDevControls_playerFsmDebugTitle" text="Infos de déboggage système"/>
-        <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="Infos de déboggage de saut"/>
+        <text name="easyDevControls_playerDebugTitle" text="Infos de débogage joueur"/>
+        <text name="easyDevControls_playerFsmDebugTitle" text="Infos de débogage système"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="Infos de débogage de saut"/>
 
         <!-- Player Frame Info -->
-        <text name="easyDevControls_superStrengthOffInfo" text="Le joueur dispose d'une force normalePlayer now has normal strength"/>
-        <text name="easyDevControls_superStrengthOnInfo" text="Le joueur dispose de la super force ainsi qu'une zone d'interaction plus grande"/>
+        <text name="easyDevControls_superStrengthOffInfo" text="Le joueur dispose d'une force normale"/>
+        <text name="easyDevControls_superStrengthOnInfo" text="Le joueur dispose de la super force ainsi que d'une zone d'interaction plus grande"/>
         <text name="easyDevControls_jumpMultiplierInfo" text="Etat du multiplicateur de saut: %s"/>
         <text name="easyDevControls_thirdPersonViewInfo" text="Mode joueur 3ème personne: %s"/>
         <text name="easyDevControls_woodCuttingMarkerInfo" text="Marqueur de tronçonnage: %s"/>
@@ -276,9 +276,9 @@ Note: Fonctionnalité uniquement disponible en étant administrateur de la parti
         <text name="easyDevControls_runSpeedStateInfo" text="Etat de la super course: %s"/>
         <text name="easyDevControls_runSpeedKeyInfo" text="Raccourci clavier pour activer la super course (Voir affectation des touches pour %s): %s"/>
         <text name="easyDevControls_setFarmInfo" text="%s Affecté à la ferme %s"/>
-        <text name="easyDevControls_playerDebugInfo" text="Ecriture dans le log des infos de déboggage joueur: %s"/>
-        <text name="easyDevControls_playerFsmDebugInfo" text="Ecriture dans le log des infos de déboggage système: %s"/>
-        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Ecriture dans le log des infos de déboggage de saut: %s"/>
+        <text name="easyDevControls_playerDebugInfo" text="Ecriture dans le log des infos de débogage joueur: %s"/>
+        <text name="easyDevControls_playerFsmDebugInfo" text="Ecriture dans le log des infos de débogage système: %s"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Ecriture dans le log des infos de débogage de saut: %s"/>
 
         <!-- Player Frame Help -->
         <text name="easyDevControls_superStrengthHelp" text="Active la super force et étend la zone d'interaction du personnage."/>
@@ -292,9 +292,9 @@ Note: Ce mode est surtout destiné pour vos captures d'écran. Certaines fonctio
         <text name="easyDevControls_runSpeedStateHelp" text="Active le mode super course. Si désactivé, le personnage marchera et fera sa course aux vitesses par défaut."/>
         <text name="easyDevControls_runSpeedKeyHelp" text="Active l'utilisation du raccourci clavier pour l'utilisation de la super course."/>
         <text name="easyDevControls_setFarmHelp" text="Défini l'appartenance du joueur ou change la ferme propriétaire du véhicule."/>
-        <text name="easyDevControls_playerDebugHelp" text="Active l'écriture dans le journal des informations de déboggage du joueur."/>
-        <text name="easyDevControls_playerFsmDebugHelp" text="Active l'écriture dans le journal des informations de déboggage du système."/>
-        <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="Active l'écriture dans le journal des informations de déboggage de saut. La hauteur et la durée du saut seront consignées dans le journal."/>
+        <text name="easyDevControls_playerDebugHelp" text="Active l'écriture dans le journal des informations de débogage du joueur."/>
+        <text name="easyDevControls_playerFsmDebugHelp" text="Active l'écriture dans le journal des informations de débogage du système."/>
+        <text name="easyDevControls_playerFsmStateJumpDebugHelp" text="Active l'écriture dans le journal des informations de débogage de saut. La hauteur et la durée du saut seront consignées dans le journal."/>
 
         <!-- Objects Frame XML -->
         <text name="easyDevControls_objectsHeader" text="Objets / Type de contenu"/>
@@ -356,7 +356,7 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_vehicleFuelTitle" text="Niveau de carburant"/>
         <text name="easyDevControls_vehicleMotorTempTitle" text="Température du moteur"/>
         <text name="easyDevControls_vehicleOperatingTimeTitle" text="Temps d'utilisation"/>
-        <text name="easyDevControls_globalWiperStateTitle" text="Gestion des essuis glace"/>
+        <text name="easyDevControls_globalWiperStateTitle" text="Gestion des essuie-glaces"/>
         <text name="easyDevControls_wiperStateRainSensor" text="Capteur de pluie"/>
         <text name="easyDevControls_reloadVehicleTitle" text="Rechargement du véhicule"/>
         <text name="easyDevControls_analyseVehicleTitle" text="Analyse du véhicule"/>
@@ -370,7 +370,7 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_forceFactorTitle" text="Facteur de force"/>
         <text name="easyDevControls_maxForceTitle" text="Force maximum"/>
         <text name="easyDevControls_forceDir" text="Direction de la force"/>
-        <text name="easyDevControls_ptoRpm" text="Trs/Min du PTO"/>
+        <text name="easyDevControls_ptoRpm" text="tr/Min du PTO"/>
         <text name="easyDevControls_syncVehicles" text="Synchronisation véhicules"/>
         <text name="easyDevControls_resetToDefault" text="Retour aux valeurs par déf."/>
         <text name="easyDevControls_toggleCoverTitle" text="Mettre la bâche"/>
@@ -381,7 +381,7 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_vehicleConditionInfo" text="L'état de %s a été mis à jour."/>
         <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="L'état de %s et de ses outils attelés a été mis à jour."/>
         <text name="easyDevControls_vehicleFuelInfo" text="%s niveau de %s modifié à %s %s."/>
-        <text name="easyDevControls_vehicleMotorTempInfo" text="Température moteur de %s changée à %s Celsius."/>
+        <text name="easyDevControls_vehicleMotorTempInfo" text="Température moteur de %s changée à %s °C."/>
         <text name="easyDevControls_vehicleOperatingTimeInfo" text="Temps d'utilisation de %s changé à %s heure(s)."/>
         <text name="easyDevControls_reloadVehicleInfo" text="Rechargement du XML et de l'I3D réussi avec succès pour %s."/>
         <text name="easyDevControls_vehicleAnalyseInfo" text="Analyse de %s réussie, consulter le fichier journal pour les détails."/>
@@ -398,7 +398,7 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_vehicleFuelHelp" text="Fixe le niveau de carburant du véhicule actif ou de celui à portée du personnage."/>
         <text name="easyDevControls_vehicleMotorTempHelp" text="Fixe la température du moteur du véhicule actif ou de celui à portée du personnage."/>
         <text name="easyDevControls_vehicleOperatingTimeHelp" text="Fixe le temps d'utilisation du véhicule actif ou de celui à portée du personnage."/>
-        <text name="easyDevControls_globalWiperStateHelp" text="Détermine l'usage des essuis glace.
+        <text name="easyDevControls_globalWiperStateHelp" text="Détermine l'usage des essuie-glaces.
 
 Capteur de pluie: Allumage automatique (Par défaut).
 Eteint: Eteint par tout temps.
@@ -409,7 +409,7 @@ Vitesses de 1 à 10: Pour tester le comportement du véhicule actif."/> <!-- Tra
         <text name="easyDevControls_tensionBeltsDebugHelp" text="Active le deboggage des sangles de tous les véhicules."/>
         <text name="easyDevControls_vehicleDistanceHelp" text="Affiche la distance entre tous les véhicules et la caméra active."/>
         <text name="easyDevControls_removeAllVehiclesHelp" text="Supprime tous les véhicules et les outils de la carte."/>
-        <text name="easyDevControls_setPowerConsumerHelp" text="Défini les propriétés de la spécialisation powerConsumer."/>
+        <text name="easyDevControls_setPowerConsumerHelp" text="Défini les propriétés de la spécialisation 'powerConsumer'."/>
         <text name="easyDevControls_toggleCoverHelp" text="Active la bâche du véhicule actif ou à portée du personnage."/>
         <text name="easyDevControls_fillUnitFillLevelHelp" text="Rempli ou vide un contenant avec une certaine quantité de contenu."/>
 
@@ -427,7 +427,7 @@ Vitesses de 1 à 10: Pour tester le comportement du véhicule actif."/> <!-- Tra
         <text name="easyDevControls_productionPointListTitle" text="Liste des productions"/>
         <text name="easyDevControls_deliveryMappingTitle" text="Distributions des productions"/>
         <text name="easyDevControls_productionPointDebugTitle" text="Deboggage des productions"/>
-        <text name="easyDevControls_showTestAreasTitle" text="Affichage des zone interactives"/>
+        <text name="easyDevControls_showTestAreasTitle" text="Affichage des zones interactives"/>
         <text name="easyDevControls_showPlacementCollisionsTitle" text="Affichage des collisions"/>
         <text name="easyDevControls_removeAllPlaceablesTitle" text="Supprimer les plaçables"/>
         <text name="easyDevControls_removeAllMapPlaceablesTitle" text="Supp. les plaçables de la carte"/>
@@ -542,7 +542,7 @@ Souhaitez-vous basculer votre réglage actuel sur 'Non' afin de pouvoir réalise
         <text name="easyDevControls_advanceGrowthHelp" text="Augmente le stade de croissance de la culture d'une étape."/>
         <text name="easyDevControls_setGrowthPeriodHelp" text="Fixe la croissance de la culture telle qu'elle serait à la période choisie."/>
         <text name="easyDevControls_setFarmlandOwnerHelp" text="Permet le changement de propriétaire des parcelles en se basant soit sur le numéro de parcelle ou le numéro de champ."/>
-        <text name="easyDevControls_refreshFieldOverlayHelp" text="Force un raffraichissement du statut des champs dans le PDA."/>
+        <text name="easyDevControls_refreshFieldOverlayHelp" text="Force un rafraîchissement du statut des champs dans le PDA."/>
         <text name="easyDevControls_debugFieldStatusHelp" text="Affiche les données de statut de tous les champs dans un rayon donné."/>
         <text name="easyDevControls_vineSystemDebugHelp" text="Affiche les informations de deboggage des vignes."/>
         <text name="easyDevControls_stoneSystemDebugHelp" text="Affiche les informations de deboggage des pierres."/>
