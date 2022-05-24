@@ -222,7 +222,7 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_teleportPlayerInfo" text="Přesunutí hráče na souřadnice %s, %s proběhlo úspěšně."/>
         <text name="easyDevControls_teleportVehiclesInfo" text="Přesunutí %d vozidla na souřadnice %s, %s proběhlo úspěšně."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Pokus o správnou orientaci vozidla a orientaci jakéhokoli připojeného nářadí."/>
-        <text name="easyDevControls_deleteObjectsKeyInfo" text="Klíč pro odstranění objektů (%s) %s"/>
+        <text name="easyDevControls_deleteObjectsKeyInfo" text="Klávesa pro odstranění objektů (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="FOV kamery aktualizováno na %d°."/>
         <text name="easyDevControls_resetFovAngleInfo" text="Zorné pole bylo resetováno na výchozí hodnotu %d°."/>
         <text name="easyDevControls_setQualityInfo" text="%s kvalita nastavena."/>
@@ -255,11 +255,11 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
 
         <text name="easyDevControls_superStrengthTitle" text="Super síla"/>
         <text name="easyDevControls_jumpMultiplierTitle" text="Násobitel skoků"/>
-        <text name="easyDevControls_thirdPersonViewTitle" text="Pohled třetí osoby"/>
+        <text name="easyDevControls_thirdPersonViewTitle" text="Pohled ze třetí osoby"/>
         <text name="easyDevControls_woodCuttingMarkerTitle" text="Značka na řezání dřeva"/>
         <text name="easyDevControls_aimOverlayTitle" text="Značka cíle"/>
         <text name="easyDevControls_runSpeedTitle" text="Multiplikátor běhu"/>
-        <text name="easyDevControls_runSpeedKeyTitle" text="Spuštění klíče multiplikátoru"/>
+        <text name="easyDevControls_runSpeedKeyTitle" text="Spuštění multiplikátoru klávesou"/>
         <text name="easyDevControls_setFarmTitle" text="Nastavit farmu"/>
         <text name="easyDevControls_playerDebugTitle" text="Informace o ladění"/>
         <text name="easyDevControls_playerFsmDebugTitle" text="Ladění stavu stroje"/>
@@ -274,11 +274,11 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_aimOverlayInfo" text="Značka cíle %s"/>
         <text name="easyDevControls_runSpeedInfo" text="Násobič rychlosti běhu nastaven na %s"/>
         <text name="easyDevControls_runSpeedStateInfo" text="Zvýšená rychlost běhu %s"/>
-        <text name="easyDevControls_runSpeedKeyInfo" text="Tlačítko rychlosti běhu (%s) %s"/>
+        <text name="easyDevControls_runSpeedKeyInfo" text="Klávesa rychlosti běhu (%s) %s"/>
         <text name="easyDevControls_setFarmInfo" text="Změněno %s na farmu %s"/>
         <text name="easyDevControls_playerDebugInfo" text="Informace o ladění hráče %s"/>
         <text name="easyDevControls_playerFsmDebugInfo" text="Ladění stroje ve stavu hráče %s"/>
-        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="ladění stavu skoku hráče %s"/>
+        <text name="easyDevControls_playerFsmStateJumpDebugInfo" text="Ladění stavu skoku hráče %s"/>
 
         <!-- Nápověda k rámečku přehrávače -->
         <text name="easyDevControls_superStrengthHelp" text="Přepíná funkci super síly a rozšiřuje dosah hráče."/>
@@ -291,7 +291,7 @@ Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní fun
         <text name="easyDevControls_woodCuttingMarkerHelp" text="Přepíná viditelnost značky pro řezání dřeva motorovou pilou."/>
         <text name="easyDevControls_aimOverlayHelp" text="Přepíná viditelnost značky cíle."/>
         <text name="easyDevControls_runSpeedHelp" text="Nastaví násobitel, který bude použit, když je 'Zvýšená rychlost běhu' nastavena na 'Zapnuto'."/>
-        <text name="easyDevControls_runSpeedStateHelp" text="Přepíná stav rychlosti běhu. Když je 'Vypnuto', přehrávač bude chodit a běžet výchozí rychlostí."/>
+        <text name="easyDevControls_runSpeedStateHelp" text="Přepíná stav rychlosti běhu. Když je 'Vypnuto', hráč bude chodit a běžet výchozí rychlostí."/>
         <text name="easyDevControls_runSpeedKeyHelp" text="Přepíná dostupnost vazby vstupu 'Zvýšená rychlost běhu'."/>
         <text name="easyDevControls_setFarmHelp" text="Nastaví hráčům aktuální farmu nebo změní vlastníka farmy vozidel."/>
         <text name="easyDevControls_playerDebugHelp" text="Přepíná informace o ladění hráče."/>
