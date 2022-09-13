@@ -3,7 +3,7 @@ Copyright (C) GtX (Andy), 2019
 
 Author: GtX | Andy
 Date: 07.04.2019
-Revision: FS22-02
+Revision: FS22-03
 
 Contact:
 https://forum.giants-software.com
@@ -432,10 +432,10 @@ function EasyDevControls:teleport(object, positionX, positionZ, rotationY)
             end
 
             if isField then
-                return EasyDevUtils.formatText("easyDevControls_teleportVehiclesFieldInfo", tostring(#vehicles), fieldId)
+                return EasyDevUtils.formatText("easyDevControls_teleportVehiclesFieldInfo", tostring(#vehicles), tostring(fieldId))
             end
 
-            return EasyDevUtils.formatText("easyDevControls_teleportVehiclesInfo", tostring(#vehicles), mapPosX, mapPosZ)
+            return EasyDevUtils.formatText("easyDevControls_teleportVehiclesInfo", tostring(#vehicles), tostring(mapPosX), tostring(mapPosZ))
         end
     else
         return self:clientSendEvent(EasyDevControlsTeleportEvent.new(object, positionX, positionZ, rotationY))
@@ -900,7 +900,13 @@ function EasyDevControls:setFillUnitFillLevel(vehicle, fillUnitIndex, fillTypeIn
 
             if self.isServer then
                 local farmId = vehicle:getOwnerFarmId() or 1
+                local balerSpec = vehicle.spec_baler
                 local oldRemoveVehicleIfEmpty = spec.removeVehicleIfEmpty
+
+                -- Causes to many issues so not possible
+                if balerSpec ~= nil and balerSpec.hasUnloadingAnimation then
+                    return self.requestFailedText
+                end
 
                 if fillUnit.fillLevel > 0 then
                     spec.removeVehicleIfEmpty = false
@@ -920,16 +926,21 @@ function EasyDevControls:setFillUnitFillLevel(vehicle, fillUnitIndex, fillTypeIn
                     end
                 end
 
-                vehicle:addFillUnitFillLevel(farmId, fillUnitIndex, amount, fillTypeIndex, ToolType.UNDEFINED)
+                local deltaLevel = vehicle:addFillUnitFillLevel(farmId, fillUnitIndex, math.min(amount, fillUnit.capacity), fillTypeIndex, ToolType.UNDEFINED)
                 spec.removeVehicleIfEmpty = oldRemoveVehicleIfEmpty
+
+                -- Move the bale down the chute so it does not spew them when unloading, not recommended really. This updates fast so Ready, aim.... FIRE!!!
+                if balerSpec ~= nil and not balerSpec.hasUnloadingAnimation then
+                    vehicle:moveBales(vehicle:getTimeFromLevel(deltaLevel))
+                end
 
                 if fillUnit.fillLevel > 0 then
                     local fillLevelString = string.format("%s %s", g_i18n:formatNumber(g_i18n:getVolume(fillUnit.fillLevel), 0), g_i18n:getVolumeUnit(true))
 
-                    return EasyDevUtils.formatText("easyDevControls_setFillUnitFillLevelInfo", fillUnitIndex, vehicle:getFullName(), fillType.title, fillLevelString)
+                    return EasyDevUtils.formatText("easyDevControls_setFillUnitFillLevelInfo", tostring(fillUnitIndex), vehicle:getFullName(), fillType.title, fillLevelString)
                 end
 
-                return EasyDevUtils.formatText("easyDevControls_setFillUnitEmptyInfo", fillUnitIndex, vehicle:getFullName())
+                return EasyDevUtils.formatText("easyDevControls_setFillUnitEmptyInfo", tostring(fillUnitIndex), vehicle:getFullName())
             else
                 return self:clientSendEvent(EasyDevControlsSetFillUnitFillLevel.new(vehicle, fillUnitIndex, fillTypeIndex, amount, ignoreRemoveIfEmpty))
             end
@@ -1305,19 +1316,34 @@ function EasyDevControls:removeAllObjects(typeId)
         if removeVehicles or removePallets then
             local mission = g_currentMission
 
+            local function getVehicleIsPallet(vehicle)
+                if vehicle.typeName == "pallet" or vehicle.typeName == "treeSaplingPallet" or vehicle.typeName == "bigBag" then
+                    return true
+                end
+
+                if vehicle.spec_wheels == nil and vehicle.spec_enterable == nil then
+                    -- Allow custom pallets with different type names. Must include a valid spec of either Pallet, BigBag or TreeSaplingPallet
+                    -- Specialisations 'Wheels' and 'Enterable' are not invalid and ignored as these should not be part of a pallet
+                    for _, spec in pairs(vehicle.specializations) do
+                        if spec == Pallet or spec == BigBag or spec == TreeSaplingPallet then
+                            return true
+                        end
+                    end
+                end
+
+                return false
+            end
+
             for i = #mission.vehicles, 1, -1 do
                 local vehicle = mission.vehicles[i]
 
-                if vehicle.isa ~= nil and vehicle:isa(Vehicle) then
-                    local canRemove = false
-
-                    if vehicle.typeName == "pallet" or vehicle.typeName == "treeSaplingPallet" or vehicle.typeName == "bigBag" then
-                        canRemove = removePallets
-                    elseif vehicle.trainSystem == nil then
-                        canRemove = removeVehicles
-                    end
-
-                    if canRemove then
+                if vehicle.isa ~= nil and vehicle:isa(Vehicle) and vehicle.trainSystem == nil then
+                    if getVehicleIsPallet(vehicle) then
+                        if removePallets then
+                            mission:removeVehicle(vehicle)
+                            numRemoved = numRemoved + 1
+                        end
+                    elseif removeVehicles then
                         mission:removeVehicle(vehicle)
                         numRemoved = numRemoved + 1
                     end
@@ -1385,7 +1411,7 @@ function EasyDevControls:removeAllObjects(typeId)
         end
 
         if typeText ~= "" then
-            return EasyDevUtils.formatText("easyDevControls_removeAllObjectsInfo", numRemoved, typeText)
+            return EasyDevUtils.formatText("easyDevControls_removeAllObjectsInfo", tostring(numRemoved), typeText)
         end
     else
         if removeVehicles or removePallets or removeBales or removeLogs or removeStumps or removePlaceables or removeMapPlaceables then
@@ -1461,7 +1487,7 @@ function EasyDevControls:setProductionPointFillLevels(productionPoint, fillLevel
                         local modeL10N = isOutput and "easyDevControls_output" or "easyDevControls_input"
                         local typeText = EasyDevUtils.getTypeText("PRODUCTION_POINT", 1)
 
-                        return EasyDevUtils.formatText("easyDevControls_productionPointFillLevelAllInfo", EasyDevUtils.getText(modeL10N):lower(), 1, typeText)
+                        return EasyDevUtils.formatText("easyDevControls_productionPointFillLevelAllInfo", EasyDevUtils.getText(modeL10N):lower(), "1", typeText)
                     end
                 else
                     local text = self:clientSendEvent(EasyDevControlsSetProductionPointFillLevelsEvent.new(productionPoint, fillLevel, nil, isOutput))
@@ -1566,7 +1592,7 @@ function EasyDevControls:reloadPlaceables(target, resultFunction)
             placeableSystem:loadPlaceableFromXML(xmlFile, key, missionInfo, missionDynamicInfo, false, callback, nil, arguments)
         end
     else
-        return EasyDevUtils.formatText("easyDevControls_reloadPlaceablesInfo", 0, EasyDevUtils.getText("easyDevControls_typePlaceables"))
+        return EasyDevUtils.formatText("easyDevControls_reloadPlaceablesInfo", "0", EasyDevUtils.getText("easyDevControls_typePlaceables"))
     end
 end
 
@@ -1606,11 +1632,11 @@ function EasyDevControls:setField(fieldIndex, modifierData, extraParamaters, far
         end
 
         if numFieldsUpdated > 0 then
-            return EasyDevUtils.formatText("easyDevControls_setAllFieldSuccessInfo", numFieldsUpdated)
+            return EasyDevUtils.formatText("easyDevControls_setAllFieldSuccessInfo", tostring(numFieldsUpdated))
         end
     else
         if EasyDevUtils.setField(g_fieldManager:getFieldByIndex(fieldIndex), modifierData, extraParamaters, farmId, buyFarmland) then
-            return EasyDevUtils.formatText("easyDevControls_setFieldSuccessInfo", fieldIndex)
+            return EasyDevUtils.formatText("easyDevControls_setFieldSuccessInfo", tostring(fieldIndex))
         end
     end
 
@@ -1673,7 +1699,7 @@ function EasyDevControls:vineSystemSetState(placeableVine, fruitTypeIndex, growt
             end
         end
 
-        return EasyDevUtils.formatText("easyDevControls_vineSetStateInfo", numUpdated, fruitType.title, growthState)
+        return EasyDevUtils.formatText("easyDevControls_vineSetStateInfo", tostring(numUpdated), fruitType.title, tostring(growthState))
     else
         return self:clientSendEvent(EasyDevControlsVineSystemSetStateEvent.new(placeableVine, fruitTypeIndex, growthState))
     end
@@ -1691,10 +1717,10 @@ function EasyDevControls:addRemoveWeedsDelta(fieldIndex, delta)
         weedSystem:consoleCommandAddDelta(fieldIndex, delta)
 
         if delta < 0 then
-            return EasyDevUtils.formatText("easyDevControls_removeWeedOrStoneDelta", g_i18n:getText("setting_weedsEnabled"), math.abs(delta))
+            return EasyDevUtils.formatText("easyDevControls_removeWeedOrStoneDelta", g_i18n:getText("setting_weedsEnabled"), tostring(math.abs(delta)))
         end
 
-        return EasyDevUtils.formatText("easyDevControls_addWeedOrStoneDelta", g_i18n:getText("setting_weedsEnabled"), math.abs(delta))
+        return EasyDevUtils.formatText("easyDevControls_addWeedOrStoneDelta", g_i18n:getText("setting_weedsEnabled"), tostring(math.abs(delta)))
     else
         self:clientSendEvent(EasyDevControlsAddRemoveDeltaEvent.new(true, fieldIndex, delta))
     end
@@ -1712,10 +1738,10 @@ function EasyDevControls:addRemoveStonesDelta(fieldIndex, delta)
         stoneSystem:consoleCommandAddDelta(fieldIndex, delta)
 
         if delta < 0 then
-            return EasyDevUtils.formatText("easyDevControls_removeWeedOrStoneDelta", g_i18n:getText("setting_stonesEnabled"), math.abs(delta))
+            return EasyDevUtils.formatText("easyDevControls_removeWeedOrStoneDelta", g_i18n:getText("setting_stonesEnabled"), tostring(math.abs(delta)))
         end
 
-        return EasyDevUtils.formatText("easyDevControls_addWeedOrStoneDelta", g_i18n:getText("setting_stonesEnabled"), math.abs(delta))
+        return EasyDevUtils.formatText("easyDevControls_addWeedOrStoneDelta", g_i18n:getText("setting_stonesEnabled"), tostring(math.abs(delta)))
     else
         self:clientSendEvent(EasyDevControlsAddRemoveDeltaEvent.new(false, fieldIndex, delta))
     end

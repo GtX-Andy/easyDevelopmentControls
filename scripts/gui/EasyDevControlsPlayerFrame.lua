@@ -26,9 +26,7 @@ local EMPTY_TABLE = {}
 local function NO_CALLBACK()
 end
 
-local JUMP_MULTIPLIER_STATES = {
-    1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-}
+local JUMP_MULTIPLIER_STATES = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
 EasyDevControlsPlayerFrame.L10N_SYMBOL = {}
 

@@ -105,8 +105,8 @@ Visit the Giants modHub download link below for the latest official release."/>
         <text name="easyDevControls_infohud_tree" text="Tree"/>
         <text name="easyDevControls_all" text="All"/>
         <text name="easyDevControls_found" text="Found"/>
-        <text name="easyDevControls_state" text="State %d"/>
-        <text name="easyDevControls_type" text="Type %d"/>
+        <text name="easyDevControls_state" text="State %s"/>
+        <text name="easyDevControls_type" text="Type %s"/>
         <text name="easyDevControls_fill" text="Fill"/>
         <text name="easyDevControls_empty" text="Empty"/>
         <text name="easyDevControls_maximum" text="Maximum"/>
@@ -218,9 +218,9 @@ Make sure vehicle is positioned on a flat plane that is parallel to x/z plane fo
         <text name="easyDevControls_hudInputOffInfo" text="Hud input binding off"/>
         <text name="easyDevControls_hudInputOnInfo" text="Hud input binding on  (Toggle the hud visibility using input '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Moved player to Field %s successfully."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Moved %d vehicles to Field %s successfully."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Moved %s vehicles to Field %s successfully."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Moved player to coordinates %s, %s successfully."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Moved %d vehicles to coordinates %s, %s successfully."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Moved %s vehicles to coordinates %s, %s successfully."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Attempting to correct vehicle orientation and the orientation of any connected implement."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Delete objects key (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Camera FOV updated to %d°."/>
@@ -317,7 +317,7 @@ Note: This mode is designed for screenshots and not all game functions such as '
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="Adding %s."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="Successfully removed %d %s from the map."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="Successfully removed %s %s from the map."/>
         <text name="easyDevControls_tipToGroundInfo" text="Successfully tipped %s of %s at a length of %s."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Successfully cleared %s height type at a radius of %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Successfully cleared %s of %s height type."/>
@@ -375,7 +375,7 @@ Red: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_resetToDefault" text="Reset To Default"/>
         <text name="easyDevControls_toggleCoverTitle" text="Toggle Cover"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Fill Level"/>
-        <text name="easyDevControls_fillUnitIndex" text="Fill Unit %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Fill Unit %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="The condition of %s has been update."/>
@@ -389,9 +389,9 @@ Red: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Tension Belts debugging is now %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Vehicle distance debugging is now %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="%s power consumer data has been updated (Synced to all vehicles: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="%s cover is now %s, state id %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Successfully set fill unit %d of %s to %s with a fill level of %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="Successfully emptied fill unit %d of %s."/>
+        <text name="easyDevControls_toggleCoverInfo" text="%s cover is now %s, state id %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Successfully set fill unit %s of %s to %s with a fill level of %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Successfully emptied fill unit %s of %s."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Adds, removes or sets the selected condition percentage to an 'entered vehicle and all implements' or a 'single vehicle' in range of the player."/>
@@ -436,13 +436,13 @@ States 1 to 10: Vehicle specific states for testing."/> <!-- Translators: Space 
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Reload Placeables"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Changed %d %s to farm %s (%d) successfully."/>
-        <text name="easyDevControls_productionPointStateInfo" text="Changed %d %s to '%s' state successfully."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Changed %d %s to distribution mode '%s' successfully."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Changed %s %s to farm %s (%s) successfully."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Changed %s %s to '%s' state successfully."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Changed %s %s to distribution mode '%s' successfully."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Changed %s fill levels of '%s' on production point %s successfully."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Changed all %s fill levels on %d %s successfully."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Changed all %s fill levels on %s %s successfully."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Distributing '%s' to the following production points:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Successfully reloaded XML and I3D of %d %s."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Successfully reloaded XML and I3D of %s %s."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Allows the following changes to be made to the production points.
@@ -508,24 +508,24 @@ Fill Level:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Debug Fieldstones"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="Updated %d fields successfully"/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Updated field %d successfully"/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="Updated %s fields successfully"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Updated field %s successfully"/>
         <text name="easyDevControls_setFieldFailedInfo" text="Updating of fields failed."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Growth on all fields has been advanced to the next stage."/>
         <text name="easyDevControls_advanceGrowthWarning" text="Advancing growth stage is only available when the game setting '%s' is set to 'No'.
 
 Would you like to change your current setting from '%s' to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Growth period on all fields updated to %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Growth period on all fields updated to %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Setting growth period is not available when the game setting '%s' is set to '%s'.
 
 Would you like to change your setting to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Increased %s delta by %d."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Decreased %s delta by %d."/>
-        <text name="easyDevControls_vineSetStateInfo" text="Updated %d %s vines to growth state %d"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Increased %s delta by %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Decreased %s delta by %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Updated %s %s vines to growth state %s"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Updated all vine visuals"/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Updated ownership of %d available farmlands to %s farm."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Updated ownership of farmland %d to farm %s."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Updated ownership of %s available farmlands to %s farm."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Updated ownership of farmland %s to farm %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Refreshing PDA field overlay and setting timer to 60 seconds."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Field status debugging %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Vine system debugging %s."/>

@@ -3,7 +3,7 @@ Copyright (C) GtX (Andy), 2019
 
 Author: GtX | Andy
 Date: 07.04.2019
-Revision: FS22-01
+Revision: FS22-02
 
 Contact:
 https://forum.giants-software.com
@@ -987,12 +987,12 @@ function EasyDevControlsFieldsFrame:getStoneData()
         local pickedValue = stoneSystem:getPickedValue()
         local minValue, maxValue = g_currentMission.stoneSystem:getMinMaxValues()
 
-        table.insert(stoneStateTexts, string.format(stateText, maskValue))
+        table.insert(stoneStateTexts, string.format(stateText, tostring(maskValue)))
         table.insert(stoneStates, maskValue)
 
         for value = minValue, maxValue do
             if value ~= maskValue and value ~= pickedValue then
-                table.insert(stoneStateTexts, string.format(stateText, value))
+                table.insert(stoneStateTexts, string.format(stateText, tostring(value)))
                 table.insert(stoneStates, value)
             end
         end
@@ -1051,7 +1051,7 @@ function EasyDevControlsFieldsFrame:onClickFieldSet(element)
             numHorizontal = data.numHorizontal,
             numVertical = data.numVertical,
             confirmText = data.confirmText,
-			confirmButtonAction = InputAction.MENU_ACTIVATE,
+            confirmButtonAction = InputAction.MENU_ACTIVATE,
             onCloseTarget = self
         })
 
@@ -1259,7 +1259,7 @@ function EasyDevControlsFieldsFrame:onClickConfirmGrowthPeriod(element)
         local growthMode = g_currentMission.growthSystem:getGrowthMode()
         local args = {
             updateGrowthMode = growthMode == GrowthSystem.MODE.DISABLED,
-            successText = EasyDevUtils.formatText("easyDevControls_setGrowthPeriodInfo", g_i18n:formatPeriod(period, false), period),
+            successText = EasyDevUtils.formatText("easyDevControls_setGrowthPeriodInfo", g_i18n:formatPeriod(period, false), tostring(period)),
             setGrowth = true,
             period = period
         }
@@ -1379,14 +1379,14 @@ function EasyDevControlsFieldsFrame:onClickConfrimSetFarmlandOwner(element)
             end
         end
 
-        self:setInfoText(EasyDevUtils.formatText("easyDevControls_setFarmlandOwnerAllInfo", numUpdated, farmName))
+        self:setInfoText(EasyDevUtils.formatText("easyDevControls_setFarmlandOwnerAllInfo", tostring(numUpdated), farmName))
     else
         local currentOwner = g_farmlandManager:getFarmlandOwner(farmlandId)
 
         if currentOwner == self.farmId or currentOwner == FarmlandManager.NO_OWNER_FARM_ID then
             g_client:getServerConnection():sendEvent(FarmlandStateEvent.new(farmlandId, farmId, 0))
 
-            self:setInfoText(EasyDevUtils.formatText("easyDevControls_setFarmlandOwnerInfo", farmlandId, farmName))
+            self:setInfoText(EasyDevUtils.formatText("easyDevControls_setFarmlandOwnerInfo", tostring(farmlandId), farmName))
         else
             self:setInfoText(EasyDevUtils.getText("easyDevControls_requestFailedMessage"))
         end

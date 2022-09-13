@@ -105,8 +105,8 @@ Visite o link de download do Giants modHub abaixo para obter a versão oficial m
         <text name="easyDevControls_infohud_tree" text="Árvore"/>
         <text name="easyDevControls_all" text="Tudo"/>
         <text name="easyDevControls_found" text="Encontrado"/>
-        <text name="easyDevControls_state" text="Estado %d"/>
-        <text name="easyDevControls_type" text="Tipo %d"/>
+        <text name="easyDevControls_state" text="Estado %s"/>
+        <text name="easyDevControls_type" text="Tipo %s"/>
         <text name="easyDevControls_fill" text="Encher"/>
         <text name="easyDevControls_empty" text="Vazio"/>
         <text name="easyDevControls_maximum" text="Máximo"/>
@@ -218,9 +218,9 @@ Certifique-se de que o veículo esteja posicionado em um plano paralelo ao plano
         <text name="easyDevControls_hudInputOffInfo" text="Ligação de entrada do HUD desativada"/>
         <text name="easyDevControls_hudInputOnInfo" text="Ligação de entrada do HUD ativada (alterne a visibilidade do HUD usando a entrada '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Jogador movido para o Campo %s com sucesso."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Veículos %d movidos para o Campo %s com sucesso."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Veículos %s movidos para o Campo %s com sucesso."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Jogador movido para as coordenadas %s, %s com sucesso."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Veículos %d movidos para as coordenadas %s, %s com sucesso."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Veículos %s movidos para as coordenadas %s, %s com sucesso."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Tentar corrigir a orientação do veículo e a orientação de qualquer implemento conectado."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Excluir chave de objetos (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="FOV da câmera atualizado para %d°."/>
@@ -317,7 +317,7 @@ Nota: Este modo foi projetado para capturas de tela e nem todas as funções do 
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="Adicionado: %s."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="%d %s removidos(as) com sucesso do mapa."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="%s %s removidos(as) com sucesso do mapa."/>
         <text name="easyDevControls_tipToGroundInfo" text="Pilha de %s com %s criada com sucesso em um comprimento de %s."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Pilha(s) de %s apagada(s) com sucesso em um raio de %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Pilha(s) de %s com altura de %s apagado com sucesso."/>
@@ -375,7 +375,7 @@ Vermelho: Bits de Vetores &gt; 1"/> <!-- Translators: Space is intentional for e
         <text name="easyDevControls_resetToDefault" text="Redefinir para o Padrão"/>
         <text name="easyDevControls_toggleCoverTitle" text="Alternar Cobertura"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Nível do Preenchimento"/>
-        <text name="easyDevControls_fillUnitIndex" text="Unidade de Preenchimento %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Unidade de Preenchimento %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="A condição do(a) %s foi atualizada."/>
@@ -389,9 +389,9 @@ Vermelho: Bits de Vetores &gt; 1"/> <!-- Translators: Space is intentional for e
         <text name="easyDevControls_tensionBeltsDebugInfo" text="A depuração dos cintos de tensão agora está %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="A depuração de distância do veículo agora está %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="Os dados do consumo de energia de %s foram atualizados (Sincronizado com todos os veículos: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="O estado da cobertura do(a) %s agora é: %s. ID de estado %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="A unidade de preenchimento %d do(a) %s foi preenchida com sucesso de %s a um nível de %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="A unidade de preenchimento %d do(a) %s foi esvaziado com sucesso."/>
+        <text name="easyDevControls_toggleCoverInfo" text="O estado da cobertura do(a) %s agora é: %s. ID de estado %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="A unidade de preenchimento %s do(a) %s foi preenchida com sucesso de %s a um nível de %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="A unidade de preenchimento %s do(a) %s foi esvaziado com sucesso."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Adiciona, remove ou define a porcentagem da condição selecionada para um 'veículo inserido e todos os implementos' ou um 'veículo único' ao alcance do jogador."/>
@@ -436,13 +436,13 @@ Estados 1 a 10: Estados específicos do veículo para teste."/> <!-- Translators
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Recarregar Colocáveis"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="%d %s alterado para fazenda %s (%d) com sucesso."/>
-        <text name="easyDevControls_productionPointStateInfo" text="%d %s alterado para o estado '%s' com sucesso."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Alterado %d %s para o modo de distribuição '%s' com sucesso."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="%s %s alterado para fazenda %s (%s) com sucesso."/>
+        <text name="easyDevControls_productionPointStateInfo" text="%s %s alterado para o estado '%s' com sucesso."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Alterado %s %s para o modo de distribuição '%s' com sucesso."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Níveis de preenchimento de %s alterados de '%s' no ponto de produção %s com sucesso."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Todos os níveis de preenchimento de %s em %d %s foram alterados com sucesso."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Todos os níveis de preenchimento de %s em %s %s foram alterados com sucesso."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Distribuindo '%s' para os seguintes pontos de produção:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="XML e I3D de %d %s recarregados com sucesso."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="XML e I3D de %s %s recarregados com sucesso."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Permite que as seguintes alterações sejam feitas nos pontos de produção.
@@ -508,24 +508,24 @@ Nível de preenchimento:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Depuração das Pedras de Campo"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="%d campos atualizados com sucesso"/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Campo %d atualizado com sucesso"/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="%s campos atualizados com sucesso"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Campo %s atualizado com sucesso"/>
         <text name="easyDevControls_setFieldFailedInfo" text="Falha na atualização dos campos."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="O crescimento em todos os campos avançou para o próximo estágio."/>
         <text name="easyDevControls_advanceGrowthWarning" text="O estágio de crescimento avançado só está disponível quando a configuração do jogo '%s' está definida como 'Não'.
 
 Deseja alterar sua configuração atual de '%s' para 'Não' para que esta ação possa ser executada?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Período de crescimento em todos os campos atualizado para %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Período de crescimento em todos os campos atualizado para %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="A configuração do período de crescimento não está disponível quando a configuração do jogo '%s' está definida como '%s'.
 
 Deseja alterar sua configuração para 'Não' para que esta ação possa ser executada?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Aumento do delta de %s em %d."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Diminuição do delta de %s em %d."/>
-        <text name="easyDevControls_vineSetStateInfo" text="Atualizado %d %s videiras para o estado de crescimento %d"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Aumento do delta de %s em %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Diminuição do delta de %s em %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Atualizado %s %s videiras para o estado de crescimento %s"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Atualizado todas os visuais da videiras"/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Propriedade atualizada de %d terrenos compráveis disponíveis para a fazenda %s."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Propriedade atualizada da fazenda %d para a fazenda %s."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Propriedade atualizada de %s terrenos compráveis disponíveis para a fazenda %s."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Propriedade atualizada da fazenda %s para a fazenda %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Atualizando a sobreposição de campo do PDA e configurando o temporizador para 60 segundos."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Depuração de status do campo %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Depuração do sistema de videiras %s."/>

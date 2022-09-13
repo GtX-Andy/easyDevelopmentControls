@@ -105,8 +105,8 @@
         <text name="easyDevControls_infohud_tree" text="Дерево"/>
         <text name="easyDevControls_all" text="Все"/>
         <text name="easyDevControls_found" text="Найдено"/>
-        <text name="easyDevControls_state" text="Состояние %d"/>
-        <text name="easyDevControls_type" text="Тип %d"/>
+        <text name="easyDevControls_state" text="Состояние %s"/>
+        <text name="easyDevControls_type" text="Тип %s"/>
         <text name="easyDevControls_fill" text="Заполнить"/>
         <text name="easyDevControls_empty" text="Опустошить"/>
         <text name="easyDevControls_maximum" text="Максимум"/>
@@ -218,9 +218,9 @@
         <text name="easyDevControls_hudInputOffInfo" text="Взаимодействие с HUD: Выключено."/>
         <text name="easyDevControls_hudInputOnInfo" text="Взаимодействие с HUD: Включено. (переключайте отображение HUD с помощью клавиши '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Игрок успешно перемещен на поле %s."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Перемещено %d транспортных средств на поле %s."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Перемещено %s транспортных средств на поле %s."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Игрок успешно перемещен на координаты %s %s."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Перемещено %d транспортных средств на координаты %s %s."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Перемещено %s транспортных средств на координаты %s %s."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Попытка исправить ориентацию транспортного средства и подключенного орудия."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Удаление объектов с помощью назначенной клавиши (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Поле зрения обновлено до %d°."/>
@@ -317,7 +317,7 @@
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="Добавлено: %s."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="С карты успешно удалено: %d %s"/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="С карты успешно удалено: %s %s"/>
         <text name="easyDevControls_tipToGroundInfo" text="Куча: %s %s длиной %s успешно добавлена."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Успешно удалено: %s в радиусе %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Успешно очищено %s от: %s."/>
@@ -375,7 +375,7 @@
         <text name="easyDevControls_resetToDefault" text="Восстановление значений по умолчанию"/>
         <text name="easyDevControls_toggleCoverTitle" text="Положение крышки"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Уровень заполнения"/>
-        <text name="easyDevControls_fillUnitIndex" text="Содержание %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Содержание %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Статус %s обновлен."/>
@@ -389,9 +389,9 @@
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Отладка натяжных ремней: %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Отладка расстояния до транспорт: %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="Обновлены данные о потребителе энергии %s (синхронизированы со всеми транспортными средствами: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="Крышка %s теперь %s, идентификатор состояния %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Успешное заполнение %d, %s - %s %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="Успешно опорожнено %d емкость %s."/>
+        <text name="easyDevControls_toggleCoverInfo" text="Крышка %s теперь %s, идентификатор состояния %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Успешное заполнение %s, %s - %s %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Успешно опорожнено %s емкость %s."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Добавляет, удаляет или устанавливает выбранный процент состояния транспортного средства и всех орудий, или одного транспортного средства в радиусе действия игрока."/>
@@ -436,13 +436,13 @@
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Перезагрузить все объекты"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Смена владельца с %d %s на %s (%d) успешно завершена."/>
-        <text name="easyDevControls_productionPointStateInfo" text="Статус %d %s успешно изменен на '%s'."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Режим распространения %d %s успешно изменен на '%s'."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Смена владельца с %s %s на %s (%s) успешно завершена."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Статус %s %s успешно изменен на '%s'."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Режим распространения %s %s успешно изменен на '%s'."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Уровни %s '%s' из производства %s успешно изменены."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Все уровни %s производства %d %s успешно изменены."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Все уровни %s производства %s %s успешно изменены."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Распространение '%s' среди следующих производств:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Успешно перезагружен XML и I3D %d %s."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Успешно перезагружен XML и I3D %s %s."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Позволяет вносить следующие изменения в производственные точки.
@@ -508,24 +508,24 @@
         <text name="easyDevControls_stoneSystemDebugTitle" text="Отладка камней"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="%d поля успешно обновлены."/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Поле %d успешно обновлено."/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="%s поля успешно обновлены."/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Поле %s успешно обновлено."/>
         <text name="easyDevControls_setFieldFailedInfo" text="Не удалось обновить поля."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Стадия роста всех полей увеличена на один уровень."/>
         <text name="easyDevControls_advanceGrowthWarning" text="Продвижение по стадии роста возможно только в том случае, если для параметра «%s» установлено значение «Нет».
 
 Вы хотите изменить текущую настройку с «%s» на «Нет», чтобы выполнить запрошенное действие?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Период роста во всех полях обновлен до %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Период роста во всех полях обновлен до %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Выбор периода роста невозможен, когда вариант игры '%s' равен '%s'.
 
 Вы хотите переключить текущую настройку на «Нет», чтобы выполнить запрошенное действие?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Уровень «%s» повышен на «%d»."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Уровень «%s» снижен на «%d»."/>
-        <text name="easyDevControls_vineSetStateInfo" text="%d %s лозы обновлены до стадии роста %d."/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Уровень «%s» повышен на «%s»."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Уровень «%s» снижен на «%s»."/>
+        <text name="easyDevControls_vineSetStateInfo" text="%s %s лозы обновлены до стадии роста %s."/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Обновлен визуал всех виноградников."/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Смена владельца «%d» доступных участков на ферму «%s»."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Смена владельца участка «%d» в пользу фермы «%s»."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Смена владельца «%s» доступных участков на ферму «%s»."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Смена владельца участка «%s» в пользу фермы «%s»."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Обновление состояния полей в PDA, следующее обновление через 60 секунд."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Состояние отладки полей: %s"/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Отладка виноградников: %s"/>

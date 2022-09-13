@@ -3,7 +3,7 @@ Copyright (C) GtX (Andy), 2019
 
 Author: GtX | Andy
 Date: 07.04.2019
-Revision: FS22-02
+Revision: FS22-03
 
 Contact:
 https://forum.giants-software.com
@@ -336,7 +336,7 @@ function EasyDevControlsPlaceablesFrame:initProductionPointData()
                     local typeText = EasyDevUtils.getTypeText("PRODUCTION_POINT", numUpdated)
 
                     self:initProductionPointsInfo(setProductionPoint)
-                    self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointOwnerInfo", numUpdated, typeText, farmName, farmId))
+                    self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointOwnerInfo", tostring(numUpdated), typeText, farmName, tostring(farmId)))
                 else
                     self:setInfoText(EasyDevUtils.getText("easyDevControls_requestFailedMessage"))
                 end
@@ -450,7 +450,7 @@ function EasyDevControlsPlaceablesFrame:initProductionPointData()
 
                         element:setDisabled(true)
 
-                        self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointStateInfo", numUpdated, typeText, stateText:upper()))
+                        self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointStateInfo", tostring(numUpdated), typeText, stateText:upper()))
                     else
                         self:setInfoText(EasyDevUtils.getText("easyDevControls_requestFailedMessage"))
                     end
@@ -577,7 +577,7 @@ function EasyDevControlsPlaceablesFrame:initProductionPointData()
 
                         element:setDisabled(true)
 
-                        self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointDistributionInfo", numUpdated, typeText, g_i18n:getText(l10n)))
+                        self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointDistributionInfo", tostring(numUpdated), typeText, g_i18n:getText(l10n)))
                     else
                         self:setInfoText(EasyDevUtils.getText("easyDevControls_requestFailedMessage"))
                     end
@@ -780,7 +780,7 @@ function EasyDevControlsPlaceablesFrame:initProductionPointData()
                                 local modeL10N = isOutput and "easyDevControls_output" or "easyDevControls_input"
                                 local typeText = EasyDevUtils.getTypeText("PRODUCTION_POINT", numUpdated)
 
-                                self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointFillLevelAllInfo", EasyDevUtils.getText(modeL10N):lower(), numUpdated, typeText))
+                                self:setInfoText(EasyDevUtils.formatText("easyDevControls_productionPointFillLevelAllInfo", EasyDevUtils.getText(modeL10N):lower(), tostring(numUpdated), typeText))
                             else
                                 self:setInfoText(EasyDevUtils.getText("easyDevControls_serverRequestMessage"))
                             end
@@ -1190,8 +1190,52 @@ function EasyDevControlsPlaceablesFrame:onClickShowPlaceableTestAreas(index, ele
     local renderingActive = self:getIsCheckedIndex(index)
 
     if placeableSystem ~= nil then
+        -- Code taken from sdk folder as the 'PlaceableSystem:consoleCommandPlaceableTestAreas' has no delete feature.
+        -- I need to monitor when a building is deleted to remove the 'PermanentElement' or it is... Permanent :-)
         if (renderingActive and not placeableSystem.isTestAreaRenderingActive) or (not renderingActive and placeableSystem.isTestAreaRenderingActive) then
-            placeableSystem:consoleCommandPlaceableTestAreas()
+            placeableSystem.isTestAreaRenderingActive = not placeableSystem.isTestAreaRenderingActive
+
+            for _, placeable in ipairs(placeableSystem.placeables) do
+                local spec = placeable.spec_placement
+
+                if spec ~= nil then
+                    for _, area in ipairs(spec.testAreas) do
+                        if placeableSystem.isTestAreaRenderingActive then
+                            area.debugTestBox:createWithStartEnd(area.startNode, area.endNode)
+                            area.debugStartNode:createWithNode(area.startNode, getName(area.startNode), false, nil)
+                            area.debugEndNode:createWithNode(area.endNode, getName(area.endNode), false, nil)
+                            area.debugArea:createWithStartEnd(area.startNode, area.endNode)
+
+                            g_debugManager:addPermanentElement(area.debugTestBox)
+                            g_debugManager:addPermanentElement(area.debugStartNode)
+                            g_debugManager:addPermanentElement(area.debugEndNode)
+                            g_debugManager:addPermanentElement(area.debugArea)
+
+                            placeable:addDeleteListener(self, "onDeleteTestAreaPlaceable")
+                        else
+                            placeable:removeDeleteListener(self, "onDeleteTestAreaPlaceable")
+
+                            g_debugManager:removePermanentElement(area.debugTestBox)
+                            g_debugManager:removePermanentElement(area.debugStartNode)
+                            g_debugManager:removePermanentElement(area.debugEndNode)
+                            g_debugManager:removePermanentElement(area.debugArea)
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+function EasyDevControlsPlaceablesFrame:onDeleteTestAreaPlaceable(placeable)
+    local spec = placeable.spec_placement
+
+    if spec ~= nil then
+        for _, area in ipairs(spec.testAreas) do
+            g_debugManager:removePermanentElement(area.debugTestBox)
+            g_debugManager:removePermanentElement(area.debugStartNode)
+            g_debugManager:removePermanentElement(area.debugEndNode)
+            g_debugManager:removePermanentElement(area.debugArea)
         end
     end
 end
@@ -1217,7 +1261,7 @@ function EasyDevControlsPlaceablesFrame:onClickReloadPlaceables(element)
     end
 
     local resultFunction = function(numReloaded, failedToReload)
-        self:setInfoText(EasyDevUtils.formatText("easyDevControls_reloadPlaceablesInfo", numReloaded, EasyDevUtils.getTypeText("PLACEABLE", numReloaded)))
+        self:setInfoText(EasyDevUtils.formatText("easyDevControls_reloadPlaceablesInfo", tostring(numReloaded), EasyDevUtils.getTypeText("PLACEABLE", numReloaded)))
 
         element:setDisabled(true)
 

@@ -208,11 +208,16 @@
     <Profile name="devControlsMultiTextOptionText" extends="multiTextOptionText">
 
     </Profile>
+
     <Profile name="devControlsMultiTextOptionTitle" extends="multiTextOptionTitle">
         <Value name="position" value="0px 8px"/>
         <Value name="textAlignment" value="left"/>
         <Value name="textSize" value="18px"/>
         <Value name="textMaxWidth" value="295px"/>
+        <Value name="textLayoutMode" value="resize"/> <!-- Allow for longer languages -->
+        <Value name="textMinSize" value="10px"/>
+        <Value name="textMaxNumLines" value="1"/>
+        <Value name="textAutoWidth" value="true"/>
     </Profile>
 
     <Profile name="devControlsMultiTextOptionBg" extends="multiTextOptionBg">

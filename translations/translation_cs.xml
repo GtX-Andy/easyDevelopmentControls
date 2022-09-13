@@ -19,6 +19,10 @@
         Console Command: gtxReloadEasyDevControlsTranslations
     -->
 
+    <!-- This translation is currently not included in any packaged release of the mod via ModHub or GitHub due to a large number of invalid characters that are unknown by the Giants Engine.
+         If this can be corrected by a Chinese / English speaking person I am happy to include it in a release :-)
+    -->
+
     <texts>
         <!-- Inputs -->
         <text name="input_EDC_SHOW_UI" text="打开菜单"/>

@@ -3,7 +3,7 @@ Copyright (C) GtX (Andy), 2019
 
 Author: GtX | Andy
 Date: 07.04.2019
-Revision: FS22-01
+Revision: FS22-04
 
 Contact:
 https://forum.giants-software.com
@@ -130,6 +130,10 @@ function EasyDevControlsVehiclesFrame:updateAvailableProperties()
 
     -- Set Fill Level
     local fillUnitTexts = EMPTY_TABLE
+    local numFillUnitTexts = 0
+
+    local lastSelectedFillUnit = self.lastSelectedFillUnit or 1
+    local lastSelectedFillTypeId = self.lastSelectedFillTypeId or 1
 
     selectedVehicle = self.easyDevControls:getSelectedVehicle("spec_fillUnit", false)
     self.setFillUnitDisabled = selectedVehicle == nil or self:getIsPropertyDisabled("vehicleFillLevel")
@@ -140,13 +144,14 @@ function EasyDevControlsVehiclesFrame:updateAvailableProperties()
         self.fillUnitSupportedFillTypes = {}
 
         if selectedVehicle ~= self.lastFillTypeVehicle then
-            self.lastSelectedFillUnit = 1
-            self.lastSelectedFillTypeId = 1
-            self.lastFillTypeVehicle = nil
+            lastSelectedFillUnit = 1
+            lastSelectedFillTypeId = 1
         end
 
+        self.lastFillTypeVehicle = selectedVehicle -- [22/05/2022] Thanks @Alien Jim for mentioning this was not remembered when not exiting vehicle :-)
+
         for fillUnitIndex, fillUnit in ipairs(selectedVehicle:getFillUnits()) do
-            self.fillUnitTexts[fillUnitIndex] = EasyDevUtils.formatText("easyDevControls_fillUnitIndex", fillUnitIndex)
+            self.fillUnitTexts[fillUnitIndex] = EasyDevUtils.formatText("easyDevControls_fillUnitIndex", tostring(fillUnitIndex))
 
             self.fillUnitFillTypesTexts[fillUnitIndex] = {}
             self.fillUnitSupportedFillTypes[fillUnitIndex] = {}
@@ -159,7 +164,19 @@ function EasyDevControlsVehiclesFrame:updateAvailableProperties()
                 table.insert(self.fillUnitSupportedFillTypes[fillUnitIndex], supportedFillType)
             end
         end
-    else
+
+        -- Fix for vehicles that include the 'FillUnit Spec' but do not use it for some reason :-/
+        numFillUnitTexts = #self.fillUnitFillTypesTexts
+
+        if numFillUnitTexts > 0 and numFillUnitTexts < lastSelectedFillUnit then
+            lastSelectedFillUnit = 1
+            lastSelectedFillTypeId = 1
+
+            self.lastFillTypeVehicle = nil
+        end
+    end
+
+    if numFillUnitTexts <= 0 then
         self.fillUnitTexts = {
             "1"
         }
@@ -172,21 +189,26 @@ function EasyDevControlsVehiclesFrame:updateAvailableProperties()
             {FillType.UNKNOWN}
         }
 
-        self.lastSelectedFillUnit = 1
-        self.lastSelectedFillTypeId= 1
+        lastSelectedFillUnit = 1
+        lastSelectedFillTypeId = 1
+
         self.lastFillTypeVehicle = nil
+        self.setFillUnitDisabled = true
     end
+
+    self.lastSelectedFillUnit = lastSelectedFillUnit
+    self.lastSelectedFillTypeId = lastSelectedFillTypeId
 
     fillUnitTexts = self.fillUnitTexts
 
     self.multiFillUnit:setTexts(fillUnitTexts)
-    self.multiFillUnit:setState(self.lastSelectedFillUnit)
+    self.multiFillUnit:setState(lastSelectedFillUnit)
     self.multiFillUnit:setDisabled(self.setFillUnitDisabled or #fillUnitTexts <= 1)
 
-    fillUnitTexts = self.fillUnitFillTypesTexts[self.lastSelectedFillUnit]
+    fillUnitTexts = self.fillUnitFillTypesTexts[lastSelectedFillUnit]
 
     self.multiFillType:setTexts(fillUnitTexts)
-    self.multiFillType:setState(self.lastSelectedFillTypeId)
+    self.multiFillType:setState(lastSelectedFillTypeId)
     self.multiFillType:setDisabled(self.setFillUnitDisabled or #fillUnitTexts <= 1)
 
     self.multiFillChange:setState(self.multiFillChange:getState(), true) -- Handles 'textInputFillAmount'
@@ -206,10 +228,9 @@ function EasyDevControlsVehiclesFrame:updateAvailableProperties()
     self.buttonConfirmCondition:setDisabled(noVehicle or setConditionDisabled)
 
     -- Set Fuel
-    self.setFuelDisabled = self:getIsPropertyDisabled("vehicleFuel")
-    local fuelDisabled = noVehicle or self.setFuelDisabled or vehicle.getConsumerFillUnitIndex == nil
+    local fuelDisabled = true
 
-    if not fuelDisabled then
+    if not self:getIsPropertyDisabled("vehicleFuel") and vehicle ~= nil and vehicle.getConsumerFillUnitIndex ~= nil then
         EasyDevControlsVehiclesFrame.createFuelTypeIndexs()
 
         for _, fillTypeIndex in pairs (EasyDevControlsVehiclesFrame.FUEL_TYPE_INDEXS) do
@@ -221,7 +242,9 @@ function EasyDevControlsVehiclesFrame:updateAvailableProperties()
         end
     end
 
+    self.setFuelDisabled = fuelDisabled
     self.multiFuelChange:setState(self.multiFuelChange:getState(), true) -- Handles 'textInputFuel'
+
     self.multiFuelChange:setDisabled(fuelDisabled)
     self.buttonConfirmFuel:setDisabled(fuelDisabled)
 
@@ -253,7 +276,7 @@ function EasyDevControlsVehiclesFrame:updateAvailableProperties()
         }
 
         for i = 1, EasyDevControlsVehiclesFrame.MAX_WIPER_STATES do
-            table.insert(self.wiperTexts, EasyDevUtils.formatText("easyDevControls_state", i))
+            table.insert(self.wiperTexts, EasyDevUtils.formatText("easyDevControls_state", tostring(i)))
         end
     end
 
@@ -397,6 +420,10 @@ function EasyDevControlsVehiclesFrame:onClickFillState(index, element)
             local capacity = selectedVehicle:getFillUnitCapacity(self.lastSelectedFillUnit)
 
             if capacity ~= nil then
+                if math.abs(capacity) == math.huge then
+                    capacity = 100
+                end
+
                 self.textInputFillAmount.lastValidText = g_i18n:formatFluid(capacity)
                 self.textInputFillAmount:setText(self.textInputFillAmount.lastValidText)
             else
@@ -455,6 +482,10 @@ function EasyDevControlsVehiclesFrame:setFillUnitFillLevel(amount)
                     callback = ignoreRemoveIfEmptyCallback
                 })
             else
+                if vehicle:getFillUnitCapacity(fillUnitIndex) == math.huge then
+                    amount = math.min(amount, 100)
+                end
+
                 self:setInfoText(self.easyDevControls:setFillUnitFillLevel(vehicle, fillUnitIndex, fillTypeIndex, amount, false))
             end
         else
@@ -488,7 +519,7 @@ function EasyDevControlsVehiclesFrame:onClickToggleCover(element)
                 l10n = "easyDevControls_closed"
             end
 
-            self:setInfoText(EasyDevUtils.formatText("easyDevControls_toggleCoverInfo", selectedVehicle:getFullName(), EasyDevUtils.getText(l10n):lower(), newState))
+            self:setInfoText(EasyDevUtils.formatText("easyDevControls_toggleCoverInfo", selectedVehicle:getFullName(), EasyDevUtils.getText(l10n):lower(), tostring(newState)))
         end
     else
         self:setInfoText(EasyDevUtils.getText("easyDevControls_noValidVehicleWarning"))
@@ -527,8 +558,12 @@ function EasyDevControlsVehiclesFrame:onClickFuelChangeType(index, element)
         if vehicle ~= nil and vehicle.spec_motorized ~= nil and vehicle.getConsumerFillUnitIndex ~= nil then
             local _, capacity = SpeedMeterDisplay.getVehicleFuelLevelAndCapacity(vehicle)
 
-            self.textInputFuel.lastValidText = g_i18n:formatFluid(capacity)
-            self.textInputFuel:setText(self.textInputFuel.lastValidText)
+            if capacity ~= nil then
+                self.textInputFuel.lastValidText = g_i18n:formatFluid(capacity)
+                self.textInputFuel:setText(self.textInputFuel.lastValidText)
+            else
+                self:onTextInputEscPressed(self.textInputFuel)
+            end
         else
             self:onTextInputEscPressed(self.textInputFuel)
         end
@@ -566,8 +601,12 @@ function EasyDevControlsVehiclesFrame:setVehicleFuel(amount)
     if amount ~= nil then
         local vehicle, _ = self.easyDevControls:getVehicle()
 
-        if vehicle ~= nil then
-            self:setInfoText(self.easyDevControls:setVehicleFuel(vehicle, amount))
+        if vehicle ~= nil and vehicle.spec_motorized ~= nil and vehicle.getConsumerFillUnitIndex ~= nil then
+            local _, capacity = SpeedMeterDisplay.getVehicleFuelLevelAndCapacity(vehicle)
+
+            if capacity ~= nil and math.abs(capacity) ~= math.huge then
+                self:setInfoText(self.easyDevControls:setVehicleFuel(vehicle, amount))
+            end
         else
             self:setInfoText(EasyDevUtils.getText("easyDevControls_noValidVehicleWarning"))
         end

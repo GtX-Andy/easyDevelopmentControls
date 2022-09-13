@@ -22,6 +22,16 @@ EasyDevControlsObjectsFrame = {}
 local EasyDevControlsObjectsFrame_mt = Class(EasyDevControlsObjectsFrame, EasyDevControlsBaseFrame)
 local EMPTY_TABLE = {}
 
+local function getRangeTable(maxValue)
+    local rangeTable = {}
+
+    for i = 1, (maxValue or 25) do
+        rangeTable[i] = i
+    end
+
+    return rangeTable
+end
+
 EasyDevControlsObjectsFrame.BALE_TYPE_SQUARE = 1
 EasyDevControlsObjectsFrame.BALE_TYPE_ROUND = 2
 
@@ -52,8 +62,8 @@ EasyDevControlsObjectsFrame.REMOVE_ALL_TYPES = {
     }
 }
 
-EasyDevControlsObjectsFrame.TIP_LENGTHS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25}
-EasyDevControlsObjectsFrame.CLEAR_RADIUS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25}
+EasyDevControlsObjectsFrame.TIP_LENGTHS = getRangeTable(100)
+EasyDevControlsObjectsFrame.CLEAR_RADIUS = getRangeTable(100)
 
 EasyDevControlsObjectsFrame.L10N_SYMBOL = {}
 

@@ -105,8 +105,8 @@ Gå til Giants modHub nedlastingslenke nedenfor for den siste offisielle utgivel
         <text name="easyDevControls_infohud_tree" text="Tre"/>
         <text name="easyDevControls_all" text="Alle"/>
         <text name="easyDevControls_found" text="Funnet"/>
-        <text name="easyDevControls_state" text="Tilstand %d"/>
-        <text name="easyDevControls_type" text="Type %d"/>
+        <text name="easyDevControls_state" text="Tilstand %s"/>
+        <text name="easyDevControls_type" text="Type %s"/>
         <text name="easyDevControls_fill" text="Fyll"/>
         <text name="easyDevControls_empty" text="Tom"/>
         <text name="easyDevControls_maximum" text="Maksimum"/>
@@ -218,9 +218,9 @@ Sørg for at kjøretøyet er plassert på et flatt plan som er parallelt med x/z
         <text name="easyDevControls_hudInputOffInfo" text="Hud inndata av"/>
         <text name="easyDevControls_hudInputOnInfo" text="Hud inndata på  (Bytt hud-synlighet ved å bruke tast '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Flyttet spilleren til åker %s vellykket."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Flyttet %d kjøretøy til åker %s vellykket."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Flyttet %s kjøretøy til åker %s vellykket."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Flyttet spiller til koordinater %s, %s vellykket."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Flyttet %d kjøretøy til koordinater %s, %s vellykket."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Flyttet %s kjøretøy til koordinater %s, %s vellykket."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Forsøk på å korrigere kjøretøyets orientering og orienteringen til eventuelle tilkoblede redskap."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Slett objekt-tast (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Kamera synsfelt valgt til %d°."/>
@@ -317,7 +317,7 @@ Merk: Denne modusen er laget for skjermbilder, og ikke alle spillfunksjoner som 
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="Legger til %s."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="Fjernet %d %s fra kartet."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="Fjernet %s %s fra kartet."/>
         <text name="easyDevControls_tipToGroundInfo" text="Tippet %s av %s på en lengde av %s."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Fjernet %s høydetype med en radius på %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Fjernet %s av %s høyde type."/>
@@ -375,7 +375,7 @@ Rød: Bitvektorer &gt; 1"/> <!-- Translators: Space is intentional for easy read
         <text name="easyDevControls_resetToDefault" text="Tilbakestill Til Standard"/>
         <text name="easyDevControls_toggleCoverTitle" text="Slå På Dekselet"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Fyllnivå"/>
-        <text name="easyDevControls_fillUnitIndex" text="Fyll Enhet %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Fyll Enhet %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Tilstanden til %s har blitt oppdatert."/>
@@ -389,9 +389,9 @@ Rød: Bitvektorer &gt; 1"/> <!-- Translators: Space is intentional for easy read
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Jekkestropp feilsøking er nå %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Avstandsfeilsøking for kjøretøy er nå %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="%s forbruke er oppdatert (synkronisert til alle kjøretøy: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="%s dekselet er nå %s, tilstands id %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Vellykket satt fyllenhet %d av %s til %s med et fyllingsnivå på %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="Tømte påfyllingsenheten %d av %s."/>
+        <text name="easyDevControls_toggleCoverInfo" text="%s dekselet er nå %s, tilstands id %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Vellykket satt fyllenhet %s av %s til %s med et fyllingsnivå på %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Tømte påfyllingsenheten %s av %s."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Legger til, fjerner eller setter den valgte tilstandsprosenten til et 'kjøretøy du sitter i og alle redskaper' eller et 'enkelt kjøretøy' innenfor spillerens rekkevidde."/>
@@ -436,13 +436,13 @@ Status 1 til 10: Kjøretøyspesifikke tilstander for testing."/> <!-- Translator
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Last Alle Plasserbare Gjenstander På Nytt"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Endret %d %s til gård %s (%d) vellykket."/>
-        <text name="easyDevControls_productionPointStateInfo" text="Endret %d %s til '%s' status vellykket."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Endret %d %s til distribusjonsmodus '%s' vellykket."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Endret %s %s til gård %s (%s) vellykket."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Endret %s %s til '%s' status vellykket."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Endret %s %s til distribusjonsmodus '%s' vellykket."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Endret %s fyllnivåer av '%s' på produksjonssted %s vellykket."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Endret alle %s fyllnivåer på %d %s vellykket."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Endret alle %s fyllnivåer på %s %s vellykket."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Distributing '%s' til følgende produksjonssteder:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Lastet inn XML og I3D på nytt %d %s."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Lastet inn XML og I3D på nytt %s %s."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Gjør det mulig å gjøre følgende endringer på produksjonsstedene.
@@ -508,24 +508,24 @@ Fyllnivå:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Feilsøk Åkersteiner"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="Oppdatert %d åkere vellykket"/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Oppdatert åker %d vellykket"/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="Oppdatert %s åkere vellykket"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Oppdatert åker %s vellykket"/>
         <text name="easyDevControls_setFieldFailedInfo" text="Oppdatering av åkere feilet."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Veksten på alle felt har gått videre til neste trinn."/>
         <text name="easyDevControls_advanceGrowthWarning" text="Avansert vekst er bare tilgjengelig når spillinnstillingen '%s' er satt til 'No'.
 
 Vil du endre gjeldende innstilling fra '%s' til 'Nei' slik at denne handlingen kan utføres?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Vekstperiode på alle felt oppdatert til %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Vekstperiode på alle felt oppdatert til %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Innstilling vekstperiode er ikke tilgjengelig når spillinnstillingen '%s' er satt til '%s'.
 
 Vil du endre innstillingen til 'Nei' slik at denne handlingen kan utføres?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Økt %s med %d."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Redusert %s med %d."/>
-        <text name="easyDevControls_vineSetStateInfo" text="Oppdatert %d %s vinranker til veksttilstand %d"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Økt %s med %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Redusert %s med %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Oppdatert %s %s vinranker til veksttilstand %s"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Oppdatert alle vinranker"/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Oppdatert eierskap av %d tilgjengelig land til %s gård."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Oppdatert eierskap av land %d til gård %s."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Oppdatert eierskap av %s tilgjengelig land til %s gård."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Oppdatert eierskap av land %s til gård %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Oppdaterer PDA åkeroverlegg og setter timer til 60 sekunder."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Åkerstatus feilsøking %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Vin system feilsøking %s."/>

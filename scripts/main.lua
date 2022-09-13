@@ -24,7 +24,7 @@ local modName = g_currentModName or ""
 local modDirectory = g_currentModDirectory or ""
 local modSettingsDirectory = g_modSettingsDirectory or ""
 
-local buildId = 1.1
+local buildId = 1.3
 local versionString = "0.0.0.0"
 local releaseType = "GITHUB"
 

@@ -105,8 +105,8 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_infohud_tree" text="Baum"/>
         <text name="easyDevControls_all" text="Alles"/>
         <text name="easyDevControls_found" text="Gefunden"/>
-        <text name="easyDevControls_state" text="Zustand %d"/>
-        <text name="easyDevControls_type" text="Art %d"/>
+        <text name="easyDevControls_state" text="Zustand %s"/>
+        <text name="easyDevControls_type" text="Art %s"/>
         <text name="easyDevControls_fill" text="Fuellen"/>
         <text name="easyDevControls_empty" text="Leer"/>
         <text name="easyDevControls_maximum" text="Maximum"/>
@@ -216,9 +216,9 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_hudInputOffInfo" text="Hud-Eingangsbindung aus"/>
         <text name="easyDevControls_hudInputOnInfo" text="Hud-Eingangsbindung an (Schalten Sie die Hud-Sichtbarkeit mit Eingabe '%s' um)"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Spieler erfolgreich zum Feld %s teleportiert."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%d Fahrzeuge erfolgreich nach Feld %s verschoben."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%s Fahrzeuge erfolgreich nach Feld %s verschoben."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Spieler erfolgreich zu den Koordinaten %s, %s teleportiert."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Fahrzeug '%d' erfolgreich zu den Koordinaten %s, %s teleportiert."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Fahrzeug '%s' erfolgreich zu den Koordinaten %s, %s teleportiert."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Versuche Fahrzeugausrichtung und angeschlossenes Geraete richtig auszurichten."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Entferne Objekt key (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Kamera FOV updated to %d°."/>
@@ -313,7 +313,7 @@ Note: Dies ist nur fuer Bilder(Screenshoots zu nutzen, manche Spielfunktionen fu
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="%s hinzugefuegt."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="erfolgreich %d %s entfernt."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="erfolgreich %s %s entfernt."/>
         <text name="easyDevControls_tipToGroundInfo" text="Erfolgreich %s von %s in einer Laenge von %s auf den Boden gekippt."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Erfolgreich %s eines Hoehentyps im Radius von %s entfernt."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Erfolgreich %s von %s eines Produkts entfernt."/>
@@ -371,7 +371,7 @@ Rot: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_resetToDefault" text="Reset To Default"/>
         <text name="easyDevControls_toggleCoverTitle" text="Toggle Cover"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Fuell Level"/>
-        <text name="easyDevControls_fillUnitIndex" text="Auffuellen auf %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Auffuellen auf %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Der Zustand von %s wurde aktualiesiert."/>
@@ -385,9 +385,9 @@ Rot: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Das Debuggen von Spanngurten ist jetzt %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Das Debuggen der Fahrzeugentfernung ist jetzt möglich %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="%s power consumer data has been updated (Synced to all vehicles: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="%s-Abdeckung ist jetzt %s, Zustands-ID %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Erfolgreiche Befuellung von %d in der Menge von %s zu %s und einem Fuellvl von %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="Erfolgreich %d entfernt mit einer Anzahl von %s."/>
+        <text name="easyDevControls_toggleCoverInfo" text="%s-Abdeckung ist jetzt %s, Zustands-ID %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Erfolgreiche Befuellung von %s in der Menge von %s zu %s und einem Fuellvl von %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Erfolgreich %s entfernt mit einer Anzahl von %s."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Fügt den ausgewählten Bedingungsprozentsatz zu einem &quot;Fahrzeug und allen Anbaugeräten&quot; oder einem &quot;einzelnen Fahrzeug&quot; in Reichweite des Spielers hinzu"/>
@@ -432,13 +432,13 @@ Zustände 1 bis 10: Fahrzeugspezifische Zustände zum testen."/> <!-- Translator
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Reload Placeables"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Veraenderung %d %s zum Hof %s (%d) erfolgreich ausgefuehrt."/>
-        <text name="easyDevControls_productionPointStateInfo" text="Zustand %d %s zu '%s' erfolgreich veraendert."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Veraenderung %d %s am Auslieferungzustand '%s' erfolgreich."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Veraenderung %s %s zum Hof %s (%s) erfolgreich ausgefuehrt."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Zustand %s %s zu '%s' erfolgreich veraendert."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Veraenderung %s %s am Auslieferungzustand '%s' erfolgreich."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Veraenderung %s vom Fuelllevel '%s' am Produktionsstandort %s erfolgreich."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Alle %s Fuelllevel %d %s erfolgreich geaendert."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Alle %s Fuelllevel %s %s erfolgreich geaendert."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Auslieferung von '%s' an folgenden Produktionsstandorten:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Die XML und I3D von %d %s wurden erfolgreich neu geladen."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Die XML und I3D von %s %s wurden erfolgreich neu geladen."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Folgende Aenderungen koennen an Produktionen vorgenommen werden.
@@ -504,24 +504,24 @@ Fuell Level:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Debug Feldsteine"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="Feld %d update erfolgreich"/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Feld %d update erfolgreich"/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="Feld %s update erfolgreich"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Feld %s update erfolgreich"/>
         <text name="easyDevControls_setFieldFailedInfo" text="Feldupdate fehlgeschlagen."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Wachstum auf allen Feldern um eine Stufe erhoeht"/>
         <text name="easyDevControls_advanceGrowthWarning" text="Wachstums Stufen erhoehung ist nur moeglich wenn '%s' auf 'Nein' eingestellt ist.
 
 Wollen sie ihre momentane Einstellung '%s' auf 'Nein' stellen, so das dieser Befehl ausgefuehrt werden kann?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Wachstumsstufe auf allen Feldern geupdated auf %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Wachstumsstufe auf allen Feldern geupdated auf %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Wachstumsstufe kann nicht festgelegt werden wenn '%s' auf '%s' gestelt ist.
 
 Wollen sie ihre momentanen einstellung auf 'Nein' stellen, so das dieser Befehl ausgefuehrt werden kann?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="%s delta by %d erhoeht."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="%s delta by %d veringert."/>
-        <text name="easyDevControls_vineSetStateInfo" text="Updated %d %s die Wachstumsstufe von Reben wurde auf %d veraendert"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="%s delta by %s erhoeht."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="%s delta by %s veringert."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Updated %s %s die Wachstumsstufe von Reben wurde auf %s veraendert"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Alle Reben vissuals geupdated"/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Besitzer %d von allen verfuegbaren farmlands wurde auf %s Hof veraendert."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Farmland Besitzer %d zum Hof %s veraendert."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Besitzer %s von allen verfuegbaren farmlands wurde auf %s Hof veraendert."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Farmland Besitzer %s zum Hof %s veraendert."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="PDA Felder overlay und timer zu 60 sekunden veraendert."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Felder status debugging %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Reben status debugging %s."/>

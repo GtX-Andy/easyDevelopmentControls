@@ -106,8 +106,8 @@ Odwiedź oficjalnego ModHuba poprzez poniższy link, aby pobrać najnowszą ofic
         <text name="easyDevControls_infohud_tree" text="Drzewo"/>
         <text name="easyDevControls_all" text="Wszystko"/>
         <text name="easyDevControls_found" text="Znalezione"/>
-        <text name="easyDevControls_state" text="Stan %d"/>
-        <text name="easyDevControls_type" text="Typ %d"/>
+        <text name="easyDevControls_state" text="Stan %s"/>
+        <text name="easyDevControls_type" text="Typ %s"/>
         <text name="easyDevControls_fill" text="Napełnij"/>
         <text name="easyDevControls_empty" text="Puste"/>
         <text name="easyDevControls_maximum" text="Maksimum"/>
@@ -219,9 +219,9 @@ Upewnij się, że pojazd jest ustawiony na płaskiej płaszczyźnie, która jest
         <text name="easyDevControls_hudInputOffInfo" text="Przełączenie HUDów klawiszem wyłączone"/>
         <text name="easyDevControls_hudInputOnInfo" text="Przełączenie HUDów klawiszem włączone (Przełączanie widoczności klawiszem '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Z powodzeniem teleportowano gracza na pole %s."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Z powodzeniem teleportowano %d pojazdy na pole %s."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Z powodzeniem teleportowano %s pojazdy na pole %s."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Z powodzeniem teleportowano gracza do współrzędnych %s %s."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Z powodzeniem teleportowano %d pojazdy do współrzędnych %s %s."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Z powodzeniem teleportowano %s pojazdy do współrzędnych %s %s."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Próba skorygowania orientacji pojazdu i podłączonych maszyn."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Usuń obiekt (%s) klawiszem %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Pole widzenia kamery zaktualizowano do %d°."/>
@@ -318,7 +318,7 @@ INFO: Ten tryb jest przeznaczony do wykonywania zrzutów ekranu i nie wszystkie 
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="Dodawanie %s."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="Pomyślnie usunięto %d %s z mapy."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="Pomyślnie usunięto %s %s z mapy."/>
         <text name="easyDevControls_tipToGroundInfo" text="Pomyślnie wykiprowano %s z %s na długości %s."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Pomyślnie wyczyszczono %s typu wysokości w promieniu %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Pomyślnie wyczyszczono %s z %s typu wysokości."/>
@@ -376,7 +376,7 @@ Czerwony: Bit wektorów &gt; 1"/> <!-- Translators: Space is intentional for eas
         <text name="easyDevControls_resetToDefault" text="Zresetuj do domyślnych"/>
         <text name="easyDevControls_toggleCoverTitle" text="Przełączanie plandeki"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Poziom napełnienia"/>
-        <text name="easyDevControls_fillUnitIndex" text="Rodzaj %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Rodzaj %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Stan %s został zaktualizowany."/>
@@ -390,9 +390,9 @@ Czerwony: Bit wektorów &gt; 1"/> <!-- Translators: Space is intentional for eas
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Debugowanie pasów transportowych jest teraz %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Debugowanie odległości pojazdu jest teraz %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="%s zaktualizowano dane wymaganej mocy (Zsynchronizowane ze wszystkimi pojazdami: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="Plandeka %s jest teraz %s, stan: %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Pomyślnie ustawiono rodzaj %d w %s na %s z poziomem napełnienia %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="Pomyślnie opróżniono rodzaj %d w %s."/>
+        <text name="easyDevControls_toggleCoverInfo" text="Plandeka %s jest teraz %s, stan: %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Pomyślnie ustawiono rodzaj %s w %s na %s z poziomem napełnienia %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Pomyślnie opróżniono rodzaj %s w %s."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Dodaje, usuwa lub ustawia procent wybranego stanu dla prowadzonego pojazdu i podłączonych maszyn lub pojazdu w zasięgu gracza."/>
@@ -437,13 +437,13 @@ Stany 1 - 10: Specyficzne stany do testowania."/> <!-- Translators: Space is int
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Przeładuj obiekty stawiane"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Pomyślnie zmieniono %d %s do gospodarstwa %s (%d)."/>
-        <text name="easyDevControls_productionPointStateInfo" text="Pomyślnie zmieniono stan %d %s na '%s'."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Pomyślnie zmieniono %d %s na tryb dystrybucji '%s'."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Pomyślnie zmieniono %s %s do gospodarstwa %s (%s)."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Pomyślnie zmieniono stan %s %s na '%s'."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Pomyślnie zmieniono %s %s na tryb dystrybucji '%s'."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Pomyślnie zmieniono %s poziom napełniania na '%s' w punkcie produkcji %s."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Pomyślnie zmieniono wszystkie %s poziomy napełniania na %d %s."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Pomyślnie zmieniono wszystkie %s poziomy napełniania na %s %s."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Dystrybucja '%s' do następujących punktów produkcyjnych:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Pomyślnie przeładowano XML i I3D od %d %s."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Pomyślnie przeładowano XML i I3D od %s %s."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Umożliwia wprowadzenie następujących zmian w punktach produkcyjnych:
@@ -509,24 +509,24 @@ Poziom napełnienia:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Debugowanie kamieni pól"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="Pomyślnie zaktualizowano %d pól."/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Pomyślnie zaktualizowano pole %d."/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="Pomyślnie zaktualizowano %s pól."/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Pomyślnie zaktualizowano pole %s."/>
         <text name="easyDevControls_setFieldFailedInfo" text="Niepowodzenie aktualizacji pól."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Wzrost na wszystkich polach został zmieniony na następny etap."/>
         <text name="easyDevControls_advanceGrowthWarning" text="Następna faza wzrostu jest dostępna tylko w funkcji '%s' ustawionej na 'Nie'.
 
 Czy chcesz zmienić to ustawienie z '%s' na 'Nie' aby można było wykonać tę czynność?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Okres wzrostu na wszystkich polach zaktualizowany do %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Okres wzrostu na wszystkich polach zaktualizowany do %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Ustawienie okresu wzrostu nie jest dostępne, gdy funkcja '%s' jest ustawiona na '%s'.
 
 Czy chcesz zmienić to ustawienie na 'Nie', aby można było wykonać tę czynność?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Zwiększono deltę %s przez %d."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Zmniejszono deltę %s przez %d."/>
-        <text name="easyDevControls_vineSetStateInfo" text="Zaktualizowano %d %s winnice do stanu wzrostu %d"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Zwiększono deltę %s przez %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Zmniejszono deltę %s przez %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Zaktualizowano %s %s winnice do stanu wzrostu %s"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Zaktualizowano wizualnie wszystkie winnice."/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Zaktualizowano własność %d dostępnych terenów dla gospodarstwa %s."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Zaktualizowano własność terenu %d dla gospodarstwa %s."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Zaktualizowano własność %s dostępnych terenów dla gospodarstwa %s."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Zaktualizowano własność terenu %s dla gospodarstwa %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Odświeżanie nakładki filtrów pól na mapie i ustawienie timera na 60 sekund."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Debugowanie statusu pól %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Debugowanie systemu winorośli %s."/>

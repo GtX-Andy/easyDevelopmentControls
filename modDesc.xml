@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="65">
+<modDesc descVersion="68">
    <author>GtX</author>
 
-   <version>1.0.1.0</version>
+   <version>1.2.0.1</version>
 
     <title>
         <en>Easy Development Controls</en>
@@ -30,21 +30,29 @@ With the extended number of features plus many new features planned, Easy Develo
 
 For further information please read the <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> on the Github repository.
 
-Version 1.0.1.0 (GITHUB BETA RELEASE)
-Fixed a bug where loading a save game with 'Easy Development Controls' active was not possible if time was stopped when saving.
-Fixed a bug that stopped 'Production States' from being changed via the 'Placeables' screen after using the 'Reload' feature.
+Changelog 1.2.0.0:
+- Vehicle Page: 'Set Fill Level' feature will now remember last settings until vehicle is exited or changed.
+- Vehicle Page: 'Remove Vehicles' feature will no longer remove pallets.
+- Objects Page: 'Remove Pallets' feature will now include mod pallets using custom vehicle types. Note: Vehicle types must still include a valid pallet specialisation (Pallet, BigBag or TreeSaplingPallet) and exclude 'Wheels' and 'Enterable' specialisations.
+- Feature titles will now resize to allow for longer languages.
+- Changes to some text formatting.
+- Turkish (tr) translations added.
+- Norwegian (no) translations added.
 
-Corrected 'foot' measurement being incorrectly displayed when value was > 1 for log lengths (Fahrenheit game setting users only).
-Removed Cotton pallet from spawn list due to incompatibility.
-Small bug fixes.
-
-Added 'defaultUserSettings.xml', default user settings will be loaded from this file in multiplayer and when starting a new game.
+Changelog 1.1.0.0:
+- Fixed a bug when loading a save game with 'Easy Development Controls' active was not possible if time was stopped when saving.
+- Fixed a bug that stopped 'Production States' from being changed via the 'Placeables' screen after using the 'Reload' feature.
+- Corrected 'foot' measurement being incorrectly displayed when value was > 1 for log lengths (Fahrenheit game setting users only).
+- Removed Cotton pallet from spawn list due to incompatibility.
+- Show Bale Locations is now compatible with balers and bale loaders using base game specialisations
+- Small bug fixes and improvements.
+- Added 'defaultUserSettings.xml', default user settings will be loaded from this file in multiplayer and when starting a new single player game.
 XML file will be created on load at: '/My Games/FarmingSimulator2022/modSettings/FS22_EasyDevControls'.
-
-French (fr) translations added.
-Russian (ru) translations added.
-Polish / Polski (pl) translations added.
-Brazilian Portuguese (br) translations added.]]>
+- Czech (cz) translations added.
+- French (fr) translations added.
+- Russian (ru) translations added.
+- Polish / Polski (pl) translations added.
+- Brazilian Portuguese (br) translations added.]]>
         </en>
         <de>
             <![CDATA[Easy Development Controls ist als Testwerkzeug für Modder, Mapper und Inhaltsersteller gedacht. Es kann auch bei der Einrichtung des Spiels helfen, oder wie auch immer du das Spiel spielen möchtest.
@@ -66,21 +74,29 @@ Mit der erweiterten Anzahl von Funktionen und vielen geplanten neuen Funktionen 
 
 Für weitere Informationen, lese dir die <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> aus dem Github durch.
 
-Version 1.0.1.0 (GITHUB BETA-VERSION)
-Es wurde ein Fehler behoben, bei dem das Laden eines gespeicherten Spiels mit aktivierter 'Easy Development Controls' nicht möglich war, wenn die Zeit beim Speichern gestoppt wurde.
-Es wurde ein Fehler behoben, der verhinderte, dass "Produktionsstatus" über den Bildschirm "Platzierbare Objekte" geändert werden konnten, nachdem die Funktion "Neu laden" verwendet wurde.
+Changelog 1.2.0.0:
+- Fahrzeugseite: Die Funktion 'Fuell Level' speichert jetzt die letzten Einstellungen, bis das Fahrzeug verlassen oder gewechselt wird.
+- Fahrzeugseite: Die Funktion 'Fahrzeug entfernen' entfernt keine Paletten mehr.
+- Objektseite: Die Funktion 'Pallete entfernen' enthält jetzt Mod-Paletten mit benutzerdefinierten Fahrzeugtypen. Hinweis: Fahrzeugtypen müssen weiterhin eine gültige Palettenspezialisierung (Pallet, BigBag oder TreeSaplingPallet) enthalten und die Spezialisierungen 'Wheels' und 'Enterable' ausschließen.
+- Feature-Titel werden jetzt in der Größe angepasst, um längere Sprachen zu ermöglichen.
+- Änderungen an einigen Textformatierungen.
+- Türkische (tr) Übersetzung hinzugefügt.
+- Norwegische (no) Übersetzung hinzugefügt.
 
-Korrigierte "Fuß"-Messung, die falsch angezeigt wurde, wenn der Wert > 1 für Stammlängen war (nur Benutzer der Fahrenheit-Spieleinstellung).
-Baumwollpalette wegen Inkompatibilität aus der Spawnliste entfernt.
-Kleine Fehlerbehebungen.
-
-'defaultUserSettings.xml' hinzugefügt, Standard-Benutzereinstellungen werden aus dieser Datei im Multiplayer und beim Starten eines neuen Spiels geladen.
+Changelog 1.1.0.0:
+- Es wurde ein Fehler behoben, bei dem das Laden eines gespeicherten Spiels mit aktivierter 'Easy Development Controls' nicht möglich war, wenn die Zeit beim Speichern auf 0 gesetzt war.
+- Es wurde ein Fehler behoben, der verhinderte, dass "Produktionsstatus" über den Bildschirm "Platzierbare Objekte" geändert werden konnten, nachdem die Funktion "Neu laden" verwendet wurde.
+- "Fuß"-Messung gefixt, die falsch angezeigt wurde, wenn der Wert > 1 für Stammlängen war (nur Benutzer der Fahrenheit-Spieleinstellung).
+- Baumwollpalette wegen Inkompatibilität aus der Spawnliste entfernt.
+- Ort eines Ballens anzeigen ist jetzt mit Ballenpressen und Ballenladern kompatibel, die Basisspiel-Spezialisierungen verwenden.
+- Kleine Fehlerbehebungen und Verbesserungen.
+- 'defaultUserSettings.xml' hinzugefügt, Standard-Benutzereinstellungen werden aus dieser Datei im Multiplayer und beim Starten eines neuen Spiels geladen.
 Die XML-Datei wird beim Laden erstellt unter: '/My Games/FarmingSimulator2022/modSettings/FS22_EasyDevControls'.
-
-Französische (fr) Übersetzungen hinzugefügt.
-Russische (ru) Übersetzungen hinzugefügt.
-Polnisch / Polski (pl) Übersetzungen hinzugefügt.
-Übersetzungen für Brasilianisches Portugiesisch (br) hinzugefügt.]]>
+- Tschechische (cz) Übersetzung hinzugefügt.
+- Französische (fr) Übersetzung hinzugefügt.
+- Russische (ru) Übersetzung hinzugefügt.
+- Polnisch / Polski (pl) Übersetzung hinzugefügt.
+- Brasilianisches Portugiesisch (br)  Übersetzung hinzugefügt.]]>
         </de>
         <fr>
             <![CDATA[Easy Development Controls est conçu comme un outil de test pour les moddeurs, les créateurs de cartes et de contenu. Cela peut également vous aider avec les paramètres du jeu ou la façon dont vous voulez jouer.
@@ -103,21 +119,29 @@ Avec le grand nombre de fonctionnalités et bien d'autres qui devraient être aj
 
 Pour plus d'informations sur, veuillez consulter la page <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> du dépot Github.
 
-Version 1.0.1.0 (VERSION BÊTA DE GITHUB)
-Correction d'un bug qui empêchait le chargement d'une sauvegarde de jeu avec 'Easy Development Controls' actif si le temps était arrêté lors de la sauvegarde.
-Correction d'un bug qui empêchait la modification des "États de production" via l'écran "Placeables" après l'utilisation de la fonction "Recharger".
+Changelog 1.2.0.0:
+- Page du véhicule : la fonction 'Gestion du contenu' se souviendra désormais des derniers paramètres jusqu'à ce que le véhicule soit quitté ou modifié.
+- Page Véhicule : la fonctionnalité 'Supprimer tous les véhicules' ne supprimera plus les palettes.
+- Page Objets : la fonctionnalité 'Supprimer toutes les palettes' inclura désormais les palettes de mods utilisant des types de véhicules personnalisés. Remarque: Les types de véhicules doivent toujours inclure une spécialisation de palette valide (Pallet, BigBag ou TreeSaplingPallet) et exclure les spécialisations 'Wheels' et 'Enterable'.
+- Les titres des fonctionnalités seront désormais redimensionnés pour permettre des langues plus longues.
+- Modifications de certains formats de texte.
+- Traductions turques (tr) ajoutées.
+- Traductions norvégiennes (no) ajoutées.
 
-Correction de la mesure du "pied" affichée de manière incorrecte lorsque la valeur était> 1 pour les longueurs de bûches (utilisateurs de réglage de jeu Fahrenheit uniquement).
-Suppression de la palette de coton de la liste d'apparition en raison d'une incompatibilité.
-Petites corrections de bugs.
-
-Ajout de 'defaultUserSettings.xml', les paramètres utilisateur par défaut seront chargés à partir de ce fichier en multijoueur et lors du démarrage d'une nouvelle partie.
+Changelog 1.1.0.0:
+- Correction d'un bug qui empêchait le chargement d'une sauvegarde de jeu avec 'Easy Development Controls' actif si le temps était arrêté lors de la sauvegarde.
+- Correction d'un bug qui empêchait la modification des "États de production" via l'écran "Placeables" après l'utilisation de la fonction "Recharger".
+- Correction de la mesure du "pied" affichée de manière incorrecte lorsque la valeur était> 1 pour les longueurs de bûches (utilisateurs de réglage de jeu Fahrenheit uniquement).
+- Suppression de la palette de coton de la liste d'apparition en raison d'une incompatibilité.
+- Afficher les emplacements des balles est désormais compatible avec les presses à balles et les chargeurs de balles utilisant les spécialisations du jeu de base
+- Petites corrections de bugs.
+- Ajout de 'defaultUserSettings.xml', les paramètres utilisateur par défaut seront chargés à partir de ce fichier en multijoueur et lors du démarrage d'une nouvelle partie.
 Le fichier XML sera créé au chargement à : '/My Games/FarmingSimulator2022/modSettings/FS22_EasyDevControls'.
-
-Traductions françaises (fr) ajoutées.
-Traductions russes (ru) ajoutées.
-Traductions polonaises / polski (pl) ajoutées.
-Traductions en portugais brésilien (br) ajoutées.]]>
+- Traductions en tchèque (cz) ajoutées
+- Traductions françaises (fr) ajoutées.
+- Traductions russes (ru) ajoutées.
+- Traductions polonaises / polski (pl) ajoutées.
+- Traductions en portugais brésilien (br) ajoutées.]]>
         </fr>
         <es>
             <![CDATA[Easy Development Controls esta diseñado como una herramienta de testeo para modders, creadores de mapas y contenido. También puede ayudar con las configuraciones del juego o con la forma en que desees jugar.
@@ -167,7 +191,7 @@ Para obtener más información sobre el juego, consulte el <a href="https://gith
     </inputBinding>
 
     <actions>
-        <action name="EDC_SHOW_UI" axisType="HALF"/>
+        <action name="EDC_SHOW_UI" axisType="HALF" />
         <action name="EDC_PLAYER_RUN_SPEED" />
         <action name="EDC_OBJECT_DELETE" />
         <action name="EDC_TOGGLE_HUD" />

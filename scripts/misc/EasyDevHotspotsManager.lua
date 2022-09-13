@@ -3,7 +3,7 @@ Copyright (C) GtX (Andy), 2019
 
 Author: GtX | Andy
 Date: 07.04.2019
-Revision: FS22-01
+Revision: FS22-02
 
 Contact:
 https://forum.giants-software.com
@@ -221,9 +221,7 @@ end
 
 function EasyDevHotspotsManager:update(dt)
     if self.updateBales then
-        for _, item in pairs (self.mission.itemSystem.itemsToSave) do
-            local object = item.item
-
+        for object, _ in pairs (self.mission.objectsToClassName) do
             if self.baleToHotspot[object] ~= nil then
                 local x, y, z = getWorldTranslation(object.nodeId)
 

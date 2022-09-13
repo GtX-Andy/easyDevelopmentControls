@@ -106,8 +106,8 @@ Rendez-vous sur le modhub Giants pour télécharger la dernière version officie
         <text name="easyDevControls_infohud_tree" text="Arbre"/>
         <text name="easyDevControls_all" text="Tout"/>
         <text name="easyDevControls_found" text="Trouvé"/>
-        <text name="easyDevControls_state" text="Etat %d"/>
-        <text name="easyDevControls_type" text="Type %d"/>
+        <text name="easyDevControls_state" text="Etat %s"/>
+        <text name="easyDevControls_type" text="Type %s"/>
         <text name="easyDevControls_fill" text="Rempli"/>
         <text name="easyDevControls_empty" text="Vide"/>
         <text name="easyDevControls_maximum" text="Maximum"/>
@@ -219,9 +219,9 @@ Pour obtenir de meilleurs résultats, assurez-vous de le positionner sur un terr
         <text name="easyDevControls_hudInputOffInfo" text="Désactivation du raccourci clavier pour afficher ou masquer l'ATH"/>
         <text name="easyDevControls_hudInputOnInfo" text="Activation du raccourci clavier pour afficher ou masquer l'ATH  (Voir affectation des touches pour '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Personnage déplacé au champ %s avec succès."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%d véhicule(s) déplacé(s) avec succès au champ %s."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%s véhicule(s) déplacé(s) avec succès au champ %s."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Personnage déplacé avec succès aux coordonnées %s, %s."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="%d véhicule(s) déplacé(s) avec succès au coordonnées %s, %s."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="%s véhicule(s) déplacé(s) avec succès au coordonnées %s, %s."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Permet d'essayer de corriger l'orientation du véhicule et de ses outils attelés."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Utilisation du raccourci clavier de suppression de l'objet visé (Voir affectation des touches pour %s) : %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Champ de vision de la caméra fixé à %d°."/>
@@ -318,7 +318,7 @@ Note: Ce mode est surtout destiné pour vos captures d'écran. Certaines fonctio
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="%s ajoutés avec succès."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="%d %s supprimé avec succès de la carte."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="%s %s supprimé avec succès de la carte."/>
         <text name="easyDevControls_tipToGroundInfo" text="%s tas de %s d'une longueur de %s créé avec succès."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Nettoyage de %s piles de matériaux réalisé avec succès dans un rayon de %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Nettoyage de %s piles de %s réalisé avec succès."/>
@@ -376,7 +376,7 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_resetToDefault" text="Retour aux valeurs par déf."/>
         <text name="easyDevControls_toggleCoverTitle" text="Mettre la bâche"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Gestion du contenu"/>
-        <text name="easyDevControls_fillUnitIndex" text="Contenant %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Contenant %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="L'état de %s a été mis à jour."/>
@@ -390,9 +390,9 @@ Rouge: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy rea
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Le debogage des sangles est actuellement %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Le debogage de la distance des véhicules est actuellement %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="Les besoins en puissance de %s ont été mis à jour avec succès (Synchroniser avec : %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="La bâche de %s est actuellement %s, id de l'état %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Le contenant %d de %s rempli avec succès de %s dans la quantité suivante : %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="Le contenant %d de %s vidé avec succès."/>
+        <text name="easyDevControls_toggleCoverInfo" text="La bâche de %s est actuellement %s, id de l'état %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Le contenant %s de %s rempli avec succès de %s dans la quantité suivante : %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Le contenant %s de %s vidé avec succès."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Ajoute, retranche ou fixe l'état sélectionné au véhicule actif (ou au véhicule à portée du personnage) ainsi qu'à tous ses outils attelés."/>
@@ -437,13 +437,13 @@ Vitesses de 1 à 10: Pour tester le comportement du véhicule actif."/> <!-- Tra
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Recharger tous les plaçables"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Changement de propriétaire pour %d %s au profit de  %s (%d) réalisé avec succès."/>
-        <text name="easyDevControls_productionPointStateInfo" text="L'état %d %s changé pour '%s' avec succès."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Mode distribution de %d %s changé pour '%s' avec succès."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Changement de propriétaire pour %s %s au profit de  %s (%s) réalisé avec succès."/>
+        <text name="easyDevControls_productionPointStateInfo" text="L'état %s %s changé pour '%s' avec succès."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Mode distribution de %s %s changé pour '%s' avec succès."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Les niveaux de %s du '%s' de la production %s changés avec succès."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Tous les niveaux de %s de la production %d %s changés avec succès."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Tous les niveaux de %s de la production %s %s changés avec succès."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Distribution de '%s' aux productions suivantes :"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Rechargement du XML et de l'I3D de %d %s réalisé avec succès."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Rechargement du XML et de l'I3D de %s %s réalisé avec succès."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Permet les modifications suivantes pour les productions.
@@ -509,24 +509,24 @@ Choix de la quantité:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Debogage des pierres"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="%d champs mis à jour avec succès."/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Champ %d mis à jour avec succès."/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="%s champs mis à jour avec succès."/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Champ %s mis à jour avec succès."/>
         <text name="easyDevControls_setFieldFailedInfo" text="Echec de la mise à jour des champs."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Le stade de croissance de tous les champs a été augmenté d'un niveau."/>
         <text name="easyDevControls_advanceGrowthWarning" text="L'avancement du stade de croissance n'est possible que si l'option '%s' est sur 'Non'.
 
 Souhaitez-vous changer votre réglage actuel de '%s' à 'Non' afin de pouvoir réaliser l'action demandée ?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Période de croissance de tous les champs mise à jour à %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Période de croissance de tous les champs mise à jour à %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Le choix de la période de croissance n'est pas possible lorsque l'option du jeu '%s' est '%s'.
 
 Souhaitez-vous basculer votre réglage actuel sur 'Non' afin de pouvoir réaliser l'action demandée ?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Niveau des %s augmenté de %d."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Niveau des %s baissé de %d."/>
-        <text name="easyDevControls_vineSetStateInfo" text="%d %s vignes mise à jour au stade de croissance %d"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Niveau des %s augmenté de %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Niveau des %s baissé de %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="%s %s vignes mise à jour au stade de croissance %s"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Visuel de toutes les vignes mis à jour"/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Modification de propriété de %d parcelles disponibles au profit de la ferme %s."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Modification de propriété de la parcelle %d au profit de la ferme %s."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Modification de propriété de %s parcelles disponibles au profit de la ferme %s."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Modification de propriété de la parcelle %s au profit de la ferme %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Rafraîchissement du statut des champs dans le PDA, prochain raffraichissement dans 60 secondes."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Debogage du statut des champs %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Debogage des vignes %s."/>

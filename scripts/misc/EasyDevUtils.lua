@@ -110,8 +110,12 @@ function EasyDevUtils.getBaseDirectory()
 end
 
 function EasyDevUtils.getModSettingsDirectory()
+    if modName:endsWith("_update") then
+        return getUserProfileAppPath() .. "modSettings/FS22_EasyDevControls/"
+    end
+
     if EasyDevUtils.getIsNilOrEmpty(modSettingsDirectory) then
-        modSettingsDirectory = (getUserProfileAppPath() or "") .. "modSettings/" .. modName
+        modSettingsDirectory = string.format("%smodSettings/%s/", getUserProfileAppPath(), modName)
     end
 
     return modSettingsDirectory
@@ -811,7 +815,7 @@ function EasyDevUtils.copyFile(file, filename, subDirPath, overwrite)
             directory = directory .. subDirPath
         end
 
-        overwrite = Utils.getNoNil(overwrite, true)
+        overwrite = Utils.getNoNil(overwrite, false)
 
         createFolder(directory)
         copyFile(file, directory .. filename, overwrite)

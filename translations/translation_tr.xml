@@ -105,8 +105,8 @@ Son resmi oyun için Giants modHub'a ulaşmak için ziyaret edin."/>
         <text name="easyDevControls_infohud_tree" text="Ağaç"/>
         <text name="easyDevControls_all" text="Hepsi"/>
         <text name="easyDevControls_found" text="Bulundu"/>
-        <text name="easyDevControls_state" text="Belirtmek %d"/>
-        <text name="easyDevControls_type" text="Ürün %d"/>
+        <text name="easyDevControls_state" text="Belirtmek %s"/>
+        <text name="easyDevControls_type" text="Ürün %s"/>
         <text name="easyDevControls_fill" text="Doldurmak"/>
         <text name="easyDevControls_empty" text="Boş"/>
         <text name="easyDevControls_maximum" text="Maksimum"/>
@@ -218,9 +218,9 @@ En iyi sonuçlar için aracın x/z düzlemine paralel olan düz bir düzlemde ko
         <text name="easyDevControls_hudInputOffInfo" text="Hud girişleri kapalı"/>
         <text name="easyDevControls_hudInputOnInfo" text="Hud girişi açık (Bağlamanın Hud Görünümü'%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Oyuncu Başarıyla %s Işınlandı."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%d Araçı başarıyla %s tarlaya ışınlandı."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="%s Araçı başarıyla %s tarlaya ışınlandı."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Oyuncu başarılı %s, %s koordinatörlerine ışınlandılar."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="'%d' aracılarıyla %s, %s koordinatlarına ışınlandınız."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="'%s' aracılarıyla %s, %s koordinatlarına ışınlandınız."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Araç hizasını doğru şekilde hizalamaya çalışın."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Nesne Silme Kısayolu (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="Kamera FOV'u şu şekilde güncellendi: %d°."/>
@@ -317,7 +317,7 @@ Not: Bu mod ekran tasarımı için tasarlanmıştır."/> <!-- Translators: Space
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="Ekleme %s."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text=" %d %s Hartiadan Kaldırılma Başarılı"/>
+        <text name="easyDevControls_removeAllObjectsInfo" text=" %s %s Hartiadan Kaldırılma Başarılı"/>
         <text name="easyDevControls_tipToGroundInfo" text="%s, %s gittiğin yere %s bahşiş verildi."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Temizleme Başarılı %s Yükseklikteki ve Yarıçapı %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Temizleme Başarılı %s inden %s Ürün kaldırıldı"/>
@@ -375,7 +375,7 @@ Red: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_resetToDefault" text="Varsayılana sıfırla"/>
         <text name="easyDevControls_toggleCoverTitle" text="Kapağı Aç/Kapat"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Ürün Seviyesi"/>
-        <text name="easyDevControls_fillUnitIndex" text="Ürün %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Ürün %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="%s durumu güncellendi."/>
@@ -389,9 +389,9 @@ Red: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Gergi Kayışları Hata Ayıklama Durumu %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Araç Mesafe Hata Ayıklam Durumu Şimdi %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="%s güç verileri güncellendi (Tüm araçlarla senkronize edildi: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="%s kapsama alanı olmayan bir alan %s, durum kimliği %d."/>
+        <text name="easyDevControls_toggleCoverInfo" text="%s kapsama alanı olmayan bir alan %s, durum kimliği %s."/>
         <text name="easyDevControls_setFillUnitFillLevelInfo" text="%s ila %s miktarında %s başarılı dolum ve %s dolumlar."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="%d, %s sayısıyla kaldırıldı."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="%s, %s sayısıyla kaldırıldı."/>
 
         <!-- Vehicles Frame Help -->
         <text name="easyDevControls_vehicleConditionHelp" text="Adds, removes or sets the selected condition percentage to an 'entered vehicle and all implements' or a 'single vehicle' in range of the player."/>
@@ -436,13 +436,13 @@ States 1 to 10: Vehicle specific states for testing."/> <!-- Translators: Space 
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Tüm Yerleştirelebilirleri Yeniden Yükle"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Changed %d %s to farm %s (%d) successfully."/>
-        <text name="easyDevControls_productionPointStateInfo" text="Changed %d %s to '%s' state successfully."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Changed %d %s to distribution mode '%s' successfully."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Changed %s %s to farm %s (%s) successfully."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Changed %s %s to '%s' state successfully."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Changed %s %s to distribution mode '%s' successfully."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Changed %s fill levels of '%s' on production point %s successfully."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Changed all %s fill levels on %d %s successfully."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Changed all %s fill levels on %s %s successfully."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Distributing '%s' to the following production points:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Successfully reloaded XML and I3D of %d %s."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Successfully reloaded XML and I3D of %s %s."/>
 
         <!-- Placeables Frame Help -->
         <text name="easyDevControls_productionPointHelp" text="Allows the following changes to be made to the production points.
@@ -508,24 +508,24 @@ Fill Level:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Tarla Taşlarında Hata Ayıklama"/>
 
         <!-- Fields Frame Info -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="Updated %d fields successfully"/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Updated field %d successfully"/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="Updated %s fields successfully"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Updated field %s successfully"/>
         <text name="easyDevControls_setFieldFailedInfo" text="Updating of fields failed."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Growth on all fields has been advanced to the next stage."/>
         <text name="easyDevControls_advanceGrowthWarning" text="Advancing growth stage is only available when the game setting '%s' is set to 'No'.
 
 Would you like to change your current setting from '%s' to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Growth period on all fields updated to %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Growth period on all fields updated to %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Setting growth period is not available when the game setting '%s' is set to '%s'.
 
 Would you like to change your setting to 'No' so this action can be performed?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Increased %s delta by %d."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Decreased %s delta by %d."/>
-        <text name="easyDevControls_vineSetStateInfo" text="Updated %d %s vines to growth state %d"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Increased %s delta by %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Decreased %s delta by %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Updated %s %s vines to growth state %s"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Updated all vine visuals"/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Updated ownership of %d available farmlands to %s farm."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Updated ownership of farmland %d to farm %s."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Updated ownership of %s available farmlands to %s farm."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Updated ownership of farmland %s to farm %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Refreshing PDA field overlay and setting timer to 60 seconds."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Field status debugging %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Vine system debugging %s."/>

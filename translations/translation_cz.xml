@@ -105,8 +105,8 @@ Nejnovější oficiální verzi naleznete na níže uvedeném odkazu ke stažen�
         <text name="easyDevControls_infohud_tree" text="Strom"/>
         <text name="easyDevControls_all" text="Vše"/>
         <text name="easyDevControls_found" text="Nalezeno"/>
-        <text name="easyDevControls_state" text="Stav %d"/>
-        <text name="easyDevControls_type" text="Typ %d"/>
+        <text name="easyDevControls_state" text="Stav %s"/>
+        <text name="easyDevControls_type" text="Typ %s"/>
         <text name="easyDevControls_fill" text="Naplnit"/>
         <text name="easyDevControls_empty" text="Vyprázdnit"/>
         <text name="easyDevControls_maximum" text="Maximum"/>
@@ -218,9 +218,9 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_hudInputOffInfo" text="Vazba vstupu HUD vypnuta"/>
         <text name="easyDevControls_hudInputOnInfo" text="Vazba vstupu Hud zapnuta (přepnout viditelnost hud pomocí vstupu '%s')"/>
         <text name="easyDevControls_teleportPlayerFieldInfo" text="Hráč byl úspěšně přesunut na pole %s."/>
-        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Vozidlo %d úspěšně přesunuto na pole %s."/>
+        <text name="easyDevControls_teleportVehiclesFieldInfo" text="Vozidlo %s úspěšně přesunuto na pole %s."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Přesunutí hráče na souřadnice %s, %s proběhlo úspěšně."/>
-        <text name="easyDevControls_teleportVehiclesInfo" text="Přesunutí %d vozidla na souřadnice %s, %s proběhlo úspěšně."/>
+        <text name="easyDevControls_teleportVehiclesInfo" text="Přesunutí %s vozidla na souřadnice %s, %s proběhlo úspěšně."/>
         <text name="easyDevControls_flipVehiclesInfo" text="Pokus o správnou orientaci vozidla a orientaci jakéhokoli připojeného nářadí."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Klávesa pro odstranění objektů (%s) %s"/>
         <text name="easyDevControls_setFovAngleInfo" text="FOV kamery aktualizováno na %d°."/>
@@ -319,7 +319,7 @@ Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní fun
 
         <!-- Informace o rámečku objektů -->
         <text name="easyDevControls_spawnObjectsInfo" text="Přidávání %s."/>
-        <text name="easyDevControls_removeAllObjectsInfo" text="Úspěšně odstraněno %d %s z mapy."/>
+        <text name="easyDevControls_removeAllObjectsInfo" text="Úspěšně odstraněno %s %s z mapy."/>
         <text name="easyDevControls_tipToGroundInfo" text="Úspěšně vysypáno %s z %s v délce %s."/>
         <text name="easyDevControls_clearTipAreaRadiusInfo" text="Úspěšně vymazán typ výšky %s v poloměru %s."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Úspěšně vymazáno %s z %s typu výšky."/>
@@ -378,7 +378,7 @@ Red: Bit Vectors &gt; 1"/>
         <text name="easyDevControls_resetToDefault" text="Obnovit výchozí"/>
         <text name="easyDevControls_toggleCoverTitle" text="Přepnout kryt"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Úroveň plnění"/>
-        <text name="easyDevControls_fillUnitIndex" text="Naplnit jednotku %d"/>
+        <text name="easyDevControls_fillUnitIndex" text="Naplnit jednotku %s"/>
 
         <!-- Informace o rámu vozidla -->
         <text name="easyDevControls_vehicleConditionInfo" text="Stav %s byl aktualizován."/>
@@ -392,9 +392,9 @@ Red: Bit Vectors &gt; 1"/>
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Ladění napínacích řemenů je nyní %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Ladění vzdálenosti vozidla je nyní %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="Údaje o spotřebě energie %s byly aktualizovány (synchronizováno se všemi vozidly: %s)."/>
-        <text name="easyDevControls_toggleCoverInfo" text="%s kryt je nyní %s, stav id %d."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Úspěšně nastavena jednotka plnění %d z %s na %s s úrovní plnění %s."/>
-        <text name="easyDevControls_setFillUnitEmptyInfo" text="Úspěšně vyprázdněna plnicí jednotka %d z %s."/>
+        <text name="easyDevControls_toggleCoverInfo" text="%s kryt je nyní %s, stav id %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Úspěšně nastavena jednotka plnění %s z %s na %s s úrovní plnění %s."/>
+        <text name="easyDevControls_setFillUnitEmptyInfo" text="Úspěšně vyprázdněna plnicí jednotka %s z %s."/>
 
         <!-- Nápověda k rámu vozidel -->
         <text name="easyDevControls_vehicleConditionHelp" text="Přidá, odebere nebo nastaví vybrané procento stavu na 'zadané vozidlo a všechna nářadí' nebo 'jedno vozidlo' v dosahu hráče."/>
@@ -441,13 +441,13 @@ Stavy 1 až 10: Specifické stavy vozidla pro testování."/>
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Znovu načíst umístitelné objekty"/>
 
         <!-- Informace o umístitelných rámech -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Změněno %d %s na farmu %s (%d) úspěšně."/>
-        <text name="easyDevControls_productionPointStateInfo" text="Změněno %d %s na '%s' úspěšně."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Změněno %d %s na distribuční režim '%s' úspěšně."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Změněno %s %s na farmu %s (%s) úspěšně."/>
+        <text name="easyDevControls_productionPointStateInfo" text="Změněno %s %s na '%s' úspěšně."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Změněno %s %s na distribuční režim '%s' úspěšně."/>
         <text name="easyDevControls_productionPointFillLevelInfo" text="Úspěšně změněny %s úrovně naplnění '%s' na produkčním bodu %s."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Úspěšně změněny všechny úrovně naplnění %s na %d %s."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Úspěšně změněny všechny úrovně naplnění %s na %s %s."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Distribuce '%s' do následujících produkčních bodů:"/>
-        <text name="easyDevControls_reloadPlaceablesInfo" text="Úspěšně znovu načteno XML a I3D %d %s."/>
+        <text name="easyDevControls_reloadPlaceablesInfo" text="Úspěšně znovu načteno XML a I3D %s %s."/>
 
         <!-- Nápověda k rámečku pro umístění -->
         <text name="easyDevControls_productionPointHelp" text="Umožňuje provést v produkčních bodech následující změny.
@@ -515,8 +515,8 @@ Výstupní režim:
         <text name="easyDevControls_stoneSystemDebugTitle" text="Ladění stavu kamení"/>
 
         <!-- Informace o rámečku polí -->
-        <text name="easyDevControls_setAllFieldSuccessInfo" text="Úspěšně aktualizováno %d polí"/>
-        <text name="easyDevControls_setFieldSuccessInfo" text="Aktualizováno pole %d úspěšně"/>
+        <text name="easyDevControls_setAllFieldSuccessInfo" text="Úspěšně aktualizováno %s polí"/>
+        <text name="easyDevControls_setFieldSuccessInfo" text="Aktualizováno pole %s úspěšně"/>
         <text name="easyDevControls_setFieldFailedInfo" text="Aktualizace polí se nezdařila."/>
 
         <text name="easyDevControls_advanceGrowthInfo" text="Růst ve všech polích postoupil do další fáze."/>
@@ -525,18 +525,18 @@ Výstupní režim:
 Chcete změnit své aktuální nastavení z '%s' na 'Ne', aby bylo možné tuto akci provést?"/> 
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
-        <text name="easyDevControls_setGrowthPeriodInfo" text="Období růstu na všech polích aktualizováno na %s (%d)."/>
+        <text name="easyDevControls_setGrowthPeriodInfo" text="Období růstu na všech polích aktualizováno na %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Nastavení období růstu není dostupné, když je nastavení hry '%s' nastaveno na '%s'.
 
 Chcete změnit nastavení na 'Ne', aby bylo možné tuto akci provést?"/> 
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="Zvýšeno %s delta o %d."/>
-        <text name="easyDevControls_removeWeedOrStoneDelta" text="Sníženo %s delta o %d."/>
-        <text name="easyDevControls_vineSetStateInfo" text="Aktualizováno %d %s vinic do stavu růstu %d"/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="Zvýšeno %s delta o %s."/>
+        <text name="easyDevControls_removeWeedOrStoneDelta" text="Sníženo %s delta o %s."/>
+        <text name="easyDevControls_vineSetStateInfo" text="Aktualizováno %s %s vinic do stavu růstu %s"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Aktualizovány všechny vizuály vinic"/>
-        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Aktualizováno vlastnictví %d dostupné zemědělské půdy na farmě %s."/>
-        <text name="easyDevControls_setFarmlandOwnerInfo" text="Aktualizováno vlastnictví zemědělské půdy %d na farmu %s."/>
+        <text name="easyDevControls_setFarmlandOwnerAllInfo" text="Aktualizováno vlastnictví %s dostupné zemědělské půdy na farmě %s."/>
+        <text name="easyDevControls_setFarmlandOwnerInfo" text="Aktualizováno vlastnictví zemědělské půdy %s na farmu %s."/>
         <text name="easyDevControls_refreshFieldOverlayInfo" text="Obnovování překryvného pole PDA a nastavení časovače na 60 sekund."/>
         <text name="easyDevControls_debugFieldStatusInfo" text="Ladění stavu pole %s."/>
         <text name="easyDevControls_vineSystemDebugInfo" text="Ladění systému vinic %s."/>
