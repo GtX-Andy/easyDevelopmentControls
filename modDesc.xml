@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="68">
+<modDesc descVersion="71">
    <author>GtX</author>
 
-   <version>1.2.0.1</version>
+   <version>1.2.0.2</version>
 
     <title>
         <en>Easy Development Controls</en>
@@ -29,6 +29,9 @@ Some quality of life features have also been added as follows.
 With the extended number of features plus many new features planned, Easy Development Controls has something for everyone.
 
 For further information please read the <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> on the Github repository.
+
+Changelog 1.2.0.2
+- Git Hub Release: Hot fix for Super Strength after Giants game update v1.8.1.0 (b21187)
 
 Changelog 1.2.0.0:
 - Vehicle Page: 'Set Fill Level' feature will now remember last settings until vehicle is exited or changed.
@@ -74,6 +77,9 @@ Mit der erweiterten Anzahl von Funktionen und vielen geplanten neuen Funktionen 
 
 Für weitere Informationen, lese dir die <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> aus dem Github durch.
 
+Changelog 1.2.0.2:
+- Git Hub Release: Hotfix für Super Strength nach dem Giants-Spielupdate v1.8.1.0 (b21187)
+
 Changelog 1.2.0.0:
 - Fahrzeugseite: Die Funktion 'Fuell Level' speichert jetzt die letzten Einstellungen, bis das Fahrzeug verlassen oder gewechselt wird.
 - Fahrzeugseite: Die Funktion 'Fahrzeug entfernen' entfernt keine Paletten mehr.
@@ -118,6 +124,9 @@ Certaines fonctionnalités de qualité de vie ont également été ajoutées, te
 Avec le grand nombre de fonctionnalités et bien d'autres qui devraient être ajoutées, Easy Development Controls est sûr de satisfaire tout le monde.
 
 Pour plus d'informations sur, veuillez consulter la page <a href="https://github.com/GtX-Andy/easyDevelopmentControls/blob/master/README.md">README</a> du dépot Github.
+
+Changelog 1.2.0.2:
+- Sortie de Git Hub : correctif pour Super Strength après la mise à jour v1.8.1.0 du jeu Giants (b21187)
 
 Changelog 1.2.0.0:
 - Page du véhicule : la fonction 'Gestion du contenu' se souviendra désormais des derniers paramètres jusqu'à ce que le véhicule soit quitté ou modifié.

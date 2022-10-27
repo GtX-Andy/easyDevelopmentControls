@@ -535,11 +535,13 @@ function EasyDevControls:setSuperStrengthPlayerValues(superStrengthEnabled, user
         currentPlayer.superStrengthPickupMassBackup = 0.2 -- compatibility
         currentPlayer.superStrengthPickupDistanceBackup = 3 -- compatibility
 
-        Player.MAX_PICKABLE_OBJECT_MASS = 50
+        currentPlayer.maxPickableMass = 100
+        Player.MAX_PICKABLE_OBJECT_MASS = 100
         Player.MAX_PICKABLE_OBJECT_DISTANCE = 6
 
         infoText = "easyDevControls_superStrengthOnInfo"
     else
+        currentPlayer.maxPickableMass = 0.2
         Player.MAX_PICKABLE_OBJECT_MASS = 0.2
         Player.MAX_PICKABLE_OBJECT_DISTANCE = 3
 

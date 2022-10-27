@@ -1,6 +1,6 @@
 # Easy Development Controls
 
-`Farming Simulator  22`   `Revision:  FS22-03`   `BuildId:  1.3`
+`Farming Simulator  22`   `Version:  1.2.0.2`   `BuildId:  1.4`
 
 ## About
 
