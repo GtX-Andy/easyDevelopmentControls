@@ -309,7 +309,7 @@ Note: Dies ist nur fuer Bilder(Screenshoots zu nutzen, manche Spielfunktionen fu
         <text name="easyDevControls_removeAllBalesTitle" text="Ballen entfernen"/>
         <text name="easyDevControls_removeAllPalletsTitle" text="Pallete entfernen"/>
         <text name="easyDevControls_removeAllLogsTitle" text="Baumstamm entfernen"/>
-        <text name="easyDevControls_removeAllStumpsTitle" text="Baumstumpf entfernnen"/>
+        <text name="easyDevControls_removeAllStumpsTitle" text="Baumstumpf entfernen"/>
 
         <!-- Objects Frame Info -->
         <text name="easyDevControls_spawnObjectsInfo" text="%s hinzugefuegt."/>
