@@ -33,6 +33,10 @@ Ce mod devrait être enlevé pour éviter des erreurs !
 
 Rendez-vous sur le modhub Giants pour télécharger la dernière version officielle disponible. Lien ci-dessous."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Vous ne savez pas comment faire quelque chose ?
+Consultez la section d'aide dans le menu du Easy Development Controls."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="plaçables"/>
         <text name="easyDevControls_typePlaceable" text="plaçable"/>
@@ -207,6 +211,7 @@ Pour obtenir de meilleurs résultats, assurez-vous de le positionner sur un terr
         <text name="easyDevControls_stopTimeTitle" text="Figer le temps"/>
         <text name="easyDevControls_showCollectablesTitle" text="Montrer les collectibles"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Vider le cache I3D"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Recharger les articles du magasin"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="%s ajoutés sur le compte de la ferme."/>
@@ -230,6 +235,7 @@ Pour obtenir de meilleurs résultats, assurez-vous de le positionner sur un terr
         <text name="easyDevControls_extraTimescalesInfo" text="Echelles supplémentaires de défilement du temps %s"/>
         <text name="easyDevControls_stopTimeInfo" text="L'écoulement du temps est interrompu."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Tous les i3d partagés sont supprimés."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="%s articles du magasin rechargés avec succès store items."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Ajoute de l'argent sur le compte de la ferme."/>
@@ -250,6 +256,7 @@ Note: Fonctionnalité uniquement disponible en étant administrateur de la parti
         <text name="easyDevControls_stopTimeHelp" text="Fixe l'écoulement du temps à zéro."/>
         <text name="easyDevControls_showCollectablesHelp" text="Défini à partir de quel pourcentage les objets à collectionner apparaîtront sur la carte. Note : Actuellement seulement disponible en mode solo."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Supprime tous les fichiers i3d en cache pour forcer un chargement des dernières versions présentes sur le disque. La fonction est désactivée lorsqu'il n'y a pas de fichiers i3d partagés disponibles."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Recharge tous les articles du magasin en incluant toutes leurs configurations."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Joueur"/>

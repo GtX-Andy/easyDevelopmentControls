@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <l10n>
     <contributors>
-		<name>Translate Bear</name>
+        <name>Translate Bear</name>
+        <name>MeRida2104</name>
     </contributors>
 
     <!-- Translation Notes!
@@ -32,6 +33,10 @@ Um Fehler zu vermeiden, sollte dieser Mod entfernt werden!
 
 Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Version zu erhalten."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Du weißt nicht was du als nächstes machen kannst?
+Öffne die Hilfe im Easy Development Controls Menü, um weitere Tips zu erhalten."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="placeables"/>
         <text name="easyDevControls_typePlaceable" text="placeable"/>
@@ -61,7 +66,7 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_weatherTypeCloudy" text="Wolkig"/>
         <text name="easyDevControls_weatherTypeRaining" text="Regnerisch"/>
         <text name="easyDevControls_weatherTypeSnowing" text="Schnee"/>
-        <text name="easyDevControls_seasonSpring" text="Fruehling"/>
+        <text name="easyDevControls_seasonSpring" text="Frühling"/>
         <text name="easyDevControls_seasonSummer" text="Sommer"/>
         <text name="easyDevControls_seasonAutumn" text="Herbst"/>
         <text name="easyDevControls_seasonWinter" text="Winter"/>
@@ -74,12 +79,12 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_price" text="Preis"/>
         <text name="easyDevControls_location" text="Ort"/>
         <text name="easyDevControls_tableId" text="Table ID"/>
-        <text name="easyDevControls_transferCost" text="Kosten uebertragen"/>
+        <text name="easyDevControls_transferCost" text="Kosten übertragen"/>
         <text name="easyDevControls_variation" text="Variation"/>
         <text name="easyDevControls_variations" text="Variationen"/>
         <text name="easyDevControls_info" text="Info"/>
-        <text name="easyDevControls_size" text="Groesse"/>
-        <text name="easyDevControls_fillTypes" text="Fuelltypen"/>
+        <text name="easyDevControls_size" text="Grösse"/>
+        <text name="easyDevControls_fillTypes" text="Fülltypen"/>
         <text name="easyDevControls_rolledSeedbed" text="Saatbett"/>
         <text name="easyDevControls_directSown" text="Direktsaat"/>
         <text name="easyDevControls_planted" text="Geplanzt"/>
@@ -88,11 +93,11 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_harvestReadyOther" text="Fertig zum Ernten"/>
         <text name="easyDevControls_grassCut" text="Grasschnitt"/>
         <text name="easyDevControls_width" text="Breite"/>
-        <text name="easyDevControls_height" text="Hoehe"/>
-        <text name="easyDevControls_length" text="Laenge"/>
+        <text name="easyDevControls_height" text="Höhe"/>
+        <text name="easyDevControls_length" text="Länge"/>
         <text name="easyDevControls_diameter" text="Durchmesser"/>
         <text name="easyDevControls_mask" text="Maske"/>
-        <text name="easyDevControls_picked" text="Ausgewaehlt"/>
+        <text name="easyDevControls_picked" text="Ausgewählt"/>
         <text name="easyDevControls_small" text="Klein"/>
         <text name="easyDevControls_medium" text="Mittel"/>
         <text name="easyDevControls_large" text="Gross"/>
@@ -107,12 +112,12 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_found" text="Gefunden"/>
         <text name="easyDevControls_state" text="Zustand %s"/>
         <text name="easyDevControls_type" text="Art %s"/>
-        <text name="easyDevControls_fill" text="Fuellen"/>
+        <text name="easyDevControls_fill" text="Füllen"/>
         <text name="easyDevControls_empty" text="Leer"/>
         <text name="easyDevControls_maximum" text="Maximum"/>
         <text name="easyDevControls_input" text="Input"/>
         <text name="easyDevControls_output" text="Output"/>
-        <text name="easyDevControls_open" text="Oeffnen"/>
+        <text name="easyDevControls_open" text="Öffnen"/>
         <text name="easyDevControls_opened" text="Offen"/>
         <text name="easyDevControls_close" text="Schliessen"/>
         <text name="easyDevControls_closed" text="Geschlossen"/>
@@ -120,7 +125,7 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_round" text="Rund"/>
         <text name="easyDevControls_wrapped" text="Gewickelt"/>
         <text name="easyDevControls_unwrapped" text="Ungewickelt"/>
-        <text name="easyDevControls_add" text="Hinzufuegen"/>
+        <text name="easyDevControls_add" text="Hinzufügen"/>
         <text name="easyDevControls_remove" text="Entfernen"/>
         <text name="easyDevControls_set" text="Einstellen"/>
         <text name="easyDevControls_default" text="Standard"/>
@@ -128,16 +133,16 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_farmProducts" text="Landwirtschaftliche Produkte"/>
         <text name="easyDevControls_unknown" text="Unbekannt"/>
         <text name="easyDevControls_reload" text="Neu Laden"/>
-        <text name="easyDevControls_reloadReset" text="Neu Laden/ zuruecksetzen"/>
+        <text name="easyDevControls_reloadReset" text="Neu Laden/ zurücksetzen"/>
         <text name="easyDevControls_deleteObject" text="%s entfernen"/>
         <text name="easyDevControls_formattedSeconds" text="%d Sekunden"/>
         <text name="easyDevControls_userSetting" text="Benutzer Einstellungen"/>
         <text name="easyDevControls_refreshing" text="Aktualisieren"/>
         <text name="easyDevControls_noField" text="kein Feld"/>
-        <text name="easyDevControls_unsupported" text="Nicht unterstuetzt"/>
-        <text name="easyDevControls_overview" text="Uebersicht"/>
+        <text name="easyDevControls_unsupported" text="Nicht unterstützt"/>
+        <text name="easyDevControls_overview" text="Übersicht"/>
         <text name="easyDevControls_author" text="Autor"/>
-        <text name="easyDevControls_translations" text="Uebersetzungen"/>
+        <text name="easyDevControls_translations" text="Übersetzungen"/>
         <text name="easyDevControls_bugReporting" text="Bug Report"/>
 
         <!-- Messages -->
@@ -178,20 +183,20 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
 
         <!-- GUI Buttons -->
         <text name="easyDevControls_removeBlurButton" text="Hintergrund entfernen"/>
-        <text name="easyDevControls_addBlurButton" text="Hintergrund hinzufuegen"/>
-        <text name="easyDevControls_buttonConfirmAndClose" text="Bestaetigen und schliessen"/>
-        <text name="easyDevControls_buttonClear" text="Alle Eingaben loeschen"/>
+        <text name="easyDevControls_addBlurButton" text="Hintergrund hinzufügen"/>
+        <text name="easyDevControls_buttonConfirmAndClose" text="Bestätigen und schliessen"/>
+        <text name="easyDevControls_buttonClear" text="Alle Eingaben löschen"/>
 
         <!-- General Frame XML -->
-        <text name="easyDevControls_generalHeader" text="General"/>
+        <text name="easyDevControls_generalHeader" text="Allgemein"/>
 
         <text name="easyDevControls_cheatMoneyTitle" text="Geld cheat"/>
-        <text name="easyDevControls_addMoneyTitle" text="Geld hinzufuegen"/>
+        <text name="easyDevControls_addMoneyTitle" text="Geld hinzufügen"/>
         <text name="easyDevControls_removeMoneyTitle" text="Geld entfernen"/>
         <text name="easyDevControls_setMoneyTitle" text="Geldbetrag einstellen"/>
         <text name="easyDevControls_flightModeToggleTitle" text="Flugmodus"/>
         <text name="easyDevControls_flightModeStateTitle" text="Flugzustand"/>
-        <text name="easyDevControls_hudVisibilityTitle" text="Hud Visibility"/>
+        <text name="easyDevControls_hudVisibilityTitle" text="Hud Sichtbarkeit"/>
         <text name="easyDevControls_hudInputTitle" text="HUD Eingabe"/>
         <text name="easyDevControls_teleportTitle" text="Teleportieren"/>
         <text name="easyDevControls_teleportFormatedTitle" text="Teleport %s"/>
@@ -199,15 +204,16 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_flipVehiclesTitle" text="Fahrzeug umdrehen"/>
         <text name="easyDevControls_deleteObjectsKeyTitle" text="Objekteingabe entfernen"/>
         <text name="easyDevControls_setFOVAngleTitle" text="FOV einstellen"/>
-        <text name="easyDevControls_setQualityTitle" text="Qualitaet einstellen"/>
+        <text name="easyDevControls_setQualityTitle" text="Qualität einstellen"/>
         <text name="easyDevControls_extraTimescalesTitle" text="Extra Timescales"/>
         <text name="easyDevControls_stopTimeTitle" text="Stop Zeit"/>
-        <text name="easyDevControls_showCollectablesTitle" text="Sammlerstuecke anzeigen"/>
-        <text name="easyDevControls_clearI3DCacheTitle" text="I3D Cache loeschen"/>
+        <text name="easyDevControls_showCollectablesTitle" text="Sammlerstücke anzeigen"/>
+        <text name="easyDevControls_clearI3DCacheTitle" text="I3D Cache löschen"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Shop-Artikel neu laden"/>
 
         <!-- General Frame Info -->
-        <text name="easyDevControls_addMoneyInfo" text="%s zur Hof Bank hinzugefuegt."/>
-        <text name="easyDevControls_removeMoneyInfo" text="%s von Hof bank entfernt."/>
+        <text name="easyDevControls_addMoneyInfo" text="%s zur Hof Bank hinzugefügt."/>
+        <text name="easyDevControls_removeMoneyInfo" text="%s von Hof Bank entfernt."/>
         <text name="easyDevControls_setMoneyInfo" text="Hof Bankaccount Wert auf %s eingestellt."/>
         <text name="easyDevControls_flightModeToggleInfo" text="Flugmodus: %s"/>
         <text name="easyDevControls_flightModeStateOffInfo" text="Flugzustand: %s"/>
@@ -219,44 +225,46 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <text name="easyDevControls_teleportVehiclesFieldInfo" text="%s Fahrzeuge erfolgreich nach Feld %s verschoben."/>
         <text name="easyDevControls_teleportPlayerInfo" text="Spieler erfolgreich zu den Koordinaten %s, %s teleportiert."/>
         <text name="easyDevControls_teleportVehiclesInfo" text="Fahrzeug '%s' erfolgreich zu den Koordinaten %s, %s teleportiert."/>
-        <text name="easyDevControls_flipVehiclesInfo" text="Versuche Fahrzeugausrichtung und angeschlossenes Geraete richtig auszurichten."/>
+        <text name="easyDevControls_flipVehiclesInfo" text="Versuche Fahrzeugausrichtung und angeschlossenes Geräte richtig auszurichten."/>
         <text name="easyDevControls_deleteObjectsKeyInfo" text="Entferne Objekt key (%s) %s"/>
-        <text name="easyDevControls_setFovAngleInfo" text="Kamera FOV updated to %d°."/>
-        <text name="easyDevControls_resetFovAngleInfo" text="Field of view auf Standardeinstellung zurueckgesetzt %d°."/>
+        <text name="easyDevControls_setFovAngleInfo" text="Kamera FOV updated auf %d°."/>
+        <text name="easyDevControls_resetFovAngleInfo" text="FOV auf Standardeinstellung zurückgesetzt %d°."/>
         <text name="easyDevControls_setQualityInfo" text="%s quality set."/>
         <text name="easyDevControls_extraTimescalesInfo" text="Extra timescales %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Timescale auf 0 gestellt."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Entferne alle geteilten I3d Objekte"/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="%s Shop-Artikel erfolgreich neu geladen."/>
 
         <!-- General Frame Help -->
-        <text name="easyDevControls_addMoneyHelp" text="Geld hinzufuegen"/>
+        <text name="easyDevControls_addMoneyHelp" text="Geld hinzufügen"/>
         <text name="easyDevControls_removeMoneyHelp" text="Geld entfernen"/>
-        <text name="easyDevControls_setMoneyHelp" text="Einen bestimmten Geld Wert zum Bankaccount hinzufuegen"/>
+        <text name="easyDevControls_setMoneyHelp" text="Einen bestimmten Geldwert zum Bankaccount hinzufügen"/>
         <text name="easyDevControls_flightModeToggleHelp" text="Flug Debug Modus an/aus schalten"/>
-        <text name="easyDevControls_flightModeStateHelp" text="Nur verfuegbar wenn 'Flugmodus' angeschaltet ist, dies kann man auch im Spiel mit der J Taste aktiivieren. Wenn aktiivert nutze die Q und E Taste fuer hoch und runter"/>
+        <text name="easyDevControls_flightModeStateHelp" text="Nur verfügbar wenn 'Flugmodus' angeschaltet ist, dies kann man auch im Spiel mit der J Taste aktiivieren. Wenn aktiivert nutze die Q und E Taste fuer hoch und runter"/>
         <text name="easyDevControls_hudVisibilityHelp" text="Hud Sichtbarkeit einstellen."/>
-        <text name="easyDevControls_hudInputHelp" text="Schaltet die Tasten fuer die Hud Einstellung an oder aus"/>
+        <text name="easyDevControls_hudInputHelp" text="Schaltet die Tasten für die Hud Einstellung an oder aus"/>
         <text name="easyDevControls_teleportHelp" text="Spieler oder Fahrzeug zu einem bestimmten Punkt im Umkreis des Spielers teleportieren oder zu einer bestimmten Position auf der Map. Es koennen auch x/z Koordinaten genutzt werden"/>
         <text name="easyDevControls_flipVehiclesHelp" text="Umgefallenes Fahrzeug und Anbaugeraete aufrichten. Dies funktioniert wenn man im Fahrzeug ist oder das Fahrzeug im direkten "/>
         <text name="easyDevControls_deleteObjectsKeyHelp" text="Die 'Objekte entfernen' Taste de oder aktivieren. Dies erlaubt dem Spieler Objekte zu entfernen die sich im direkten Blickfeld befinden. Diese Funktion kann nur von einem Admin genutzt werden!"/>
-        <text name="easyDevControls_setFOVAngleHelp" text="Stellt die'Field Of View' (FOV) fuer die aktive Kamera ein. Nutze '-1' oder 'den Reset Knopf' um auf Standard Wert zurueckzusetzen."/>
-        <text name="easyDevControls_setQualityHelp" text="Einstellungen fuer hochaufloesende Bildschirmfotos"/>
-        <text name="easyDevControls_extraTimescalesHelp" text="Schalten extra Zeiteinstellungen frei: %s."/>
+        <text name="easyDevControls_setFOVAngleHelp" text="Stellt die'Field Of View' (FOV) für die aktive Kamera ein. Nutze '-1' oder 'den Reset Knopf' um auf Standard Wert zurueckzusetzen."/>
+        <text name="easyDevControls_setQualityHelp" text="Einstellungen für hochauflösende Bildschirmfotos"/>
+        <text name="easyDevControls_extraTimescalesHelp" text="Schalte extra Zeiteinstellungen frei: %s."/>
         <text name="easyDevControls_stopTimeHelp" text="Zeiteinstellung wird auf 0 gesetzt."/>
-        <text name="easyDevControls_showCollectablesHelp" text="Veraendert den Wert ab wieviel Prozent die Sammlerstuecke auf der Map angezeigt werden: NUR 'Single Player'."/>
+        <text name="easyDevControls_showCollectablesHelp" text="Verändert den Wert ab wieviel Prozent die Sammlerstuecke auf der Map angezeigt werden: NUR 'Single Player'."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Entfernt alle vorgeladenen i3d Dateien um sicher zu gehen das die neuste Version geladen wird. Wenn keine gleichen D vorhanden sind ist diese Funktion deaktiviert."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Lädt alle Store-Artikeldaten neu, einschließlich Store-Konfigurationsoptionen."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Spieler"/>
 
-        <text name="easyDevControls_superStrengthTitle" text="Superstaerke"/>
-        <text name="easyDevControls_jumpMultiplierTitle" text="Huepfhoehe einstellen"/>
+        <text name="easyDevControls_superStrengthTitle" text="Superstärke"/>
+        <text name="easyDevControls_jumpMultiplierTitle" text="Hüpfhöhe einstellen"/>
         <text name="easyDevControls_thirdPersonViewTitle" text="Third Person Ansicht"/>
         <text name="easyDevControls_woodCuttingMarkerTitle" text="Baumstamm Markierung"/>
         <text name="easyDevControls_aimOverlayTitle" text="Aim Marker"/>
         <text name="easyDevControls_runSpeedTitle" text="Renngeschwindigkeit einstellen"/>
-        <text name="easyDevControls_runSpeedKeyTitle" text="Taste fuer das schnellere Rennen"/>
-        <text name="easyDevControls_setFarmTitle" text="Hof auswaehlen"/>
+        <text name="easyDevControls_runSpeedKeyTitle" text="Taste für das schnellere Rennen"/>
+        <text name="easyDevControls_setFarmTitle" text="Hof auswählen"/>
         <text name="easyDevControls_playerDebugTitle" text="Debug Information"/>
         <text name="easyDevControls_playerFsmDebugTitle" text="State Machine Debug"/>
         <text name="easyDevControls_playerFsmStateJumpDebugTitle" text="Jump Debug"/>
@@ -264,11 +272,11 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
         <!-- Player Frame Info -->
         <text name="easyDevControls_superStrengthOffInfo" text="Spielerkraft auf normal eingestellt"/>
         <text name="easyDevControls_superStrengthOnInfo" text="Spieler hat nun Superkraefte und eine groessere Reichweite"/>
-        <text name="easyDevControls_jumpMultiplierInfo" text="Um %s hoeher huepfen"/>
+        <text name="easyDevControls_jumpMultiplierInfo" text="Um %s höher hüpfen"/>
         <text name="easyDevControls_thirdPersonViewInfo" text="Third person Ansicht"/>
         <text name="easyDevControls_woodCuttingMarkerInfo" text="Baumstamm Markierung"/>
         <text name="easyDevControls_aimOverlayInfo" text="Aim marker"/>
-        <text name="easyDevControls_runSpeedInfo" text="Renngeschwindigkeit um %s erhoeht"/>
+        <text name="easyDevControls_runSpeedInfo" text="Renngeschwindigkeit um %s erhöht"/>
         <text name="easyDevControls_runSpeedStateInfo" text="Increased running speed %s"/>
         <text name="easyDevControls_runSpeedKeyInfo" text="Running speed key (%s) %s"/>
         <text name="easyDevControls_setFarmInfo" text="Changed %s to farm %s"/>
@@ -278,15 +286,15 @@ Besuchen Sie den Giants modHub-Downloadlink unten, um die neueste offizielle Ver
 
         <!-- Player Frame Help -->
         <text name="easyDevControls_superStrengthHelp" text="Superkraft ein/aus schalten."/>
-        <text name="easyDevControls_jumpMultiplierHelp" text="Huepfhoehe ein/aus schalten"/>
+        <text name="easyDevControls_jumpMultiplierHelp" text="Hüpfhöhe ein/aus schalten"/>
         <text name="easyDevControls_thirdPersonViewHelp" text="Spieler Third person Ansicht ein/aus schalten.
 
 Note: Dies ist nur fuer Bilder(Screenshoots zu nutzen, manche Spielfunktionen funktionieren nicht im 3rd person view."/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_woodCuttingMarkerHelp" text="Holzmarkierung ein/ ausschalten"/>
         <text name="easyDevControls_aimOverlayHelp" text="aim marker ein/aus schalten."/>
-        <text name="easyDevControls_runSpeedHelp" text="Renngeschwindigkeit die genutzt werden soll wenn erhoehte Geschwidigkeit angeschaltet ist."/>
-        <text name="easyDevControls_runSpeedStateHelp" text="Geschwindigkeitserhoehung an/aus schalten"/>
-        <text name="easyDevControls_runSpeedKeyHelp" text="Schaltet die Taste fuer erhoehte Kaufgeschwindigkeit an oder aus"/>
+        <text name="easyDevControls_runSpeedHelp" text="Renngeschwindigkeit die genutzt werden soll wenn erhöhte Geschwidigkeit angeschaltet ist."/>
+        <text name="easyDevControls_runSpeedStateHelp" text="Geschwindigkeitserhöhung an/aus schalten"/>
+        <text name="easyDevControls_runSpeedKeyHelp" text="Schaltet die Taste für erhöhte Kaufgeschwindigkeit an oder aus"/>
         <text name="easyDevControls_setFarmHelp" text="Dem Spieler einen Hof oder ein Fahrzeug zuordnen"/>
         <text name="easyDevControls_playerDebugHelp" text="Schaltet die Player-Debugging-Informationen um."/>
         <text name="easyDevControls_playerFsmDebugHelp" text="Schaltet die Debugging-Informationen der Player-Zustandsmaschine um."/>
@@ -295,13 +303,13 @@ Note: Dies ist nur fuer Bilder(Screenshoots zu nutzen, manche Spielfunktionen fu
         <!-- Objects Frame XML -->
         <text name="easyDevControls_objectsHeader" text="Objekt/ Produkt"/>
 
-        <text name="easyDevControls_addBaleTitle" text="Ballen hinzufuegen"/>
-        <text name="easyDevControls_availableBaleTypesTitle" text="Verfuegbare Ballen"/>
+        <text name="easyDevControls_addBaleTitle" text="Ballen hinzufügen"/>
+        <text name="easyDevControls_availableBaleTypesTitle" text="Verfügbare Ballen"/>
         <text name="easyDevControls_fermentingBalesTitle" text="Fermentierte Ballen"/>
         <text name="easyDevControls_showBaleLocationsTitle" text="Ort eines Ballens anzeigen"/>
         <text name="easyDevControls_showPalletLocationsTitle" text="Ort einer Palette anzeigen"/>
-        <text name="easyDevControls_addPalletTitle" text="Pallete hinzufuegen"/>
-        <text name="easyDevControls_addLogTitle" text="Baumstamm hinzufuegen"/>
+        <text name="easyDevControls_addPalletTitle" text="Pallete hinzufügen"/>
+        <text name="easyDevControls_addLogTitle" text="Baumstamm hinzufügen"/>
         <text name="easyDevControls_tipToTriggerTitle" text="Tip To Trigger"/>
         <text name="easyDevControls_tipToGroundTitle" text="Tip To Ground"/>
         <text name="easyDevControls_clearTipAreaTitle" text="Clear Tip Area"/>
@@ -312,26 +320,26 @@ Note: Dies ist nur fuer Bilder(Screenshoots zu nutzen, manche Spielfunktionen fu
         <text name="easyDevControls_removeAllStumpsTitle" text="Baumstumpf entfernen"/>
 
         <!-- Objects Frame Info -->
-        <text name="easyDevControls_spawnObjectsInfo" text="%s hinzugefuegt."/>
+        <text name="easyDevControls_spawnObjectsInfo" text="%s hinzugefügt."/>
         <text name="easyDevControls_removeAllObjectsInfo" text="erfolgreich %s %s entfernt."/>
-        <text name="easyDevControls_tipToGroundInfo" text="Erfolgreich %s von %s in einer Laenge von %s auf den Boden gekippt."/>
-        <text name="easyDevControls_clearTipAreaRadiusInfo" text="Erfolgreich %s eines Hoehentyps im Radius von %s entfernt."/>
+        <text name="easyDevControls_tipToGroundInfo" text="Erfolgreich %s von %s in einer Länge von %s auf den Boden gekippt."/>
+        <text name="easyDevControls_clearTipAreaRadiusInfo" text="Erfolgreich %s eines Höhentyps im Radius von %s entfernt."/>
         <text name="easyDevControls_clearTipAreaFieldInfo" text="Erfolgreich %s von %s eines Produkts entfernt."/>
         <text name="easyDevControls_clearTipAreaMapInfo" text="Die Map erfolgreich von %s eines Produkts entfernt."/>
         <text name="easyDevControls_hotspotsEnabledInfo" text="%s-Hotspots aktiviert."/>
         <text name="easyDevControls_hotspotsDisabledInfo" text="%s-Hotspots deaktiviert."/>
 
         <!-- Objects Frame Help -->
-        <text name="easyDevControls_addBaleHelp" text="Einen bestimmten Ballen vor dem Spieler hinzufuegen"/>
-        <text name="easyDevControls_availableBaleTypesHelp" text="Liste von verfuegbaren Ballenarten anzeigen"/>
-        <text name="easyDevControls_fermentingBalesHelp" text="Alle fermentierte Ballen des ausgewaehlten Betriebs anzeigen"/>
+        <text name="easyDevControls_addBaleHelp" text="Einen bestimmten Ballen vor dem Spieler hinzufügen"/>
+        <text name="easyDevControls_availableBaleTypesHelp" text="Liste von verfügbaren Ballenarten anzeigen"/>
+        <text name="easyDevControls_fermentingBalesHelp" text="Alle fermentierte Ballen des ausgewählten Betriebs anzeigen"/>
         <text name="easyDevControls_showBaleLocationsHelp" text="Alle Ballen des Hofs auf der Map anzeigen"/>
         <text name="easyDevControls_showPalletLocationsHelp" text="Alle Paletten des Hofs auf der Map anzeigen"/>
-        <text name="easyDevControls_addPalletHelp" text="Eine ausgewaehlte Palette vor dem Spieler hinzufuegen"/>
-        <text name="easyDevControls_addLogHelp" text="Einen ausgewaehlten Baumstamm in der gewuenschten Laenge vor dem Spieler hinzufuegen"/>
-        <text name="easyDevControls_tipToTriggerHelp" text="Produkt dem Trigger hinzufuegen auf dem der Spieler gerade steht"/>
-        <text name="easyDevControls_tipToGroundHelp" text="Ein Produkt auf dem Boden leeren in einer laenge zwischen 1 > 25 meters."/>
-        <text name="easyDevControls_clearTipAreaHelp" text="Alle Produkte auf dem Boden entfernen oder nur Produkte in einem gewuenschten Radius entfernen"/>
+        <text name="easyDevControls_addPalletHelp" text="Eine ausgewaehlte Palette vor dem Spieler hinzufügen"/>
+        <text name="easyDevControls_addLogHelp" text="Einen ausgewählten Baumstamm in der gewünschten Länge vor dem Spieler hinzufügen"/>
+        <text name="easyDevControls_tipToTriggerHelp" text="Produkt dem Trigger hinzufügen auf dem der Spieler gerade steht"/>
+        <text name="easyDevControls_tipToGroundHelp" text="Ein Produkt auf dem Boden leeren in einer länge zwischen 1 > 25 meters."/>
+        <text name="easyDevControls_clearTipAreaHelp" text="Alle Produkte auf dem Boden entfernen oder nur Produkte in einem gewünschten Radius entfernen"/>
         <text name="easyDevControls_showTipCollisionsHelp" text="Zeigt die folgenden Bodenspitzenkollisionen an.
 
 Grün: Bit Vectors &lt;= 0
@@ -340,7 +348,7 @@ Rot: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_removeAllBalesHelp" text="Alle Ballen von der Map entfernen!"/>
         <text name="easyDevControls_removeAllPalletsHelp" text="Alle Palleten von der Map entfernen!"/>
         <text name="easyDevControls_removeAllLogsHelp" text="Alle Baumstaemme von der Map entfernen!"/>
-        <text name="easyDevControls_removeAllStumpsHelp" text="Entfernt alle Baumstuempfe von der Map!"/>
+        <text name="easyDevControls_removeAllStumpsHelp" text="Entfernt alle Baumstümpfe von der Map!"/>
 
         <!-- Vehicle Frame XML -->
         <text name="easyDevControls_vehiclesHeader" text="Fahrzeuge"/>
@@ -371,22 +379,22 @@ Rot: Bit Vectors &gt; 1"/> <!-- Translators: Space is intentional for easy readi
         <text name="easyDevControls_resetToDefault" text="Reset To Default"/>
         <text name="easyDevControls_toggleCoverTitle" text="Toggle Cover"/>
         <text name="easyDevControls_fillUnitFillLevelTitle" text="Fuell Level"/>
-        <text name="easyDevControls_fillUnitIndex" text="Auffuellen auf %s"/>
+        <text name="easyDevControls_fillUnitIndex" text="Auffüllen auf %s"/>
 
         <!-- Vehicle Frame Info -->
         <text name="easyDevControls_vehicleConditionInfo" text="Der Zustand von %s wurde aktualiesiert."/>
-        <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="Der Zustand von %s und alle verbundenen Geraete wurde aktualisiert."/>
-        <text name="easyDevControls_vehicleFuelInfo" text="%s level von %s wurde auf veraendert %s %s."/>
-        <text name="easyDevControls_vehicleMotorTempInfo" text="Motortemperatur von %s veraendert auf %s c."/>
+        <text name="easyDevControls_vehicleAndImplementsConditionInfo" text="Der Zustand von %s und alle verbundenen Geräte wurde aktualisiert."/>
+        <text name="easyDevControls_vehicleFuelInfo" text="%s level von %s wurde auf verändert %s %s."/>
+        <text name="easyDevControls_vehicleMotorTempInfo" text="Motortemperatur von %s verändert auf %s c."/>
         <text name="easyDevControls_vehicleOperatingTimeInfo" text="Betriebszeit von %s veraendert auf %s h."/>
         <text name="easyDevControls_reloadVehicleInfo" text="XML und I3D fuer %s erfolgreich neu geladen."/>
-        <text name="easyDevControls_vehicleAnalyseInfo" text="%s wurde erfolgreich analysiert bitte schau in die Game Log fuer mehr Information"/>
+        <text name="easyDevControls_vehicleAnalyseInfo" text="%s wurde erfolgreich analysiert bitte schau in die Game Log für mehr Information"/>
         <text name="easyDevControls_debugStateInfo" text="Current debugging state: %s"/>
         <text name="easyDevControls_tensionBeltsDebugInfo" text="Das Debuggen von Spanngurten ist jetzt %s"/>
         <text name="easyDevControls_vehicleDistanceInfo" text="Das Debuggen der Fahrzeugentfernung ist jetzt möglich %s"/>
         <text name="easyDevControls_setPowerConsumerInfo" text="%s power consumer data has been updated (Synced to all vehicles: %s)."/>
         <text name="easyDevControls_toggleCoverInfo" text="%s-Abdeckung ist jetzt %s, Zustands-ID %s."/>
-        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Erfolgreiche Befuellung von %s in der Menge von %s zu %s und einem Fuellvl von %s."/>
+        <text name="easyDevControls_setFillUnitFillLevelInfo" text="Erfolgreiche Befuellung von %s in der Menge von %s zu %s und einem Füllvl von %s."/>
         <text name="easyDevControls_setFillUnitEmptyInfo" text="Erfolgreich %s entfernt mit einer Anzahl von %s."/>
 
         <!-- Vehicles Frame Help -->
@@ -432,11 +440,11 @@ Zustände 1 bis 10: Fahrzeugspezifische Zustände zum testen."/> <!-- Translator
         <text name="easyDevControls_reloadAllPlaceablesTitle" text="Reload Placeables"/>
 
         <!-- Placeable Frame Info -->
-        <text name="easyDevControls_productionPointOwnerInfo" text="Veraenderung %s %s zum Hof %s (%s) erfolgreich ausgefuehrt."/>
+        <text name="easyDevControls_productionPointOwnerInfo" text="Veränderung %s %s zum Hof %s (%s) erfolgreich ausgefuehrt."/>
         <text name="easyDevControls_productionPointStateInfo" text="Zustand %s %s zu '%s' erfolgreich veraendert."/>
-        <text name="easyDevControls_productionPointDistributionInfo" text="Veraenderung %s %s am Auslieferungzustand '%s' erfolgreich."/>
-        <text name="easyDevControls_productionPointFillLevelInfo" text="Veraenderung %s vom Fuelllevel '%s' am Produktionsstandort %s erfolgreich."/>
-        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Alle %s Fuelllevel %s %s erfolgreich geaendert."/>
+        <text name="easyDevControls_productionPointDistributionInfo" text="Veränderung %s %s am Auslieferungzustand '%s' erfolgreich."/>
+        <text name="easyDevControls_productionPointFillLevelInfo" text="Veränderung %s vom Fuelllevel '%s' am Produktionsstandort %s erfolgreich."/>
+        <text name="easyDevControls_productionPointFillLevelAllInfo" text="Alle %s Fülllevel %s %s erfolgreich geändert."/>
         <text name="easyDevControls_productionPointDistributingInfo" text="Auslieferung von '%s' an folgenden Produktionsstandorten:"/>
         <text name="easyDevControls_reloadPlaceablesInfo" text="Die XML und I3D von %s %s wurden erfolgreich neu geladen."/>
 
@@ -458,7 +466,7 @@ Zustand einstellen:
 Ausgabe zustand festlegen:
 - Denn globalen oder individuellen Ausgabemodus(Output) festlegen, entweder 'Ausliefern' | 'Lagern' | 'Verkaufen'.
 
-Fuell Level:
+Füll Level:
 - Erlaubt fuell level veraenderungen zu bestimmten oder allen input/output Produkten, je nachdem welche kategorie genutzt wird. Es koennen entweder liter oder Prozent angaben genutzt werden je nachdem was ausgewaehlt wurde."/>
         <text name="easyDevControls_productionPointListHelp" text="Eine Liste von Produktionen anzeigen mit folgenden Informationen."/>
         <text name="easyDevControls_deliveryMappingHelp" text="Zeige alle Zustellungswege fuer alle Produktionen."/>
@@ -511,12 +519,12 @@ Fuell Level:
         <text name="easyDevControls_advanceGrowthInfo" text="Wachstum auf allen Feldern um eine Stufe erhoeht"/>
         <text name="easyDevControls_advanceGrowthWarning" text="Wachstums Stufen erhoehung ist nur moeglich wenn '%s' auf 'Nein' eingestellt ist.
 
-Wollen sie ihre momentane Einstellung '%s' auf 'Nein' stellen, so das dieser Befehl ausgefuehrt werden kann?"/> <!-- Translators: Space is intentional for easy reading -->
+Wollen sie ihre momentane Einstellung '%s' auf 'Nein' stellen, so das dieser Befehl ausgeführt werden kann?"/> <!-- Translators: Space is intentional for easy reading -->
         <text name="easyDevControls_setGrowthPeriodInfo" text="Wachstumsstufe auf allen Feldern geupdated auf %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Wachstumsstufe kann nicht festgelegt werden wenn '%s' auf '%s' gestelt ist.
 
 Wollen sie ihre momentanen einstellung auf 'Nein' stellen, so das dieser Befehl ausgefuehrt werden kann?"/> <!-- Translators: Space is intentional for easy reading -->
-        <text name="easyDevControls_addWeedOrStoneDelta" text="%s delta by %s erhoeht."/>
+        <text name="easyDevControls_addWeedOrStoneDelta" text="%s delta by %s erhöht."/>
         <text name="easyDevControls_removeWeedOrStoneDelta" text="%s delta by %s veringert."/>
         <text name="easyDevControls_vineSetStateInfo" text="Updated %s %s die Wachstumsstufe von Reben wurde auf %s veraendert"/>
         <text name="easyDevControls_vineUpdateVisualsInfo" text="Alle Reben vissuals geupdated"/>
@@ -528,8 +536,8 @@ Wollen sie ihre momentanen einstellung auf 'Nein' stellen, so das dieser Befehl 
         <text name="easyDevControls_stoneSystemDebugInfo" text="Steine status debugging %s."/>
 
         <!-- Fields Frame Help -->
-        <text name="easyDevControls_fieldSetFruitHelp" text="Erlaubt folgende Aenderungen an einem bestimmten Feld oder allen Feldern, aendern der Fruchtart."/>
-        <text name="easyDevControls_fieldSetGroundHelp" text="Erlaubt folgende Aenderungen an einem bestimmten Feld oder allen Feldern, Bodenzustand"/>
+        <text name="easyDevControls_fieldSetFruitHelp" text="Erlaubt folgende Änderungen an einem bestimmten Feld oder allen Feldern, aendern der Fruchtart."/>
+        <text name="easyDevControls_fieldSetGroundHelp" text="Erlaubt folgende Änderungen an einem bestimmten Feld oder allen Feldern, Bodenzustand"/>
         <text name="easyDevControls_fieldSetWarningHelp" text="Wichtig es werden die vorher festgelegten Felder genutzt, so zusammengelegte oder neu erstellte Felder werden ignoriert."/>
         <text name="easyDevControls_vineSetStateHelp" text="Erlaubt den Wachstumszustand der alle Reben auf der Map veraendert."/>
         <text name="easyDevControls_vineUpdateVisualsHelp" text="Erzwingt alle Reben die visuelle Wachstumsaenderung anzunehmen"/>
@@ -550,14 +558,14 @@ Wollen sie ihre momentanen einstellung auf 'Nein' stellen, so das dieser Befehl 
         <text name="easyDevControls_reloadedEnvironmentDataTitle" text="Umgebung Neu Laden"/>
         <text name="easyDevControls_reloadedWeatherDataTitle" text="Wetter Neu Laden"/>
         <text name="easyDevControls_setAddWeatherTitle" text="%s Wetter"/>
-        <text name="easyDevControls_setAddWeatherHelpTitle" text="Wetter Einstellen/ Hinzufuegen"/>
+        <text name="easyDevControls_setAddWeatherHelpTitle" text="Wetter Einstellen/ Hinzufügen"/>
         <text name="easyDevControls_removeTireTracksTitle" text="Reifenspuren entfernen"/>
         <text name="easyDevControls_weatherDebugTitle" text="Wetter Debug"/>
         <text name="easyDevControls_seasonalShaderDebugTitle" text="Seasonal Shader Debug"/>
         <text name="easyDevControls_environmentMaskDebugTitle" text="Umgebungs Maske Debug"/>
-        <text name="easyDevControls_randomWindWavingTitle" text="Zufaellige Wind Einstellung"/>
+        <text name="easyDevControls_randomWindWavingTitle" text="Zufällige Wind Einstellung"/>
         <text name="easyDevControls_updateSnowTitle" text="Schnee"/>
-        <text name="easyDevControls_addSnowTitle" text="Schnee inzufuegen"/>
+        <text name="easyDevControls_addSnowTitle" text="Schnee hinzufuegen"/>
         <text name="easyDevControls_setSnowTitle" text="Schnee Einstellen"/>
         <text name="easyDevControls_removeSnowTitle" text="Schnee entfernen"/>
         <text name="easyDevControls_addSaltTitle" text="Salz hinzufuegen"/>

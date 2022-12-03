@@ -32,6 +32,10 @@ Aby se předešlo chybám, měl by být tento mod odstraněn!
 
 Nejnovější oficiální verzi naleznete na níže uvedeném odkazu ke stažení Giants modHub."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Nevíš si s něčím rady?
+Podívej se do nápovědy v nabídce Easy Development Controls."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="umístitelné"/>
         <text name="easyDevControls_typePlaceable" text="umístitelný"/>
@@ -206,6 +210,7 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_stopTimeTitle" text="Zastavit čas"/>
         <text name="easyDevControls_showCollectablesTitle" text="Zobrazit sběratelské předměty"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Vymažte mezipaměť I3D"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Znovu načíst položky obchodu"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Přidáno %s na účet farmy."/>
@@ -229,6 +234,7 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_extraTimescalesInfo" text="Extra časové osy %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Časová osa byla nastavena na nulu."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Smazány všechny sdílené soubory i3d."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="Úspěšně načteno %s položek obchodu."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Přidá peníze k zůstatku vašeho účtu na farmě."/>
@@ -249,6 +255,7 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_stopTimeHelp" text="Nastaví aktuální časovou osu na nulu."/>
         <text name="easyDevControls_showCollectablesHelp" text="Upraví, v jakém procentu budou sběratelské předměty zobrazeny na mapě. Poznámka: V současnosti pouze pro použití pro jednoho hráče."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Odstraní všechny i3d soubory uložené v mezipaměti, aby bylo zajištěno načtení nejnovějších verzí z disku. Pokud nebudou k dispozici žádné sdílené soubory i3d, tato funkce bude deaktivována."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Znovu načte všechna data položek obchodu včetně možností konfigurace."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Hráč"/>
@@ -285,7 +292,7 @@ Poznámka: Funkce je dostupná pouze pro 'Master Users / Admin'!"/>
         <text name="easyDevControls_jumpMultiplierHelp" text="Zvyšuje výšku skoku hráče přidáním vybraného multiplikátoru."/>
         <text name="easyDevControls_thirdPersonViewHelp" text="Přepíná pohled hráče z třetí osoby.
 
-Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní funkce, jako je 'Hand Tools', budou fungovat správně, pokud jsou povoleny."/> 
+Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní funkce, jako je 'Hand Tools', budou fungovat správně, pokud jsou povoleny."/>
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
         <text name="easyDevControls_woodCuttingMarkerHelp" text="Přepíná viditelnost značky pro řezání dřeva motorovou pilou."/>
@@ -341,7 +348,7 @@ Poznámka: Tento režim je určen pro snímky obrazovky a ne všechny herní fun
         <text name="easyDevControls_showTipCollisionsHelp" text="Zobrazuje následující kolize se zemí.
 Green: Bit Vectors &lt;= 0
 Blue: Bit Vectors &gt; 0 or &lt;= 1
-Red: Bit Vectors &gt; 1"/> 
+Red: Bit Vectors &gt; 1"/>
 
         <!-- Překladatelé: Prostor je záměrný pro snadné čtení. Viz poznámka v horní části stránky týkající se &gt; a &lt; použití -->
         <text name="easyDevControls_removeAllBalesHelp" text="Odstraní všechny balíky z mapy!"/>
@@ -405,7 +412,7 @@ Red: Bit Vectors &gt; 1"/>
 
 Dešťový senzor: Automatický provoz (standardní).
 Vypnuto: Deaktivováno za všech povětrnostních podmínek.
-Stavy 1 až 10: Specifické stavy vozidla pro testování."/> 
+Stavy 1 až 10: Specifické stavy vozidla pro testování."/>
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
         <text name="easyDevControls_reloadVehicleHelp" text="Znovu načte I3D a XML aktuálně zadaného vozidla a všech připojených nástrojů nebo jednoho vozidla v dosahu hráče."/>
@@ -507,9 +514,9 @@ Výstupní režim:
         <text name="easyDevControls_farmlandTitle" text="Zemědělská půda"/>
         <text name="easyDevControls_setFarmlandOwnerTitle" text="Nastavit vlastníka zemědělské půdy"/>
         <text name="easyDevControls_refreshFieldOverlayTitle" text="Překryvné pole PDA"/>
-        <text name="easyDevControls_addRemoveWeedsStonesTitle" text="Kameny a plevel"/> 
-		
-		<!-- &amp; To se rovná použití symbolu & v XML-->
+        <text name="easyDevControls_addRemoveWeedsStonesTitle" text="Kameny a plevel"/>
+
+        <!-- &amp; To se rovná použití symbolu & v XML-->
         <text name="easyDevControls_debugFieldStatusTitle" text="Ladění stavu pole"/>
         <text name="easyDevControls_vineSystemDebugTitle" text="Ladění stavu vinic"/>
         <text name="easyDevControls_stoneSystemDebugTitle" text="Ladění stavu kamení"/>
@@ -522,13 +529,13 @@ Výstupní režim:
         <text name="easyDevControls_advanceGrowthInfo" text="Růst ve všech polích postoupil do další fáze."/>
         <text name="easyDevControls_advanceGrowthWarning" text="Postupující fáze růstu je dostupná pouze tehdy, když je nastavení hry '%s' nastaveno na 'Ne'.
 
-Chcete změnit své aktuální nastavení z '%s' na 'Ne', aby bylo možné tuto akci provést?"/> 
+Chcete změnit své aktuální nastavení z '%s' na 'Ne', aby bylo možné tuto akci provést?"/>
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
         <text name="easyDevControls_setGrowthPeriodInfo" text="Období růstu na všech polích aktualizováno na %s (%s)."/>
         <text name="easyDevControls_setGrowthPeriodWarning" text="Nastavení období růstu není dostupné, když je nastavení hry '%s' nastaveno na '%s'.
 
-Chcete změnit nastavení na 'Ne', aby bylo možné tuto akci provést?"/> 
+Chcete změnit nastavení na 'Ne', aby bylo možné tuto akci provést?"/>
 
         <!-- Translators: Prostor je záměrný pro snadné čtení -->
         <text name="easyDevControls_addWeedOrStoneDelta" text="Zvýšeno %s delta o %s."/>
@@ -595,9 +602,9 @@ Chcete změnit nastavení na 'Ne', aby bylo možné tuto akci provést?"/>
         <!-- Nápověda rámce prostředí -->
         <text name="easyDevControls_setTimeHelp" text="Umožňuje posouvat čas o měsíc, dny v měsíci a hodiny.
 
-POZNÁMKA: Během tohoto procesu nejsou volány žádné změny aktualizací a některé sezónní změny se projeví pouze při změně dne."/> 
+POZNÁMKA: Během tohoto procesu nejsou volány žádné změny aktualizací a některé sezónní změny se projeví pouze při změně dne."/>
 
-	    <!-- Translators: Prostor je záměrný pro snadné čtení -->
+        <!-- Translators: Prostor je záměrný pro snadné čtení -->
         <text name="easyDevControls_reloadedEnvironmentDataHelp" text="Znovu načte kompletní prostředí ze souboru XML. To umožňuje provádět a prohlížet změny bez restartu hry při testování mapy."/>
 
         <text name="easyDevControls_reloadedWeatherDataHelp" text="Znovu načte počasí pouze ze souboru XML. To umožňuje provádět změny a zobrazovat je bez restartu hry při testování mapy."/>

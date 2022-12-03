@@ -32,6 +32,10 @@ Hata oluşmaması için bu modu kaldırın!
 
 Son resmi oyun için Giants modHub'a ulaşmak için ziyaret edin."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Bir işi nasıl yapacağını bilmiyor musun?
+Easy Development Controls menüsünde Yardım bölümüne bak."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="Yerleştirelebilirler"/>
         <text name="easyDevControls_typePlaceable" text="Yerleştirelebilir"/>
@@ -206,6 +210,7 @@ En iyi sonuçlar için aracın x/z düzlemine paralel olan düz bir düzlemde ko
         <text name="easyDevControls_stopTimeTitle" text="Zamanı Durdur"/>
         <text name="easyDevControls_showCollectablesTitle" text="Koleksiyon Eşyalarını Göster"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="I3D Önbelleğini Temizle"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Mağaza Öğelerini Yeniden Yükle"/> <!-- Google Translate -->
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="%s Çiftlik Hesabına Eklendi"/>
@@ -229,6 +234,7 @@ En iyi sonuçlar için aracın x/z düzlemine paralel olan düz bir düzlemde ko
         <text name="easyDevControls_extraTimescalesInfo" text="Ekstra zaman ölçekleri %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Ekstra zaman sıfırlandı."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Tüm çevre i3d dosyaları silindi."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="%s mağaza öğesi başarıyla yeniden yüklendi."/> <!-- Google Translate -->
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Çiftlik hesabı bakiyenize para ekleri."/>
@@ -249,6 +255,7 @@ Not: Özellik yalnızca 'Ana Erişim/Yönetici' tarafından kullanılabilir!"/>
         <text name="easyDevControls_stopTimeHelp" text="Ekstra Zaman Ayarı Durdur."/>
         <text name="easyDevControls_showCollectablesHelp" text="Koleksiyonların haritada ne oranda gösterebilecek ayarlar. Not: Şu anda yalnızca'Tek Oyuncu' kullanımı içindir."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="En son düzenlemelerin diskten arındırılması için önbelleğe alınmış tümi3d sergilenir. Kullanım amaçlı i3d kullanımdan dolayı bu işlev dışı kullanımda."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Mağaza yapılandırma seçenekleri dahil tüm mağaza öğeleri verilerini yeniden yükler."/> <!-- Google Translate -->
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Oyuncu"/>

@@ -33,6 +33,10 @@ Aby uniknąć błędów, ten mod powinien zostać usunięty!
 
 Odwiedź oficjalnego ModHuba poprzez poniższy link, aby pobrać najnowszą oficjalną wersję."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Nie wiesz, jak coś zrobić?
+Zajrzyj do pomocy w menu Easy Development Controls."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="stawiane"/>
         <text name="easyDevControls_typePlaceable" text="stawiany"/>
@@ -207,6 +211,7 @@ Upewnij się, że pojazd jest ustawiony na płaskiej płaszczyźnie, która jest
         <text name="easyDevControls_stopTimeTitle" text="Zatrzymaj czas"/>
         <text name="easyDevControls_showCollectablesTitle" text="Pokaż znajdźki"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Wyczyść pamięć podręczną I3D"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Przeładuj sklep"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Dodano %s do konta gospodarstwa."/>
@@ -230,6 +235,7 @@ Upewnij się, że pojazd jest ustawiony na płaskiej płaszczyźnie, która jest
         <text name="easyDevControls_extraTimescalesInfo" text="Dodatkowa skala czasu %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Skala czasu została ustawiona na 0."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Usunięto wszystkie dodatkowe pliki I3D."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="Przeładowano pomyślnie %s ofert w sklepie."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Dodaje pieniądze do salda konta gospodarstwa."/>
@@ -250,6 +256,7 @@ INFO: Funkcja jest dostępna tylko dla 'Hosta/Admina'!"/>
         <text name="easyDevControls_stopTimeHelp" text="Ustawia bieżącą skalę czasu na 0."/>
         <text name="easyDevControls_showCollectablesHelp" text="Określa, w jakim procencie znajdźki będą wyświetlane na mapie. INFO: Obecnie tylko do użytku w trybie kariery."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Usuwa pamięć podręczną wszystkich dodatkowych plików I3D, aby zapewnić wczytanie najnowszych wersji z dysku. Gdy nie ma dostępnych dodatkowych plików I3D, ta funkcja zostanie wyłączona."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Przeładowuje wszystkie pozycje w sklepie włączając w to konfiguracje."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Gracz"/>

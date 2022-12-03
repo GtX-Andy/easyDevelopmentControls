@@ -32,6 +32,12 @@ To avoid errors this mod should be removed!
 
 Visit the Giants modHub download link below for the latest official release."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Don't know how to do something?
+Check the Help section in the Easy Development Controls menu.
+
+All input bindings can be configured via the In-Game menu controls screen."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="placeables"/>
         <text name="easyDevControls_typePlaceable" text="placeable"/>
@@ -206,6 +212,7 @@ Make sure vehicle is positioned on a flat plane that is parallel to x/z plane fo
         <text name="easyDevControls_stopTimeTitle" text="Stop Time"/>
         <text name="easyDevControls_showCollectablesTitle" text="Show Collectables"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Clear I3D Cache"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Reload Store Items"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Added %s to farm account."/>
@@ -229,6 +236,7 @@ Make sure vehicle is positioned on a flat plane that is parallel to x/z plane fo
         <text name="easyDevControls_extraTimescalesInfo" text="Extra timescales %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Timescale has been set to zero."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Deleted all shared i3d files."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="Successfully reloaded %s store items."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Adds money to your farm account balance."/>
@@ -249,6 +257,7 @@ Note: Feature is only available to the 'Master Users / Admin'!"/>
         <text name="easyDevControls_stopTimeHelp" text="Sets the current timescale to zero."/>
         <text name="easyDevControls_showCollectablesHelp" text="Adjusts at what percentage the collectables will be displayed on the map. Note: Currently for 'Single Player' use only."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Removes all cached i3d files to ensure the latest versions are loaded from disk. When there is no shared i3d files available this function will be disabled."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Reloads all store items data including store configuration options."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Player"/>

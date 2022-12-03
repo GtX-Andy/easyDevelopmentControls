@@ -33,6 +33,10 @@
 
 Посетите сайт Giants modHub, чтобы получить последнюю официальную версию."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Что-то непонятно?
+Загляните в раздел помощи в Easy Development Controls меню."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="размещаемых"/>
         <text name="easyDevControls_typePlaceable" text="размещаемый"/>
@@ -207,6 +211,7 @@
         <text name="easyDevControls_stopTimeTitle" text="Остановить время"/>
         <text name="easyDevControls_showCollectablesTitle" text="Показать предметы для коллекции"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Очистить кэш I3D"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Перезагрузить товары в магазине"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="%s - Добавлено на счёт."/>
@@ -230,6 +235,7 @@
         <text name="easyDevControls_extraTimescalesInfo" text="Увеличенная шкала времени: %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Время остановлено."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Кэш I3D очищен."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="Успешно перезагружено %s товаров в магазине."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Добавляет деньги на ваш счёт."/>
@@ -250,6 +256,7 @@
         <text name="easyDevControls_stopTimeHelp" text="Устанавливает временную шкалу на ноль."/>
         <text name="easyDevControls_showCollectablesHelp" text="Регулирует, в каком процентном соотношении предметы коллекционирования будут отображаться на карте. Примечание: В настоящее время только для одиночной игры."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Удаляет все кэшированные файлы I3D, чтобы обеспечить загрузку последних версий с диска. Если нет доступных общих файлов I3D, эта функция будет отключена."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Перезагружает все данные о товарах в магазине, включая параметры конфигурации магазина."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Игрок"/>

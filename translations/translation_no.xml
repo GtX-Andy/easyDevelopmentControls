@@ -32,6 +32,10 @@ For å unngå feil bør denne modden fjernes!
 
 Gå til Giants modHub nedlastingslenke nedenfor for den siste offisielle utgivelsen."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Er det noe du lurer på?
+Sjekk Hjelp-delen på Easy Development Controls menyen."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="plasserbare gjenstander"/>
         <text name="easyDevControls_typePlaceable" text="plasserbar"/>
@@ -206,6 +210,7 @@ Sørg for at kjøretøyet er plassert på et flatt plan som er parallelt med x/z
         <text name="easyDevControls_stopTimeTitle" text="Stopp Tiden"/>
         <text name="easyDevControls_showCollectablesTitle" text="Vis samleobjekter"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Tøm I3D Cache"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Last Inn Gjenstander På Nytt"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Lagt til %s på gårdskontoen."/>
@@ -229,6 +234,7 @@ Sørg for at kjøretøyet er plassert på et flatt plan som er parallelt med x/z
         <text name="easyDevControls_extraTimescalesInfo" text="Ekstra tidskala %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Tidsskalaen er satt til null."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Slettet alle delte i3d filer."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="Lastet %s gjenstander på nytt."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Legger til penger til saldoen på gårdskontoen din."/>
@@ -249,6 +255,7 @@ Merk: Funksjonen er kun tilgjengelig for 'Hovedbrukere / Admin'!"/>
         <text name="easyDevControls_stopTimeHelp" text="Setter gjeldende tidsskala til null."/>
         <text name="easyDevControls_showCollectablesHelp" text="Justerer hvor mange prosent samleobjektene skal vises på kartet. Merk: Foreløpig kun for 'Enkeltspiller' bruk."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Fjerner alle bufrede i3d-filer for å sikre at de nyeste versjonene lastes fra disken. Når det ikke er noen delte i3d-filer tilgjengelig, vil denne funksjonen bli deaktivert."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Laster alle butikk gjenstander på nytt, inkludert butikk konfigurasjoner."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Spiller"/>

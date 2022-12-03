@@ -32,6 +32,10 @@ Para evitar erros este mod deve ser removido!
 
 Visite o link de download do Giants modHub abaixo para obter a versão oficial mais recente."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="Não sabe como fazer alguma coisa?
+Confira a seção de Ajuda no menu do Easy Development Controls."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="colocáveis"/>
         <text name="easyDevControls_typePlaceable" text="colocável"/>
@@ -206,6 +210,7 @@ Certifique-se de que o veículo esteja posicionado em um plano paralelo ao plano
         <text name="easyDevControls_stopTimeTitle" text="Parar Tempo"/>
         <text name="easyDevControls_showCollectablesTitle" text="Mostrar Colecionáveis"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Limpar o Cache do I3D"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Recarregar itens da loja"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Adicionado %s à conta da fazenda."/>
@@ -229,6 +234,7 @@ Certifique-se de que o veículo esteja posicionado em um plano paralelo ao plano
         <text name="easyDevControls_extraTimescalesInfo" text="Escalas de tempo extras %s"/>
         <text name="easyDevControls_stopTimeInfo" text="A escala de tempo foi definida como zero."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Excluídos todos os arquivos i3d compartilhados."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="%s itens da loja recarregados com sucesso."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Adiciona dinheiro ao saldo da sua conta da fazenda."/>
@@ -249,6 +255,7 @@ Nota: O recurso está disponível apenas para os 'Usuários Mestres/Admin'!"/>
         <text name="easyDevControls_stopTimeHelp" text="Define a escala de tempo atual para zero."/>
         <text name="easyDevControls_showCollectablesHelp" text="Ajusta em qual porcentagem os colecionáveis serão exibidos no mapa. Nota: Atualmente apenas para uso 'Single Player'."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Remove todos os arquivos i3d em cache para garantir que as versões mais recentes sejam carregadas do disco. Quando não houver arquivos i3d compartilhados disponíveis, esta função será desabilitada."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Recarrega todos os dados de itens da loja, incluindo as opções de configuração da loja."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Jogador"/>

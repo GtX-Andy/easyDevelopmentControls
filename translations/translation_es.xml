@@ -32,6 +32,10 @@
 
 Visite el siguiente enlace de descarga de Giants modHub para ver el último lanzamiento oficial."/>
 
+        <!-- First Load Info -->
+        <text name="easyDevControls_firstLoadInfo" text="¿No sabes cómo se hace algo?
+Consulta la sección de ayuda del menú del Easy Development Controls."/>
+
         <!-- Misc -->
         <text name="easyDevControls_typePlaceables" text="Colocables"/>
         <text name="easyDevControls_typePlaceable" text="Colocable"/>
@@ -206,6 +210,7 @@ Asegúrese de que el vehículo esté colocado en una superficie lo más plana po
         <text name="easyDevControls_stopTimeTitle" text="Parar Tiempo"/>
         <text name="easyDevControls_showCollectablesTitle" text="Mostrar Coleccionables"/>
         <text name="easyDevControls_clearI3DCacheTitle" text="Limpiar Cache I3D"/>
+        <text name="easyDevControls_reloadStoreItemsTitle" text="Recargar Articulos de la Tienda (StoreItems)"/>
 
         <!-- General Frame Info -->
         <text name="easyDevControls_addMoneyInfo" text="Añadir %s a la cuenta de la granja."/>
@@ -229,6 +234,7 @@ Asegúrese de que el vehículo esté colocado en una superficie lo más plana po
         <text name="easyDevControls_extraTimescalesInfo" text="Escala de Tiempo Extra %s"/>
         <text name="easyDevControls_stopTimeInfo" text="Escala de Tiempo ha sido fijado a cero."/>
         <text name="easyDevControls_clearI3DCacheInfo" text="Limpiar todos los archivos I3D cargados."/>
+        <text name="easyDevControls_reloadStoreItemsInfo" text="Se recargaron con éxito %s artículos de tienda."/>
 
         <!-- General Frame Help -->
         <text name="easyDevControls_addMoneyHelp" text="Añadir dinero al saldo de tu granja."/>
@@ -249,6 +255,7 @@ Asegúrese de que el vehículo esté colocado en una superficie lo más plana po
         <text name="easyDevControls_stopTimeHelp" text="Fijar la escala de tiempo actual a cero."/>
         <text name="easyDevControls_showCollectablesHelp" text="Ajusta en que porcentaje se mostrarán los coleccionables en el mapa. Nota: Actualmente solo para 'Un Jugador'."/>
         <text name="easyDevControls_clearI3DCacheHelp" text="Elimina todos los archivos i3d almacenados en caché para garantizar que las últimas versiones se carguen desde el disco. Cuando no haya archivos i3d cargados disponibles, esta función no estará disponible."/>
+        <text name="easyDevControls_reloadStoreItemsHelp" text="Recarga todos los artículos de la tienda (Storeitems), incluidas las opciones de configuraciones."/>
 
         <!-- Player Frame XML -->
         <text name="easyDevControls_playerHeader" text="Jugador"/>
