@@ -203,7 +203,7 @@ Pro dosažení nejlepších výsledků se ujistěte, že je vozidlo umístěno n
         <text name="easyDevControls_teleportFormatedTitle" text="Teleportovat se %s"/>
         <text name="easyDevControls_teleportMapSelect" text="Výběr mapy"/>
         <text name="easyDevControls_flipVehiclesTitle" text="Otočení vozidel"/>
-        <text name="easyDevControls_deleteObjectsKeyTitle" text="Vymazat vstup objektů"/>
+        <text name="easyDevControls_deleteObjectsKeyTitle" text="Vymazání objektů"/>
         <text name="easyDevControls_setFOVAngleTitle" text="Nastavte úhel FOV"/>
         <text name="easyDevControls_setQualityTitle" text="Nastavit kvalitu"/>
         <text name="easyDevControls_extraTimescalesTitle" text="Extra časové osy"/>
